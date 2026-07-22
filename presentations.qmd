@@ -1,7 +1,7 @@
 ---
 title: "Presentations"
 subtitle: "Talks, conference presentations, and posters"
-description-meta: "Presentations — coming soon."
+description-meta: "Presentations, coming soon."
 title-block-banner: false
 toc: false
 ---

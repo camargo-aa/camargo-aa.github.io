@@ -1,7 +1,7 @@
 ---
 title: "Notes"
 subtitle: "Miscellaneous notes, ideas, and how-tos"
-description-meta: "Notes — coming soon."
+description-meta: "Notes, coming soon."
 title-block-banner: false
 toc: false
 ---

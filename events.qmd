@@ -1,7 +1,7 @@
 ---
 title: "Events"
 subtitle: "Conferences, seminars, and webinars"
-description-meta: "Events — coming soon."
+description-meta: "Events, coming soon."
 title-block-banner: false
 toc: false
 ---
@@ -12,7 +12,7 @@ toc: false
 
 ## Coming soon
 
-Upcoming and past events—conferences, seminars, and webinars—will be listed here soon.
+Upcoming and past events, conferences, seminars, and webinars, will be listed here soon.
 
 [← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
 

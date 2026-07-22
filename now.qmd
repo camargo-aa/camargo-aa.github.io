@@ -11,10 +11,10 @@ A few things keeping me busy these days:
 
 ::: {.callout-tip}
 ## Big-picture question
-How can Colombia and Latin America build cost-effective, low-carbon energy systems—and how can energy modeling inform the policies that get us there?
+How can Colombia and Latin America build cost-effective, low-carbon energy systems, and how can energy modeling inform the policies that get us there?
 :::
 
-- Building energy-system models and electricity-demand profiles for Colombia as an Energy Modeler at the National Mining and Energy Planning Unit (UPME), contributing to the **National Energy Plan (2025–2055)** as the transport-sector modeler.
+- Building energy-system models and electricity-demand profiles for Colombia as an Energy Modeler at the National Mining and Energy Planning Unit (UPME), contributing to the **National Energy Plan (2025-2055)** as the transport-sector modeler.
 - Working on a **technical, economic, and environmental assessment of green ammonia production in Colombia**, toward a national roadmap.
 - Continuing research with the **UREMA Research Unit** at Universidad del Norte on transport electrification and industrial decarbonization across Latin America.
 

@@ -1,12 +1,12 @@
 # =============================================================================
-# Personal academic website of Andrés André Camargo Bertel — built with Quarto.
+# Personal academic website of Andrés André Camargo Bertel, built with Quarto.
 #
 # Adapted from the Quarto academic website by Dr. Gang He
 # (https://github.com/drganghe/drganghe.github.io), used under the GNU GPL-3.0.
 # Modified in 2026 by Andrés André Camargo Bertel: all content replaced, the
 # original author's personal analytics/tracking IDs removed, and the sections
 # and templates restructured. As required by the GPL, this derivative work is
-# likewise released under the GNU GPL-3.0 — see the LICENSE file.
+# likewise released under the GNU GPL-3.0, see the LICENSE file.
 # =============================================================================
 
 project:
@@ -22,7 +22,7 @@ author-meta: "Andrés André Camargo Bertel"
 website:
   title: "Andrés André"
   image: "/files/profile/andres-camargo.jpg"
-  description: "PhD Candidate in Mechanical Engineering — energy systems modeling, renewable energy, transport and industrial decarbonization."
+  description: "PhD Candidate in Mechanical Engineering, energy systems modeling, renewable energy, transport and industrial decarbonization."
   favicon: "/files/images/favicon.png"
 
   navbar:

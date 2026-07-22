@@ -1,6 +1,6 @@
 ---
 title: "Research Group"
-description-meta: "Research group — coming soon."
+description-meta: "Research group, coming soon."
 title-block-banner: false
 toc: false
 ---

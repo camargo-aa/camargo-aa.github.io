@@ -1,9 +1,9 @@
 ---
 title: "Joined UPME as an Energy Modeler"
-description: "I joined Colombia's National Mining and Energy Planning Unit (UPME) as an Energy Modeler, contributing to the National Energy Plan 2025–2055 as the transport-sector modeler."
+description: "I joined Colombia's National Mining and Energy Planning Unit (UPME) as an Energy Modeler, contributing to the National Energy Plan 2025-2055 as the transport-sector modeler."
 date: "2026-01-15"
 categories: [news]
 image: "/files/images/news/upme.png"
 ---
 
-I have joined the National Mining and Energy Planning Unit (**UPME**) as an Energy Modeler, after working there as an Energy Data Analyst since August 2025. In this role I develop energy-system models and electricity-demand profiles for Colombia and contribute to the **National Energy Plan (2025–2055)** as the transport-sector modeler, supporting data-driven policy decisions for the country's energy transition.
+I have joined the National Mining and Energy Planning Unit (**UPME**) as an Energy Modeler, after working there as an Energy Data Analyst since August 2025. In this role I develop energy-system models and electricity-demand profiles for Colombia and contribute to the **National Energy Plan (2025-2055)** as the transport-sector modeler, supporting data-driven policy decisions for the country's energy transition.
