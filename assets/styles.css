@@ -36,9 +36,8 @@
 .paper-figure {
   border-radius: 8px;
   margin: 0.5rem auto 1.5rem;
-  width: auto;
-  max-width: 420px;
-  max-height: 320px;
+  width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
 }
