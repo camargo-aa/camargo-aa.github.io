@@ -1,0 +1,39 @@
+---
+title: "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies"
+subtitle: "*Energy Conversion and Management: X*"
+description: "A comprehensive review of strategies, barriers, and policies to decarbonize the cement industry in Latin America and the Caribbean."
+byline: "Camargo-Bertel, A. A., D. Hincapié, V. Pugliese, A. González-Quiroga, and O. Pupo-Roncallo"
+author:
+  - name: A. A. Camargo-Bertel
+  - name: D. Hincapié
+  - name: V. Pugliese
+  - name: A. González-Quiroga
+  - name: O. Pupo-Roncallo
+date: "2025-01-01"
+categories: [paper]
+image: "/files/images/papers/cement.png"
+venue: "Energy Conversion and Management: X"
+pubyear: 2025
+pubdoi: "10.1016/j.ecmx.2025.100956"
+citation:
+  type: article-journal
+  container-title: "Energy Conversion and Management: X"
+  page: 100956
+  doi: "10.1016/j.ecmx.2025.100956"
+  url: "https://doi.org/10.1016/j.ecmx.2025.100956"
+google-scholar: true
+---
+
+::: {.paper-meta}
+**Journal:** *Energy Conversion and Management: X* (2025): 100956 &nbsp;•&nbsp; **DOI:** [10.1016/j.ecmx.2025.100956](https://doi.org/10.1016/j.ecmx.2025.100956){target="_blank"}
+:::
+
+![](/files/images/papers/cement.png){.paper-figure fig-alt="Graphical reference for the paper"}
+
+## Abstract
+
+Decarbonizing the cement industry is key to reducing greenhouse gas emissions in the industrial sector and achieving sustainable development goals in Latin America and the Caribbean. The region faces economic, regulatory, and technical challenges that must be addressed to facilitate this transition. This article analyzes strategies, barriers, and policies to drive decarbonization of the cement sector, assessing their applicability and impact. The study employed a two-stage methodology: first, a data analysis phase involving the collection of greenhouse gas emissions data and performance indicators; second, a comprehensive review of scientific literature, sectoral roadmaps, and national commitments to identify decarbonization strategies, along with their associated costs and policies. Four main strategies were identified—material efficiency, energy efficiency, fuel switching, and renewable energy integration—with CO₂ abatement costs ranging from 10 to 45 USD/t CO₂, depending on the strategy. Additionally, electrification, industrial symbiosis, and carbon capture involve higher costs, ranging from 60 to 100 USD/t CO₂. The study also evidences research and policy-development gaps, highlighting the need to establish consistent regulatory frameworks, foster collaboration among countries, and design financial incentives tailored to local conditions. The results show the importance of a collaborative approach that integrates governments, industries, and the academic sector to overcome existing barriers and promote the adoption of clean technologies. These efforts entail updating sectoral roadmaps, boosting intersectoral cooperation, and developing public policies that respond to regional realities.
+
+## Acknowledgements
+
+This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.

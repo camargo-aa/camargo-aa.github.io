@@ -1,0 +1,17 @@
+---
+title: "Recognition"
+subtitle: "Awards, scholarships, and honors"
+description-meta: "Awards, scholarships, and honors received by Andrés André Camargo Bertel"
+title-block-banner: false
+---
+
+| Year | Recognition | Awarded by |
+|:----:|:------------|:-----------|
+| 2024 | Best Adjunct Professor Award | Universidad del Norte |
+| 2024 | 100k-Clima Fellowship | Penn State University |
+| 2024 | National PhD Scholarship (Call 933) | Minciencias |
+| 2022 | Julio Muvdi Master's Scholarship | Universidad del Norte |
+| 2022 | Academic Excellence Recognition | Universidad del Norte |
+| 2016 | "Ser Pilo Paga" National Scholarship | Ministry of National Education (Mineducación) |
+
+: {.striped .hover tbl-colwidths="[12,58,30]"}

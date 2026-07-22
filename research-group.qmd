@@ -1,0 +1,20 @@
+---
+title: "Research Group"
+description-meta: "Research group — coming soon."
+title-block-banner: false
+toc: false
+---
+
+::: {style="text-align:center; padding: 3rem 1rem;"}
+
+<i class="fa-solid fa-people-group" style="font-size:3rem; color:#05336B;"></i>
+
+## Coming soon
+
+I am building a research group focused on energy systems modeling and the low-carbon transition in Latin America. Details will be shared here soon.
+
+In the meantime, I am a member of the [UREMA Research Unit](https://www.uninorte.edu.co/web/urema){target="_blank"} at Universidad del Norte.
+
+[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+
+:::

@@ -1,0 +1,114 @@
+/* Paper listing cards: image left, info right */
+.paper-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.paper-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.paper-thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+
+.paper-thumb img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 8px;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.paper-thumb:hover img {
+  transform: scale(1.03);
+}
+
+.paper-badge {
+  display: inline-block;
+  background: #FFA400;
+  color: #05336B;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.paper-title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #05336B;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+}
+
+.paper-title:hover {
+  text-decoration: underline;
+}
+
+.paper-authors {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.paper-journal {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.paper-doi {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+}
+
+.paper-doi-label {
+  display: inline-block;
+  background: #eef2f7;
+  color: #05336B;
+  font-weight: 700;
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  margin-right: 0.35rem;
+}
+
+/* Paper page: meta box + reference figure */
+.paper-meta {
+  background: #eef2f7;
+  border-left: 4px solid #05336B;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.paper-figure {
+  border-radius: 8px;
+  margin: 0.5rem 0 1.5rem;
+}
+
+@media (max-width: 620px) {
+  .paper-card {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,112 @@
+# =============================================================================
+# Personal academic website of Andrés André Camargo Bertel — built with Quarto.
+#
+# Adapted from the Quarto academic website by Dr. Gang He
+# (https://github.com/drganghe/drganghe.github.io), used under the GNU GPL-3.0.
+# Modified in 2026 by Andrés André Camargo Bertel: all content replaced, the
+# original author's personal analytics/tracking IDs removed, and the sections
+# and templates restructured. As required by the GPL, this derivative work is
+# likewise released under the GNU GPL-3.0 — see the LICENSE file.
+# =============================================================================
+
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "files/"
+
+# Meta
+description-meta: "Andrés André Camargo Bertel is a PhD Candidate in Mechanical Engineering at Universidad del Norte (Colombia), specializing in energy systems modeling, renewable energy integration, and transport and industrial decarbonization."
+author-meta: "Andrés André Camargo Bertel"
+
+website:
+  title: "Andrés André"
+  image: "/files/profile/andres-camargo.jpg"
+  description: "PhD Candidate in Mechanical Engineering — energy systems modeling, renewable energy, transport and industrial decarbonization."
+  favicon: "/files/images/favicon.png"
+
+  navbar:
+    background: "#05336B"
+    foreground: "#FFFFFF"
+
+    left:
+      - text: About
+        menu:
+          - text: Bio
+            href: bio.qmd
+          - text: Now
+            href: now.qmd
+          - text: News
+            href: posts.qmd
+          - text: Contact
+            href: contact.qmd
+      - text: Research
+        menu:
+          - text: Publications
+            href: publications.qmd
+          - text: Other Publications
+            href: other-publications.qmd
+          - text: Recognition
+            href: recognition.qmd
+          - text: Research Group
+            href: research-group.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Activities
+        menu:
+          - text: Events
+            href: events.qmd
+          - text: Presentations
+            href: presentations.qmd
+      - text: Notes
+        href: notes.qmd
+
+    right:
+      - text: "**CV**"
+        href: files/CV_Andres_Andre_2026.pdf
+        target: _blank
+      - icon: github
+        href: https://github.com/camargo-aa
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b
+        target: _blank
+      - icon: envelope
+        href: contact.qmd
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    center: "[Andrés André Camargo Bertel](https://camargo-aa.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
+
+  search:
+    location: navbar
+    type: textbox
+
+  reader-mode: false
+
+  draft-mode: unlinked
+
+  open-graph: true
+
+  site-url: "https://camargo-aa.github.io"
+
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    link-external-filter: '^(?:http:|https:)\/\/camargo-aa\.github\.io\/custom'
+    include-in-header: "files/includes/_academic.qmd"

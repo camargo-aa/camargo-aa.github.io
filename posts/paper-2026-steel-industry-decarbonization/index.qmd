@@ -1,0 +1,40 @@
+---
+title: "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America"
+subtitle: "*Energy Research & Social Science*"
+description: "A review of strategies, barriers, and policies to decarbonize the iron and steel industry across Latin America."
+byline: "Camargo-Bertel, A. A., J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, and O. Pupo-Roncallo"
+author:
+  - name: A. A. Camargo-Bertel
+  - name: J. Alvarez-Navas
+  - name: J. Mercado-Barrera
+  - name: B. Fronk
+  - name: A. González-Quiroga
+  - name: O. Pupo-Roncallo
+date: "2026-01-01"
+categories: [paper]
+image: "/files/images/papers/steel.png"
+venue: "Energy Research & Social Science"
+pubyear: 2026
+pubdoi: "10.1016/j.erss.2026.104711"
+citation:
+  type: article-journal
+  container-title: "Energy Research & Social Science"
+  page: 104711
+  doi: "10.1016/j.erss.2026.104711"
+  url: "https://doi.org/10.1016/j.erss.2026.104711"
+google-scholar: true
+---
+
+::: {.paper-meta}
+**Journal:** *Energy Research & Social Science* (2026) &nbsp;•&nbsp; **DOI:** [10.1016/j.erss.2026.104711](https://doi.org/10.1016/j.erss.2026.104711){target="_blank"}
+:::
+
+![](/files/images/papers/steel.png){.paper-figure fig-alt="Graphical reference for the paper"}
+
+## Abstract
+
+Decarbonizing iron and steel production in emerging industrial regions depends not only on the availability of low-carbon technologies but also on institutional, market, and governance conditions that enable their deployment. Despite increasing global attention to industrial decarbonization, Latin America remains underexamined, even as its steel sector faces mounting pressures from trade exposure, infrastructure constraints, and uneven policy capacity. This article develops a comparative sociotechnical assessment of decarbonization strategies, implementation barriers, and policy instruments shaping the transition to low-carbon steel production across the region's major producers. The study combines a benchmarking analysis of production structures, emissions performance, and energy configurations with a systematic review of scientific and gray literature. This approach situates technological pathways within the political economy contexts that condition their feasibility. The findings indicate that while a diverse portfolio of mitigation options exists—including electrification, expansion of scrap-based production, alternative reducing agents, and carbon management technologies—deployment is constrained by fragmented regulatory environments, limited Monitoring, Reporting and Verification capacity, weak policy credibility, and territorial asymmetries that affect investment incentives and workforce transitions. The study further shows that the effectiveness of policy instruments depends less on formal adoption than on the institutional conditions under which they operate. By demonstrating how sociotechnical factors mediate the translation of global decarbonization roadmaps into regionally viable transition pathways, this comparative case study contributes key evidence on the challenges of decarbonizing steel production in emerging industrial economies.
+
+## Acknowledgements
+
+This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.

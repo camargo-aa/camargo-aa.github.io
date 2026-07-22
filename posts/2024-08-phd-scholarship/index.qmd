@@ -1,0 +1,9 @@
+---
+title: "Awarded the Minciencias National PhD Scholarship"
+description: "Selected for Colombia's National PhD Scholarship (Call 933) from Minciencias to pursue a PhD in Mechanical Engineering at Universidad del Norte."
+date: "2024-08-01"
+categories: [news]
+image: "/files/images/news/scholarship.jpg"
+---
+
+I was awarded the **National PhD Scholarship (Call 933)** from Minciencias to pursue my PhD in Mechanical Engineering at Universidad del Norte, focusing on energy systems modeling and the low-carbon transition.

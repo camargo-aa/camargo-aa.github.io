@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/paper-2026-steel-industry-decarbonization/index.html",
+      "/posts/paper-2025-transport-electrification-colombia/index.html",
+      "/posts/paper-2025-cement-decarbonization/index.html",
+      "/posts/paper-2024-energy-modeling-tools/index.html",
+      "/posts/2026-01-joined-upme/index.html",
+      "/posts/2024-100k-clima-fellowship/index.html",
+      "/posts/2024-08-phd-scholarship/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-01-joined-upme/index.html",
+      "/posts/paper-2026-steel-industry-decarbonization/index.html",
+      "/posts/paper-2025-transport-electrification-colombia/index.html",
+      "/posts/paper-2025-cement-decarbonization/index.html",
+      "/posts/2024-100k-clima-fellowship/index.html",
+      "/posts/2024-08-phd-scholarship/index.html",
+      "/posts/paper-2024-energy-modeling-tools/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/posts/paper-2026-steel-industry-decarbonization/index.html",
+      "/posts/paper-2025-transport-electrification-colombia/index.html",
+      "/posts/paper-2025-cement-decarbonization/index.html",
+      "/posts/paper-2024-energy-modeling-tools/index.html"
+    ]
+  }
+]

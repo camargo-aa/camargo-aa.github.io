@@ -1,0 +1,31 @@
+<%
+/* paper-card.ejs — image-left, info-right card for paper posts.
+   HTML must start at column 0 (indented lines become code blocks in Pandoc).
+   Links go to the paper's own page, never straight to the DOI. */
+function href(p){
+  var s = String(p || '').replace(/\\/g, '/');
+  if (/index\.qmd$/i.test(s)) return s.replace(/index\.qmd$/i, '');
+  return s.replace(/\.qmd$/i, '.html');
+}
+%>
+<div class="paper-listing list">
+<% for (const item of items) { %>
+<% var h = href(item.path); %>
+<div class="paper-item" <%= metadataAttrs(item) %>>
+<span class="listing-title d-none"><%- item.title %></span>
+<span class="listing-date d-none"><%= item.date ? item.date : "" %></span>
+<div class="paper-card">
+<a class="paper-thumb" href="<%= h %>"><% if (item.image) { %><img src="<%= item.image %>" alt="<%= item.title %>"><% } %></a>
+<div class="paper-body">
+<span class="paper-badge">Paper</span>
+<a class="paper-title" href="<%= h %>"><%= item.title %></a>
+<% if (item.byline) { var me = 'Camargo-Bertel, A. A.'; var b = String(item.byline); %>
+<% if (b.indexOf(me) === 0) { %><p class="paper-authors"><strong>Camargo-Bertel, A. A.</strong><%= b.slice(me.length) %></p><% } else { %><p class="paper-authors"><%= b %></p><% } %>
+<% } %>
+<% if (item.venue) { %><p class="paper-journal"><em><%= item.venue %></em><% if (item.pubyear) { %>, <%= item.pubyear %><% } %></p><% } %>
+<% if (item.pubdoi) { %><p class="paper-doi"><span class="paper-doi-label">DOI</span> <a href="https://doi.org/<%= item.pubdoi %>" target="_blank" rel="noopener"><%= item.pubdoi %></a></p><% } %>
+</div>
+</div>
+</div>
+<% } %>
+</div>

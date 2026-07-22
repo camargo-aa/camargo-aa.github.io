@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+subtitle: "Courses I have supported as a teaching assistant at Universidad del Norte"
+description-meta: "Teaching experience of Andrés André Camargo Bertel at Universidad del Norte."
+title-block-banner: false
+---
+
+As a Teaching Assistant at Universidad del Norte, I have taught and mentored undergraduate engineering students across the following courses. Open-source course materials are on the way—the links below will go live soon.
+
+## Thermodynamics
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-9}
+Fundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles—covering both Thermodynamics I and Thermodynamics II.
+:::
+::: {.g-col-12 .g-col-md-3}
+[Course site (coming soon)](coming-soon.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::
+
+## Laboratories
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-9}
+Hands-on laboratory courses: Fluid Mechanics Laboratory, Process Instrumentation and Control Laboratory, and Manufacturing Processes Laboratory.
+:::
+::: {.g-col-12 .g-col-md-3}
+[Course site (coming soon)](coming-soon.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::
+
+## Dynamic Systems Modeling
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-9}
+Modeling and simulation of dynamic engineering systems, laying the groundwork for systems analysis and control.
+:::
+::: {.g-col-12 .g-col-md-3}
+[Course site (coming soon)](coming-soon.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::

@@ -1,0 +1,24 @@
+/* css styles */
+
+/* Make navbar, content, and footer have the same max-width and center them */
+.navbar .nav-container, 
+.navbar .container-fluid,
+.page-footer {
+    max-width: 1160px; /* Match body width */
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    float: none;
+  }
+
+/* Ensure the background color covers the whole screen */
+.navbar {
+  width: 100%;
+}
+
+/* Listing/card images (home grids + news list): show full figure/logo, no crop */
+.thumbnail-image,
+.card-img-top,
+.quarto-grid-item .card-img-top {
+  object-fit: contain !important;
+  background: #ffffff;
+}

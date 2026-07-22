@@ -1,0 +1,39 @@
+---
+title: "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia"
+subtitle: "*Smart Energy*"
+description: "Future-scenario analysis of how passenger road transport electrification can support renewable energy integration in Colombia."
+byline: "Camargo-Bertel, A. A., A. González-Quiroga, M. Yuan, and O. Pupo-Roncallo"
+author:
+  - name: A. A. Camargo-Bertel
+  - name: A. González-Quiroga
+  - name: M. Yuan
+  - name: O. Pupo-Roncallo
+date: "2025-06-01"
+categories: [paper]
+image: "/files/images/papers/transport.png"
+venue: "Smart Energy"
+pubyear: 2025
+pubdoi: "10.1016/j.segy.2025.100217"
+citation:
+  type: article-journal
+  container-title: "Smart Energy"
+  volume: 20
+  page: 100217
+  doi: "10.1016/j.segy.2025.100217"
+  url: "https://doi.org/10.1016/j.segy.2025.100217"
+google-scholar: true
+---
+
+::: {.paper-meta}
+**Journal:** *Smart Energy* 20 (2025): 100217 &nbsp;•&nbsp; **DOI:** [10.1016/j.segy.2025.100217](https://doi.org/10.1016/j.segy.2025.100217){target="_blank"}
+:::
+
+![](/files/images/papers/transport.png){.paper-figure fig-alt="Graphical reference for the paper"}
+
+## Abstract
+
+Transport electrification powered by renewable energy (RE) is a key strategy for reducing greenhouse gas (GHG) emissions and decarbonizing energy systems. However, integrating large numbers of electric vehicles (EVs) presents technical and planning challenges, particularly in hydropower-dependent countries exposed to climate variability. This study assesses the environmental, technical, and economic implications of passenger transport electrification combined with variable RE integration in Colombia, using an hourly EnergyPLAN model for 2030 and 2050. The analysis examines alternative EV penetration pathways, renewable expansion targets, and hydroclimatic conditions associated with La Niña and El Niño-Southern Oscillation (ENSO). Full electrification by 2050 is projected to reduce total system emissions by about 35% and costs by 40%, while a 2030 scenario aligned with national targets (600,000 EVs) achieves reductions of 8.7% and 3.5%, respectively. ENSO variability strongly influences these outcomes: El Niño could increase emissions by up to 38% due to reduced hydropower availability, whereas La Niña could reduce them by 14%. Rising electricity demand from transport enhances flexibility when coupled with renewable expansion, though reliability depends on the generation mix and infrastructure. Although focused on Colombia, the framework and findings provide insights for other hydro-dependent emerging economies pursuing lower emissions, reduced costs, and greater resilience under climate uncertainty.
+
+## Acknowledgements
+
+This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.

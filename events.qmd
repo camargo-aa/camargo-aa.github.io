@@ -1,0 +1,19 @@
+---
+title: "Events"
+subtitle: "Conferences, seminars, and webinars"
+description-meta: "Events — coming soon."
+title-block-banner: false
+toc: false
+---
+
+::: {style="text-align:center; padding: 3rem 1rem;"}
+
+<i class="fa-regular fa-calendar-check" style="font-size:3rem; color:#05336B;"></i>
+
+## Coming soon
+
+Upcoming and past events—conferences, seminars, and webinars—will be listed here soon.
+
+[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+
+:::

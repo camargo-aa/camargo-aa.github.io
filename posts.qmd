@@ -1,0 +1,17 @@
+---
+title: "News"
+subtitle: "Updates, announcements, and activities"
+description-meta: "News and updates from Andrés André Camargo Bertel"
+listing:
+  sort: "date desc"
+  type: default
+  page-size: 100
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  contents:
+    - posts
+page-navigation: false
+title-block-banner: false
+---

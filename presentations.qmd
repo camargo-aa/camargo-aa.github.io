@@ -1,0 +1,19 @@
+---
+title: "Presentations"
+subtitle: "Talks, conference presentations, and posters"
+description-meta: "Presentations — coming soon."
+title-block-banner: false
+toc: false
+---
+
+::: {style="text-align:center; padding: 3rem 1rem;"}
+
+<i class="fa-solid fa-person-chalkboard" style="font-size:3rem; color:#05336B;"></i>
+
+## Coming soon
+
+My talks, conference presentations, and posters will be listed here soon.
+
+[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+
+:::

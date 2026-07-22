@@ -1,0 +1,39 @@
+---
+title: "Analyzing trends in energy modeling tools in Latin America: A comprehensive review"
+subtitle: "*Energy Reports*"
+description: "A comprehensive review of trends in energy modeling tools used across Latin America."
+byline: "Camargo-Bertel, A. A., C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, and O. Pupo-Roncallo"
+author:
+  - name: A. A. Camargo-Bertel
+  - name: C. Lizarazo
+  - name: L. Corredor
+  - name: J. Campillo
+  - name: A. González-Quiroga
+  - name: O. Pupo-Roncallo
+date: "2024-08-01"
+categories: [paper]
+image: "/files/images/papers/energy-models.png"
+venue: "Energy Reports"
+pubyear: 2024
+pubdoi: "10.1016/j.egyr.2024.08.080"
+citation:
+  type: article-journal
+  container-title: "Energy Reports"
+  doi: "10.1016/j.egyr.2024.08.080"
+  url: "https://doi.org/10.1016/j.egyr.2024.08.080"
+google-scholar: true
+---
+
+::: {.paper-meta}
+**Journal:** *Energy Reports* (2024) &nbsp;•&nbsp; **DOI:** [10.1016/j.egyr.2024.08.080](https://doi.org/10.1016/j.egyr.2024.08.080){target="_blank"}
+:::
+
+![](/files/images/papers/energy-models.png){.paper-figure fig-alt="Graphical reference for the paper"}
+
+## Abstract
+
+Energy system models have become valuable tools for developing and implementing sustainable energy policies. In Latin America, there has been continuous growth in the use of these models, exploring and defining strategies for a transition toward decarbonized, more sustainable systems. These models are essential for quantifying impacts and defining potential pathways, due to the complexity of interactions between different energy sectors. However, reviewing the increasing pool of available modeling tools is necessary, empowering regional energy planners and policymakers with a clearer understanding of their classifications, applications, and critical features. This understanding aids in selecting the most suitable tool for a given need. This article aims to contribute to analyzing trends in the use of modeling tools in Latin America, specifically focusing on their application in energy planning and research efforts toward sustainability. We present a systematic literature review of the leading modeling tools used in Latin America, following the PRISMA methodology. Eight specific tools were selected and analyzed, assessing five primary aspects: geographical coverage, sectoral coverage, temporal resolution, time horizon, and renewable energy integration. The analysis revealed the evolution of modeling-tool usage in the region, highlighting trends supporting sustainable energy practices. It also recognizes the necessity for high-temporal-resolution tools to evaluate the availability and utilization of renewable resources, while emphasizing the importance of intersectoral collaboration among stakeholders and policymakers to advance sustainable energy systems.
+
+## Acknowledgements
+
+This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.

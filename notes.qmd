@@ -1,0 +1,19 @@
+---
+title: "Notes"
+subtitle: "Miscellaneous notes, ideas, and how-tos"
+description-meta: "Notes — coming soon."
+title-block-banner: false
+toc: false
+---
+
+::: {style="text-align:center; padding: 3rem 1rem;"}
+
+<i class="fa-regular fa-note-sticky" style="font-size:3rem; color:#05336B;"></i>
+
+## Coming soon
+
+A space for miscellaneous notes, ideas, and step-by-step how-tos. Content is on the way.
+
+[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+
+:::

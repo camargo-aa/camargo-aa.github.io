@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Andrés André</title>
+<link>https://camargo-aa.github.io/posts.html</link>
+<atom:link href="https://camargo-aa.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>PhD Candidate in Mechanical Engineering — energy systems modeling, renewable energy, transport and industrial decarbonization.</description>
+<image>
+<url>https://camargo-aa.github.io/files/profile/andres-camargo.jpg</url>
+<title>Andrés André</title>
+<link>https://camargo-aa.github.io/posts.html</link>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 15 Jan 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Joined UPME as an Energy Modeler</title>
+  <link>https://camargo-aa.github.io/posts/2026-01-joined-upme/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have joined the National Mining and Energy Planning Unit (<strong>UPME</strong>) as an Energy Modeler, after working there as an Energy Data Analyst since August 2025. In this role I develop energy-system models and electricity-demand profiles for Colombia and contribute to the <strong>National Energy Plan (2025–2055)</strong> as the transport-sector modeler, supporting data-driven policy decisions for the country’s energy transition.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://camargo-aa.github.io/posts/2026-01-joined-upme/</guid>
+  <pubDate>Thu, 15 Jan 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/news/upme.png" medium="image" type="image/png" height="59" width="144"/>
+</item>
+<item>
+  <title>Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America</title>
+  <dc:creator>A. A. Camargo-Bertel</dc:creator>
+  <dc:creator>J. Alvarez-Navas</dc:creator>
+  <dc:creator>J. Mercado-Barrera</dc:creator>
+  <dc:creator>B. Fronk</dc:creator>
+  <dc:creator>A. González-Quiroga</dc:creator>
+  <dc:creator>O. Pupo-Roncallo</dc:creator>
+  <link>https://camargo-aa.github.io/posts/paper-2026-steel-industry-decarbonization/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="paper-meta">
+<p><strong>Journal:</strong> <em>Energy Research &amp; Social Science</em> (2026) &nbsp;•&nbsp; <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.erss.2026.104711" target="_blank">10.1016/j.erss.2026.104711</a></p>
+</div>
+<p><img src="https://camargo-aa.github.io/files/images/papers/steel.png" class="paper-figure img-fluid" alt="Graphical reference for the paper"></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Decarbonizing iron and steel production in emerging industrial regions depends not only on the availability of low-carbon technologies but also on institutional, market, and governance conditions that enable their deployment. Despite increasing global attention to industrial decarbonization, Latin America remains underexamined, even as its steel sector faces mounting pressures from trade exposure, infrastructure constraints, and uneven policy capacity. This article develops a comparative sociotechnical assessment of decarbonization strategies, implementation barriers, and policy instruments shaping the transition to low-carbon steel production across the region’s major producers. The study combines a benchmarking analysis of production structures, emissions performance, and energy configurations with a systematic review of scientific and gray literature. This approach situates technological pathways within the political economy contexts that condition their feasibility. The findings indicate that while a diverse portfolio of mitigation options exists—including electrification, expansion of scrap-based production, alternative reducing agents, and carbon management technologies—deployment is constrained by fragmented regulatory environments, limited Monitoring, Reporting and Verification capacity, weak policy credibility, and territorial asymmetries that affect investment incentives and workforce transitions. The study further shows that the effectiveness of policy instruments depends less on formal adoption than on the institutional conditions under which they operate. By demonstrating how sociotechnical factors mediate the translation of global decarbonization roadmaps into regionally viable transition pathways, this comparative case study contributes key evidence on the challenges of decarbonizing steel production in emerging industrial economies.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{a._camargo-bertel2026,
+  author = {A. Camargo-Bertel, A. and Alvarez-Navas, J. and
+    Mercado-Barrera, J. and Fronk, B. and González-Quiroga, A. and
+    Pupo-Roncallo, O.},
+  title = {Strategies, Barriers, and Policies for the Decarbonization of
+    the Iron and Steel Industry in {Latin} {America}},
+  journal = {Energy Research \&amp; Social Science},
+  pages = {104711},
+  date = {2026-01-01},
+  url = {https://doi.org/10.1016/j.erss.2026.104711},
+  doi = {10.1016/j.erss.2026.104711},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-a._camargo-bertel2026" class="csl-entry quarto-appendix-citeas">
+A. Camargo-Bertel, A., J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk,
+A. González-Quiroga, and O. Pupo-Roncallo. 2026. <span>“Strategies,
+Barriers, and Policies for the Decarbonization of the Iron and Steel
+Industry in Latin America.”</span> <em>Energy Research &amp; Social
+Science</em>, January 1, 104711. <a href="https://doi.org/10.1016/j.erss.2026.104711">https://doi.org/10.1016/j.erss.2026.104711</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://camargo-aa.github.io/posts/paper-2026-steel-industry-decarbonization/</guid>
+  <pubDate>Thu, 01 Jan 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/papers/steel.png" medium="image" type="image/png" height="125" width="144"/>
+</item>
+<item>
+  <title>Electrification of passenger road transport to support renewable energy integration: A case study of Colombia</title>
+  <dc:creator>A. A. Camargo-Bertel</dc:creator>
+  <dc:creator>A. González-Quiroga</dc:creator>
+  <dc:creator>M. Yuan</dc:creator>
+  <dc:creator>O. Pupo-Roncallo</dc:creator>
+  <link>https://camargo-aa.github.io/posts/paper-2025-transport-electrification-colombia/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="paper-meta">
+<p><strong>Journal:</strong> <em>Smart Energy</em> 20 (2025): 100217 &nbsp;•&nbsp; <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.segy.2025.100217" target="_blank">10.1016/j.segy.2025.100217</a></p>
+</div>
+<p><img src="https://camargo-aa.github.io/files/images/papers/transport.png" class="paper-figure img-fluid" alt="Graphical reference for the paper"></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Transport electrification powered by renewable energy (RE) is a key strategy for reducing greenhouse gas (GHG) emissions and decarbonizing energy systems. However, integrating large numbers of electric vehicles (EVs) presents technical and planning challenges, particularly in hydropower-dependent countries exposed to climate variability. This study assesses the environmental, technical, and economic implications of passenger transport electrification combined with variable RE integration in Colombia, using an hourly EnergyPLAN model for 2030 and 2050. The analysis examines alternative EV penetration pathways, renewable expansion targets, and hydroclimatic conditions associated with La Niña and El Niño-Southern Oscillation (ENSO). Full electrification by 2050 is projected to reduce total system emissions by about 35% and costs by 40%, while a 2030 scenario aligned with national targets (600,000 EVs) achieves reductions of 8.7% and 3.5%, respectively. ENSO variability strongly influences these outcomes: El Niño could increase emissions by up to 38% due to reduced hydropower availability, whereas La Niña could reduce them by 14%. Rising electricity demand from transport enhances flexibility when coupled with renewable expansion, though reliability depends on the generation mix and infrastructure. Although focused on Colombia, the framework and findings provide insights for other hydro-dependent emerging economies pursuing lower emissions, reduced costs, and greater resilience under climate uncertainty.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{a._camargo-bertel2025,
+  author = {A. Camargo-Bertel, A. and González-Quiroga, A. and Yuan, M.
+    and Pupo-Roncallo, O.},
+  title = {Electrification of Passenger Road Transport to Support
+    Renewable Energy Integration: {A} Case Study of {Colombia}},
+  journal = {Smart Energy},
+  volume = {20},
+  pages = {100217},
+  date = {2025-06-01},
+  url = {https://doi.org/10.1016/j.segy.2025.100217},
+  doi = {10.1016/j.segy.2025.100217},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-a._camargo-bertel2025" class="csl-entry quarto-appendix-citeas">
+A. Camargo-Bertel, A., A. González-Quiroga, M. Yuan, and O.
+Pupo-Roncallo. 2025. <span>“Electrification of Passenger Road Transport
+to Support Renewable Energy Integration: A Case Study of
+Colombia.”</span> <em>Smart Energy</em> 20 (June): 100217. <a href="https://doi.org/10.1016/j.segy.2025.100217">https://doi.org/10.1016/j.segy.2025.100217</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://camargo-aa.github.io/posts/paper-2025-transport-electrification-colombia/</guid>
+  <pubDate>Sun, 01 Jun 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/papers/transport.png" medium="image" type="image/png" height="59" width="144"/>
+</item>
+<item>
+  <title>Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies</title>
+  <dc:creator>A. A. Camargo-Bertel</dc:creator>
+  <dc:creator>D. Hincapié</dc:creator>
+  <dc:creator>V. Pugliese</dc:creator>
+  <dc:creator>A. González-Quiroga</dc:creator>
+  <dc:creator>O. Pupo-Roncallo</dc:creator>
+  <link>https://camargo-aa.github.io/posts/paper-2025-cement-decarbonization/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="paper-meta">
+<p><strong>Journal:</strong> <em>Energy Conversion and Management: X</em> (2025): 100956 &nbsp;•&nbsp; <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.ecmx.2025.100956" target="_blank">10.1016/j.ecmx.2025.100956</a></p>
+</div>
+<p><img src="https://camargo-aa.github.io/files/images/papers/cement.png" class="paper-figure img-fluid" alt="Graphical reference for the paper"></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Decarbonizing the cement industry is key to reducing greenhouse gas emissions in the industrial sector and achieving sustainable development goals in Latin America and the Caribbean. The region faces economic, regulatory, and technical challenges that must be addressed to facilitate this transition. This article analyzes strategies, barriers, and policies to drive decarbonization of the cement sector, assessing their applicability and impact. The study employed a two-stage methodology: first, a data analysis phase involving the collection of greenhouse gas emissions data and performance indicators; second, a comprehensive review of scientific literature, sectoral roadmaps, and national commitments to identify decarbonization strategies, along with their associated costs and policies. Four main strategies were identified—material efficiency, energy efficiency, fuel switching, and renewable energy integration—with CO₂ abatement costs ranging from 10 to 45 USD/t CO₂, depending on the strategy. Additionally, electrification, industrial symbiosis, and carbon capture involve higher costs, ranging from 60 to 100 USD/t CO₂. The study also evidences research and policy-development gaps, highlighting the need to establish consistent regulatory frameworks, foster collaboration among countries, and design financial incentives tailored to local conditions. The results show the importance of a collaborative approach that integrates governments, industries, and the academic sector to overcome existing barriers and promote the adoption of clean technologies. These efforts entail updating sectoral roadmaps, boosting intersectoral cooperation, and developing public policies that respond to regional realities.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{a._camargo-bertel2025,
+  author = {A. Camargo-Bertel, A. and Hincapié, D. and Pugliese, V. and
+    González-Quiroga, A. and Pupo-Roncallo, O.},
+  title = {Decarbonizing the Cement Industry in {Latin} {America} and
+    the {Caribbean:} {A} Comprehensive Review of Strategies, Barriers,
+    and Policies},
+  journal = {Energy Conversion and Management: X},
+  pages = {100956},
+  date = {2025-01-01},
+  url = {https://doi.org/10.1016/j.ecmx.2025.100956},
+  doi = {10.1016/j.ecmx.2025.100956},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-a._camargo-bertel2025" class="csl-entry quarto-appendix-citeas">
+A. Camargo-Bertel, A., D. Hincapié, V. Pugliese, A. González-Quiroga,
+and O. Pupo-Roncallo. 2025. <span>“Decarbonizing the Cement Industry in
+Latin America and the Caribbean: A Comprehensive Review of Strategies,
+Barriers, and Policies.”</span> <em>Energy Conversion and Management:
+X</em>, January 1, 100956. <a href="https://doi.org/10.1016/j.ecmx.2025.100956">https://doi.org/10.1016/j.ecmx.2025.100956</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://camargo-aa.github.io/posts/paper-2025-cement-decarbonization/</guid>
+  <pubDate>Wed, 01 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/papers/cement.png" medium="image" type="image/png" height="122" width="144"/>
+</item>
+<item>
+  <title>Selected for the 100k-Clima Fellowship at Penn State University</title>
+  <link>https://camargo-aa.github.io/posts/2024-100k-clima-fellowship/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I was selected for the <strong>100k-Clima Fellowship</strong> at Penn State University, a program supporting research collaboration and academic exchange on climate and energy topics.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://camargo-aa.github.io/posts/2024-100k-clima-fellowship/</guid>
+  <pubDate>Sun, 01 Sep 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/news/fellowship.png" medium="image" type="image/png" height="56" width="144"/>
+</item>
+<item>
+  <title>Awarded the Minciencias National PhD Scholarship</title>
+  <link>https://camargo-aa.github.io/posts/2024-08-phd-scholarship/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I was awarded the <strong>National PhD Scholarship (Call 933)</strong> from Minciencias to pursue my PhD in Mechanical Engineering at Universidad del Norte, focusing on energy systems modeling and the low-carbon transition.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://camargo-aa.github.io/posts/2024-08-phd-scholarship/</guid>
+  <pubDate>Thu, 01 Aug 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/news/scholarship.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Analyzing trends in energy modeling tools in Latin America: A comprehensive review</title>
+  <dc:creator>A. A. Camargo-Bertel</dc:creator>
+  <dc:creator>C. Lizarazo</dc:creator>
+  <dc:creator>L. Corredor</dc:creator>
+  <dc:creator>J. Campillo</dc:creator>
+  <dc:creator>A. González-Quiroga</dc:creator>
+  <dc:creator>O. Pupo-Roncallo</dc:creator>
+  <link>https://camargo-aa.github.io/posts/paper-2024-energy-modeling-tools/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="paper-meta">
+<p><strong>Journal:</strong> <em>Energy Reports</em> (2024) &nbsp;•&nbsp; <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.egyr.2024.08.080" target="_blank">10.1016/j.egyr.2024.08.080</a></p>
+</div>
+<p><img src="https://camargo-aa.github.io/files/images/papers/energy-models.png" class="paper-figure img-fluid" alt="Graphical reference for the paper"></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Energy system models have become valuable tools for developing and implementing sustainable energy policies. In Latin America, there has been continuous growth in the use of these models, exploring and defining strategies for a transition toward decarbonized, more sustainable systems. These models are essential for quantifying impacts and defining potential pathways, due to the complexity of interactions between different energy sectors. However, reviewing the increasing pool of available modeling tools is necessary, empowering regional energy planners and policymakers with a clearer understanding of their classifications, applications, and critical features. This understanding aids in selecting the most suitable tool for a given need. This article aims to contribute to analyzing trends in the use of modeling tools in Latin America, specifically focusing on their application in energy planning and research efforts toward sustainability. We present a systematic literature review of the leading modeling tools used in Latin America, following the PRISMA methodology. Eight specific tools were selected and analyzed, assessing five primary aspects: geographical coverage, sectoral coverage, temporal resolution, time horizon, and renewable energy integration. The analysis revealed the evolution of modeling-tool usage in the region, highlighting trends supporting sustainable energy practices. It also recognizes the necessity for high-temporal-resolution tools to evaluate the availability and utilization of renewable resources, while emphasizing the importance of intersectoral collaboration among stakeholders and policymakers to advance sustainable energy systems.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{a._camargo-bertel2024,
+  author = {A. Camargo-Bertel, A. and Lizarazo, C. and Corredor, L. and
+    Campillo, J. and González-Quiroga, A. and Pupo-Roncallo, O.},
+  title = {Analyzing Trends in Energy Modeling Tools in {Latin}
+    {America:} {A} Comprehensive Review},
+  journal = {Energy Reports},
+  date = {2024-08-01},
+  url = {https://doi.org/10.1016/j.egyr.2024.08.080},
+  doi = {10.1016/j.egyr.2024.08.080},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-a._camargo-bertel2024" class="csl-entry quarto-appendix-citeas">
+A. Camargo-Bertel, A., C. Lizarazo, L. Corredor, J. Campillo, A.
+González-Quiroga, and O. Pupo-Roncallo. 2024. <span>“Analyzing Trends in
+Energy Modeling Tools in Latin America: A Comprehensive Review.”</span>
+<em>Energy Reports</em>, accepted, August 1. <a href="https://doi.org/10.1016/j.egyr.2024.08.080">https://doi.org/10.1016/j.egyr.2024.08.080</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://camargo-aa.github.io/posts/paper-2024-energy-modeling-tools/</guid>
+  <pubDate>Thu, 01 Aug 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://camargo-aa.github.io/files/images/papers/energy-models.png" medium="image" type="image/png" height="89" width="144"/>
+</item>
+</channel>
+</rss>

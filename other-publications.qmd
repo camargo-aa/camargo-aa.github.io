@@ -1,0 +1,20 @@
+---
+title: "Other Publications"
+subtitle: "Institutional reports, invited contributions, and theses"
+description-meta: "Institutional reports, invited contributions, and theses by Andrés André Camargo Bertel"
+title-block-banner: false
+---
+
+## Institutional Reports
+
+National Mining and Energy Planning Unit (UPME). *National Energy Plan, Volume II — Results 2025–2055.* Bogotá, Colombia. Member of the document's drafting team; transport-sector modeler. *(Forthcoming — expected August 2026.)*
+
+## Invited Contributions
+
+**Camargo-Bertel, A. A.**, A. González-Quiroga, and O. Pupo-Roncallo. "Decarbonizing the cement industry in Latin America and the Caribbean." *International Cement Review*, UREMA Research Unit, Universidad del Norte, Colombia. *(Invited contribution — forthcoming, expected August 2026.)*
+
+## Theses
+
+**Camargo-Bertel, A. A.** *The role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis.* Master's thesis, Universidad del Norte, Barranquilla, Colombia, 2024. Available at: [http://hdl.handle.net/10584/12884](http://hdl.handle.net/10584/12884){target="_blank"}
+
+{{< include /files/includes/_socialshare.qmd >}}

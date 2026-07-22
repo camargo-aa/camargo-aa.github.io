@@ -1,0 +1,27 @@
+---
+title: "Contact"
+description-meta: "Get in touch with Andrés André Camargo Bertel"
+title-block-banner: false
+---
+
+<center>
+
+**Andrés André Camargo Bertel**
+
+PhD Candidate in Mechanical Engineering
+
+Universidad del Norte
+
+Barranquilla, Colombia
+
+Email: <camargoaa@uninorte.edu.co>
+
+</center>
+
+::: {style="text-align:center; font-size:1.6rem; margin-top:1.5rem;"}
+<a href="https://scholar.google.com/citations?user=RTRoJm0AAAAJ" target="_blank" style="color:#05336B;" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&ensp;
+<a href="https://orcid.org/0000-0001-8192-8254" target="_blank" style="color:#05336B;" title="ORCID"><i class="ai ai-orcid"></i></a>&ensp;
+<a href="https://www.researchgate.net/profile/Andres-Camargo-Bertel" target="_blank" style="color:#05336B;" title="ResearchGate"><i class="ai ai-researchgate"></i></a>&ensp;
+<a href="https://github.com/camargo-aa" target="_blank" style="color:#05336B;" title="GitHub"><i class="fa-brands fa-github"></i></a>&ensp;
+<a href="https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b" target="_blank" style="color:#05336B;" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+:::

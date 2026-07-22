@@ -1,0 +1,19 @@
+---
+title: "Coming soon"
+description-meta: "This page is under construction."
+title-block-banner: false
+toc: false
+page-navigation: false
+---
+
+::: {style="text-align:center; padding: 3rem 1rem;"}
+
+<i class="fa-solid fa-person-digging" style="font-size:3rem; color:#05336B;"></i>
+
+## Coming soon
+
+This section is under construction and will be available shortly.
+
+[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+
+:::

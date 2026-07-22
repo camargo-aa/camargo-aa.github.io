@@ -1,0 +1,9 @@
+---
+title: "Selected for the 100k-Clima Fellowship at Penn State University"
+description: "Selected for the 100k-Clima Fellowship at Penn State University, supporting research and exchange on climate and energy."
+date: "2024-09-01"
+categories: [news]
+image: "/files/images/news/fellowship.png"
+---
+
+I was selected for the **100k-Clima Fellowship** at Penn State University, a program supporting research collaboration and academic exchange on climate and energy topics.

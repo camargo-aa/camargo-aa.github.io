@@ -1,0 +1,122 @@
+---
+title: "Andrés André"
+subtitle: |
+  PhD Candidate in Mechanical Engineering \
+  Universidad del Norte \
+  Barranquilla, Colombia
+description-meta: "Andrés André Camargo Bertel — PhD Candidate in Mechanical Engineering at Universidad del Norte. Energy systems modeling, renewable energy integration, and transport and industrial decarbonization."
+image: "files/profile/andres-camargo.jpg"
+page-navigation: false
+toc: false
+page-layout: custom
+css: assets/index.css
+format:
+  html:
+    link-external-icon: false
+    include-in-header:
+      - text: |
+          <style>
+          .quarto-title-block { display: none; }
+          </style>
+
+listing:
+  - id: latest-papers
+    contents: posts
+    include:
+      categories: [paper]
+    type: grid
+    grid-columns: 2
+    max-items: 2
+    page-size: 2
+    image-height: "220px"
+    fields: [image, title]
+    sort:
+      - "date desc"
+  - id: recent-posts
+    contents:
+      - posts
+    exclude:
+      categories: [paper]
+    type: grid
+    grid-columns: 3
+    max-items: 3
+    page-size: 3
+    image-height: "180px"
+    fields: [image, date, title]
+    sort:
+      - "date desc"
+      - "title asc"
+---
+
+::: {.background-frame .alt-background}
+::: {.content-block}
+
+<div style="height: 40px;"></div>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-5 .hero-left}
+
+[![](files/profile/andres-camargo.jpg){width=90% fig-align="center"}](bio.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-7 .hero-right}
+
+<p align="center" style="font-size:2rem; font-weight:bold;">Andrés André Camargo Bertel</p>
+
+<p align="center" style="font-size:1.4rem;">
+PhD Candidate in Mechanical Engineering\
+Universidad del Norte\
+Barranquilla, Colombia\
+Email: camargoaa@uninorte.edu.co
+</p>
+
+::: {.button}
+[Full Bio](bio.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+<p align="center" style="font-size:1.6rem;">
+<a href="https://scholar.google.com/citations?user=RTRoJm0AAAAJ" target="_blank" style="color:#05336B;" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&ensp;
+<a href="https://orcid.org/0000-0001-8192-8254" target="_blank" style="color:#05336B;" title="ORCID"><i class="ai ai-orcid"></i></a>&ensp;
+<a href="https://www.researchgate.net/profile/Andres-Camargo-Bertel" target="_blank" style="color:#05336B;" title="ResearchGate"><i class="ai ai-researchgate"></i></a>&ensp;
+<a href="https://www.scopus.com/authid/detail.uri?authorId=59319653100" target="_blank" style="color:#05336B;" title="Scopus"><i class="ai ai-scopus"></i></a>&ensp;
+<a href="https://www.webofscience.com/wos/author/record/GQB-3417-2022" target="_blank" style="color:#05336B;" title="Web of Science"><i class="ai ai-clarivate"></i></a>&ensp;
+<a href="https://github.com/camargo-aa" target="_blank" style="color:#05336B;" title="GitHub"><i class="fa-brands fa-github"></i></a>&ensp;
+<a href="https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b" target="_blank" style="color:#05336B;" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+</p>
+
+:::
+:::
+
+:::
+:::
+
+::: {.background-frame}
+::: {.content-block}
+
+<p align="center" style="font-size:2rem; font-weight:bold;">Latest Papers</p>
+
+:::{#latest-papers}
+:::
+
+::: {.button}
+[More papers](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+
+::: {.background-frame .alt-background}
+::: {.content-block}
+
+<p align="center" style="font-size:2rem; font-weight:bold;">Recent News</p>
+
+:::{#recent-posts}
+:::
+
+::: {.button}
+[More news](posts.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::

@@ -1,0 +1,34 @@
+---
+title: "Publications"
+description-meta: "Peer-reviewed journal articles by Andrés André Camargo Bertel"
+title-block-banner: false
+listing:
+  - id: papers
+    contents: posts
+    include:
+      categories: [paper]
+    type: custom
+    template: assets/paper-card.ejs
+    page-size: 100
+    sort:
+      - "date desc"
+      - "title asc"
+css: assets/paper-listing.css
+---
+
+Peer-reviewed journal articles. See also my profiles on
+[Google Scholar](https://scholar.google.com/citations?user=RTRoJm0AAAAJ){target="_blank"},
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=59319653100){target="_blank"}, and
+[ORCID](https://orcid.org/0000-0001-8192-8254){target="_blank"}.
+
+## Journal Articles
+
+::: {#papers}
+:::
+
+## Manuscripts Under Review
+
+- C. Lizarazo, **A. A. Camargo-Bertel**, J. Fajardo, L. Corredor, A. González-Quiroga, and O. Pupo-Roncallo. "A scenario-based model for assessing hydrogen production pathways in Colombia with horizons 2030 and 2050." *(Under review).*
+- **A. A. Camargo-Bertel**, P. Forero-Ocho, A. M. Orozco-Idrobo, A. González-Quiroga, and O. Pupo-Roncallo. "Strategies, barriers, and policies for decarbonizing road transport in Latin America." *(Under review).*
+
+{{< include /files/includes/_socialshare.qmd >}}
