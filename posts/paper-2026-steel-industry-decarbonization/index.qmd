@@ -29,7 +29,7 @@ google-scholar: true
 **Journal:** *Energy Research & Social Science* (2026) &nbsp;•&nbsp; **DOI:** [10.1016/j.erss.2026.104711](https://doi.org/10.1016/j.erss.2026.104711){target="_blank"}
 :::
 
-![](/files/images/papers/steel.png){.paper-figure fig-alt="Graphical reference for the paper"}
+<img src="/files/images/papers/steel.png" class="paper-figure" alt="Graphical reference for the paper">
 
 ## Abstract
 

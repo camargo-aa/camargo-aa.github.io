@@ -28,7 +28,7 @@ google-scholar: true
 **Journal:** *Smart Energy* 20 (2025): 100217 &nbsp;•&nbsp; **DOI:** [10.1016/j.segy.2025.100217](https://doi.org/10.1016/j.segy.2025.100217){target="_blank"}
 :::
 
-![](/files/images/papers/transport.png){.paper-figure fig-alt="Graphical reference for the paper"}
+<img src="/files/images/papers/transport.png" class="paper-figure" alt="Graphical reference for the paper">
 
 ## Abstract
 

@@ -28,7 +28,7 @@ google-scholar: true
 **Journal:** *Energy Conversion and Management: X* (2025): 100956 &nbsp;•&nbsp; **DOI:** [10.1016/j.ecmx.2025.100956](https://doi.org/10.1016/j.ecmx.2025.100956){target="_blank"}
 :::
 
-![](/files/images/papers/cement.png){.paper-figure fig-alt="Graphical reference for the paper"}
+<img src="/files/images/papers/cement.png" class="paper-figure" alt="Graphical reference for the paper">
 
 ## Abstract
 

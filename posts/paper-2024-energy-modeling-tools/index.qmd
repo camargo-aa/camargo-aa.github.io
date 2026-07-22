@@ -28,7 +28,7 @@ google-scholar: true
 **Journal:** *Energy Reports* (2024) &nbsp;•&nbsp; **DOI:** [10.1016/j.egyr.2024.08.080](https://doi.org/10.1016/j.egyr.2024.08.080){target="_blank"}
 :::
 
-![](/files/images/papers/energy-models.png){.paper-figure fig-alt="Graphical reference for the paper"}
+<img src="/files/images/papers/energy-models.png" class="paper-figure" alt="Graphical reference for the paper">
 
 ## Abstract
 
