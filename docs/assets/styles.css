@@ -41,3 +41,7 @@
   height: auto;
   display: block;
 }
+
+#quarto-appendix {
+  display: none;
+}
