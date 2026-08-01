@@ -8,7 +8,7 @@ author:
   - name: A. González-Quiroga
   - name: M. Yuan
   - name: O. Pupo-Roncallo
-date: "2025-06-01"
+date: "2025-11-07"
 categories: [paper]
 image: "/files/images/papers/transport.png"
 venue: "Smart Energy"

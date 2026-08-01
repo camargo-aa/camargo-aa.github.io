@@ -9,7 +9,7 @@ author:
   - name: V. Pugliese
   - name: A. González-Quiroga
   - name: O. Pupo-Roncallo
-date: "2025-01-01"
+date: "2025-03-06"
 categories: [paper]
 image: "/files/images/papers/cement.png"
 venue: "Energy Conversion and Management: X"
