@@ -1,17 +1,17 @@
 ---
 title: "Teaching"
-subtitle: "Courses I support as a teaching assistant at Universidad del Norte"
-description-meta: "Teaching experience of Andrés André Camargo Bertel at Universidad del Norte."
+subtitle: "Courses taught as a teaching assistant"
+description-meta: "Teaching experience of Andrés André Camargo Bertel."
 title-block-banner: false
 ---
 
-As a Teaching Assistant at Universidad del Norte, I have taught and mentored undergraduate engineering students. Open-source course materials are linked below.
+As a Teaching Assistant, I have taught and mentored undergraduate engineering students. Open-source course materials are linked below.
 
-## Thermodynamics
+## Thermodynamics I
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-9}
-Fundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles, covering both Thermodynamics I and Thermodynamics II.
+Fundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles.
 :::
 ::: {.g-col-12 .g-col-md-3}
 [Course site](https://camargo-aa.github.io/thermodynamics){.btn .btn-outline-primary .btn-sm role="button" target="_blank"}
