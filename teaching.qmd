@@ -5,7 +5,7 @@ description-meta: "Teaching experience of Andrés André Camargo Bertel at Unive
 title-block-banner: false
 ---
 
-As a Teaching Assistant at Universidad del Norte, I have taught and mentored undergraduate engineering students. Open-source course materials are on the way. The link below will go live soon.
+As a Teaching Assistant at Universidad del Norte, I have taught and mentored undergraduate engineering students. Open-source course materials are linked below.
 
 ## Thermodynamics
 
@@ -14,6 +14,6 @@ As a Teaching Assistant at Universidad del Norte, I have taught and mentored und
 Fundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles, covering both Thermodynamics I and Thermodynamics II.
 :::
 ::: {.g-col-12 .g-col-md-3}
-[Course site (coming soon)](coming-soon.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[Course site](https://camargo-aa.github.io/thermodynamics){.btn .btn-outline-primary .btn-sm role="button" target="_blank"}
 :::
 :::
