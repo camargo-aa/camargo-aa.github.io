@@ -96,6 +96,13 @@ body {
 }
 
 
+/* Inset cover images in the news grid so they don't clash with the card border */
+#recent-posts .card-img-top {
+  padding: 8px 8px 0 8px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
 /*ChatGPT*/
 span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-flex;
