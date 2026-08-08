@@ -98,9 +98,15 @@ body {
 
 /* Inset cover images in the news grid so they don't clash with the card border */
 #recent-posts .card-img-top {
-  padding: 8px 8px 0 8px;
-  object-fit: contain;
+  padding: 10px 10px 0;
   background-color: #fff;
+  margin: 0;
+}
+
+#recent-posts .card-img-top img.thumbnail-image {
+  height: 160px !important;
+  width: 100%;
+  object-fit: contain;
 }
 
 /*ChatGPT*/
