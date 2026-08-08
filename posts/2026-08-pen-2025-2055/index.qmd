@@ -6,6 +6,6 @@ categories: [news]
 image: "/files/images/reports/pen-tomo-ii.png"
 ---
 
-Colombia's **National Energy Plan 2025–2055** was published by the National Mining and Energy Planning Unit (**UPME**). I served as the lead modeler for the transport sector and contributed to the full energy system model underlying the plan's three long-term scenarios: Declared Policies, Announced Policies, and Carbon Neutrality.
+Colombia's **National Energy Plan 2025–2055** was published by the National Mining and Energy Planning Unit (**UPME**). I served as lead modeler for the transport sector and contributed to the full energy system model across the plan's three long-term scenarios: Declared Policies, Announced Policies, and Carbon Neutrality.
 
-The plan is Colombia's primary long-term energy planning instrument and sets the quantitative framework for the country's just energy transition through 2055. The full document is available on the [UPME website](https://www.upme.gov.co/simec/planeacion-energetica/plan-energetico-nacional-1/){target="_blank"}.
+The plan is Colombia's main long-term energy planning instrument, covering demand, supply, and emissions through 2055. The full document is available on the [UPME website](https://www.upme.gov.co/simec/planeacion-energetica/plan-energetico-nacional-1/){target="_blank"}.
