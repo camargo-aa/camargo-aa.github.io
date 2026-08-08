@@ -97,16 +97,16 @@ body {
 
 
 /* Inset cover images in the news grid so they don't clash with the card border */
-#recent-posts .card-img-top {
+#listing-recent-posts .card-img-top {
   padding: 10px 10px 0;
   background-color: #fff;
   margin: 0;
 }
 
-#recent-posts .card-img-top img.thumbnail-image {
+#listing-recent-posts .card-img-top img.thumbnail-image {
   height: 160px !important;
   width: 100%;
-  object-fit: contain;
+  object-fit: contain !important;
 }
 
 /*ChatGPT*/
