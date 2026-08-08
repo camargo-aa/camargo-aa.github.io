@@ -96,17 +96,9 @@ body {
 }
 
 
-/* Inset cover images in the news grid so they don't clash with the card border */
-#listing-recent-posts .card-img-top {
-  padding: 10px 10px 0;
-  background-color: #fff;
-  margin: 0;
-}
-
+/* Shift news card images down 12px so they don't clash with the top card border */
 #listing-recent-posts .card-img-top img.thumbnail-image {
-  height: 160px !important;
-  width: 100%;
-  object-fit: contain !important;
+  object-position: center 12px !important;
 }
 
 /*ChatGPT*/
