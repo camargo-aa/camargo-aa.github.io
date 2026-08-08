@@ -6,8 +6,6 @@ title-block-banner: false
 css: assets/report-listing.css
 ---
 
-Policy and institutional work produced outside the peer-reviewed channel: national energy plans, sector studies, and invited contributions to professional outlets.
-
 <div class="report-listing">
 
 <div class="report-card">
