@@ -1,0 +1,28 @@
+---
+title: "Theses"
+description-meta: "Academic theses by Andrés André Camargo Bertel"
+title-block-banner: false
+css: assets/report-listing.css
+---
+
+<div class="report-listing">
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/thesis.png" alt="Master's thesis cover — Andrés André Camargo Bertel">
+</div>
+<div class="report-body">
+<span class="report-badge badge-thesis">Master's Thesis</span>
+<a class="report-title" href="http://hdl.handle.net/10584/12884" target="_blank">The role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis</a>
+<p class="report-institution"><strong>Camargo-Bertel, A. A.</strong> Universidad del Norte, Barranquilla, Colombia, 2024.</p>
+<p class="report-role"><em>Advisors: Prof. Dr. Ing. Oscar Pupo Roncallo and Prof. Dr. Ing. Arturo González Quiroga.</em></p>
+<p class="report-description">This study evaluates the impact of passenger road transport electrification on the integration of non-conventional renewable energy sources and greenhouse gas (GHG) mitigation in Colombia's energy system toward 2030 and 2050, modeled using EnergyPLAN. Results show that increased EV adoption reduces GHG emissions by 4.2% by 2030 and 15% by 2050 under projected national scenarios, with a fully electrified fleet achieving reductions of up to 35% by 2050.</p>
+<div class="report-links">
+<a class="report-link" href="http://hdl.handle.net/10584/12884" target="_blank">Repository</a>
+</div>
+</div>
+</div>
+
+</div>
+
+{{< include /files/includes/_socialshare.qmd >}}

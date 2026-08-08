@@ -44,8 +44,10 @@ website:
         menu:
           - text: Publications
             href: publications.qmd
-          - text: Other Publications
-            href: other-publications.qmd
+          - text: Reports
+            href: reports.qmd
+          - text: Theses
+            href: theses.qmd
           - text: Recognition
             href: recognition.qmd
           - text: Research Group

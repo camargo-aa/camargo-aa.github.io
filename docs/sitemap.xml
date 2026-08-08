@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://camargo-aa.github.io/teaching.html</loc>
-    <lastmod>2026-07-22T20:55:14.656Z</lastmod>
+    <loc>https://camargo-aa.github.io/theses.html</loc>
+    <lastmod>2026-08-08T02:27:00.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://camargo-aa.github.io/research-group.html</loc>
+    <lastmod>2026-07-22T20:54:30.955Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/recognition.html</loc>
@@ -14,11 +18,11 @@
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/paper-2026-steel-industry-decarbonization/index.html</loc>
-    <lastmod>2026-07-22T20:54:30.963Z</lastmod>
+    <lastmod>2026-08-01T15:37:07.385Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/paper-2025-cement-decarbonization/index.html</loc>
-    <lastmod>2026-07-22T20:54:30.962Z</lastmod>
+    <lastmod>2026-08-01T15:37:09.342Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/2026-01-joined-upme/index.html</loc>
@@ -66,11 +70,11 @@
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/paper-2024-energy-modeling-tools/index.html</loc>
-    <lastmod>2026-07-22T20:28:24.757Z</lastmod>
+    <lastmod>2026-08-01T15:37:10.179Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/paper-2025-transport-electrification-colombia/index.html</loc>
-    <lastmod>2026-07-22T20:28:21.094Z</lastmod>
+    <lastmod>2026-08-01T15:37:08.340Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts.html</loc>
@@ -81,7 +85,11 @@
     <lastmod>2026-07-22T20:09:06.109Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/research-group.html</loc>
-    <lastmod>2026-07-22T20:54:30.955Z</lastmod>
+    <loc>https://camargo-aa.github.io/reports.html</loc>
+    <lastmod>2026-08-08T02:34:58.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://camargo-aa.github.io/teaching.html</loc>
+    <lastmod>2026-08-01T16:13:15.769Z</lastmod>
   </url>
 </urlset>

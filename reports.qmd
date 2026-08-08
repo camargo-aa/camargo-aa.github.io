@@ -1,0 +1,94 @@
+---
+title: "Reports"
+subtitle: "Institutional reports, policy documents, and invited contributions"
+description-meta: "Institutional reports and policy documents by Andrés André Camargo Bertel"
+title-block-banner: false
+css: assets/report-listing.css
+---
+
+Policy and institutional work produced outside the peer-reviewed channel: national energy plans, sector studies, and invited contributions to professional outlets.
+
+<div class="report-listing">
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/pen-tomo-ii.png" alt="National Energy Plan 2025–2055, Volume II cover">
+</div>
+<div class="report-body">
+<span class="report-badge badge-institutional">Institutional Report</span>
+<span class="report-title">National Energy Plan 2025–2055, Volume II: Results</span>
+<p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.</p>
+<p class="report-role"><em>Contributing author; energy modeler.</em></p>
+<p class="report-description">Colombia's National Energy Plan 2025–2055, Volume II, presents the quantitative results of three long-term energy scenarios: Declared Policies, Announced Policies, and Carbon Neutrality, covering demand, supply, and emissions trajectories through 2055. The plan is structured within the Just Energy Transition framework and serves as the country's primary long-term energy planning instrument, integrating equity, reindustrialization, and a gradual reduction in fossil fuel dependence.</p>
+<div class="report-links">
+<a class="report-link" href="https://docs.upme.gov.co/DemandayEficiencia/Documents/PEN_2025_2055/Plan_Energetico_Nacional_Tomo_II_Resultados_2025-2055.pdf" target="_blank">PDF</a>
+</div>
+</div>
+</div>
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/proyecciones-demanda.png" alt="Electricity Demand Projections July 2026 cover">
+</div>
+<div class="report-body">
+<span class="report-badge badge-institutional">Institutional Report</span>
+<span class="report-title">Projections of Electricity Demand and Maximum Power — July 2026 Revision</span>
+<p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.</p>
+<p class="report-role"><em>Contributing author; transport electrification modeling.</em></p>
+<p class="report-description">This report presents updated electricity demand and maximum power projections for Colombia's National Interconnected System (SIN) through 2040. The July 2026 revision incorporates territorial analysis of residential consumption, updated sectoral data, and the expected impact of El Niño conditions on second-semester demand patterns.</p>
+<div class="report-links">
+<a class="report-link" href="https://docs.upme.gov.co/DemandayEficiencia/Documents/Proyecciones_demanda_Energia_Electrica_y_Potencia_Maxima_Rev_Julio_2026_VRF.pdf" target="_blank">PDF</a>
+</div>
+</div>
+</div>
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/pen-regionalizacion.png" alt="Methodological Framework for PEN Regionalization cover">
+</div>
+<div class="report-body">
+<span class="report-badge badge-institutional">Institutional Report</span>
+<span class="report-title">Methodological Framework for the Regionalization of the National Energy Plan</span>
+<p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.</p>
+<p class="report-role"><em>Contributing author; energy modeler.</em></p>
+<p class="report-description">This document establishes the methodology for breaking down Colombia's National Energy Plan 2025–2055 projections to the subnational level across seven planning regions, using LEAP and OSeMOSYS. The approach supports identification of regional energy access gaps, renewable potential, and differentiated transition pathways within the Just Energy Transition framework.</p>
+<div class="report-links">
+<a class="report-link" href="https://docs.upme.gov.co/DemandayEficiencia/Documents/PEN_2025_2055/Estructura_metodologica_regionalizacion_PEN_VF.pdf" target="_blank">PDF</a>
+</div>
+</div>
+</div>
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/pen-parametrizacion.png" alt="PEN Scenario Parameterization Strategy cover">
+</div>
+<div class="report-body">
+<span class="report-badge badge-institutional">Institutional Report</span>
+<span class="report-title">Parameterization Strategy for Scenario Development of the National Energy Plan 2025–2055</span>
+<p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.</p>
+<p class="report-role"><em>Contributing author; energy modeler.</em></p>
+<p class="report-description">This document describes the parameterization strategy used to build the energy scenarios of Colombia's National Energy Plan 2025–2055, structured around the OSeMOSYS optimization platform and the SAND data management tool. It details how the technical, economic, and regulatory characteristics of the Colombian energy system were encoded to produce the plan's scenario results.</p>
+<div class="report-links">
+<a class="report-link" href="https://docs.upme.gov.co/DemandayEficiencia/Documents/PEN_2025_2055/Estrategia_de_parametrizaci%C3%B3n_para_la_contruccion_de_escenarios_del_PEN_2025-2055.pdf" target="_blank">PDF</a>
+</div>
+</div>
+</div>
+
+<div class="report-card">
+<div class="report-cover">
+<img src="files/images/reports/icr-aug-2026.jpg" alt="International Cement Review August 2026 cover">
+</div>
+<div class="report-body">
+<span class="report-badge badge-invited">Invited Contribution</span>
+<span class="report-title">Decarbonizing the cement industry in Latin America and the Caribbean</span>
+<p class="report-institution"><strong>Camargo-Bertel, A. A.</strong>, A. González-Quiroga, and O. Pupo-Roncallo. <em>International Cement Review</em>, August 2026.</p>
+<p class="report-description">Latin America and the Caribbean produced approximately 183 Mt of cement in 2024. This article reviews available near-term measures and the enabling conditions required to make next-generation decarbonization projects bankable in the region, covering standards reform, alternative fuels, plant modernization, electrification, and CO₂ transport and storage infrastructure.</p>
+<div class="report-links">
+<a class="report-link" href="https://assets.cemnet.com/sample/magazine/icr-aug-2026-sample/index.html" target="_blank">Sample Issue</a>
+</div>
+</div>
+</div>
+
+</div>
+
+{{< include /files/includes/_socialshare.qmd >}}
