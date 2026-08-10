@@ -12,7 +12,7 @@ author:
   - name: O. Pupo-Roncallo
 date: "2024-09-09"
 categories: [paper]
-image: "/files/images/papers/energy-models.png"
+image: "/files/images/papers/cover-tools.png"
 venue: "Energy Reports"
 pubyear: 2024
 pubdoi: "10.1016/j.egyr.2024.08.080"

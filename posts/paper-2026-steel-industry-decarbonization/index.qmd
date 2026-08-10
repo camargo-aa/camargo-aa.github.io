@@ -12,7 +12,7 @@ author:
   - name: O. Pupo-Roncallo
 date: "2026-04-23"
 categories: [paper]
-image: "/files/images/papers/steel.png"
+image: "/files/images/papers/cover-steel.png"
 venue: "Energy Research & Social Science"
 pubyear: 2026
 pubdoi: "10.1016/j.erss.2026.104711"

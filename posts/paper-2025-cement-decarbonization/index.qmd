@@ -11,7 +11,7 @@ author:
   - name: O. Pupo-Roncallo
 date: "2025-03-06"
 categories: [paper]
-image: "/files/images/papers/cement.png"
+image: "/files/images/papers/cover-cement.png"
 venue: "Energy Conversion and Management: X"
 pubyear: 2025
 pubdoi: "10.1016/j.ecmx.2025.100956"

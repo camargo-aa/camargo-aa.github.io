@@ -10,7 +10,7 @@ author:
   - name: O. Pupo-Roncallo
 date: "2025-11-07"
 categories: [paper]
-image: "/files/images/papers/transport.png"
+image: "/files/images/papers/cover-electrification.png"
 venue: "Smart Energy"
 pubyear: 2025
 pubdoi: "10.1016/j.segy.2025.100217"
