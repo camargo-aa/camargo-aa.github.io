@@ -3,7 +3,7 @@
 .report-listing {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -12,7 +12,7 @@
   grid-template-columns: 160px 1fr;
   gap: 1.5rem;
   align-items: start;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid #e6e6e6;
 }
 
