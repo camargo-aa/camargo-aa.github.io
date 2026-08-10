@@ -129,6 +129,12 @@ a.report-title:hover { text-decoration: underline; }
   margin: 0.4rem 0 0;
 }
 
+/* Pandoc wraps bare <img> and <a> in <p> tags; zero out their default margin */
+.report-cover p,
+.report-links p {
+  margin: 0;
+}
+
 /* Action links (PDF, repository, etc.) */
 .report-links {
   margin-top: 0.65rem;
