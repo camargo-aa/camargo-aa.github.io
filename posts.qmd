@@ -2,16 +2,65 @@
 title: "News"
 subtitle: "Updates, announcements, and activities"
 description-meta: "News and updates from Andrés André Camargo Bertel"
-listing:
-  sort: "date desc"
-  type: default
-  page-size: 100
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  feed: true
-  contents:
-    - posts
 page-navigation: false
 title-block-banner: false
+toc: false
 ---
+
+```{=html}
+<div class="tl-wrap">
+
+  <div class="tl-year">2026</div>
+
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/upme.png" alt="UPME">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">January 2026</div>
+      <div class="tl-title"><a href="posts/2026-01-joined-upme/">Joined UPME as an energy modeler</a></div>
+      <p class="tl-desc">Contributing to Colombia's National Energy Plan 2025–2055 as the transport-sector modeler at the National Mining and Energy Planning Unit.</p>
+    </div>
+  </div>
+
+  <div class="tl-year">2025</div>
+
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/upme.png" alt="UPME">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">August 2025</div>
+      <div class="tl-title"><a href="posts/2025-08-upme-data-analyst/">Joined UPME as an energy data analyst</a></div>
+      <p class="tl-desc">Started working at Colombia's National Mining and Energy Planning Unit, supporting energy data analysis for national planning.</p>
+    </div>
+  </div>
+
+  <div class="tl-year">2024</div>
+
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/fellowship.png" alt="100k-Clima Fellowship">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">September 2024</div>
+      <div class="tl-title"><a href="posts/2024-100k-clima-fellowship/">Selected for the 100k-Clima fellowship at Penn State University</a></div>
+      <p class="tl-desc">A program supporting research collaboration and academic exchange on climate and energy topics.</p>
+    </div>
+  </div>
+
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/scholarship.jpg" alt="Minciencias Scholarship">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">August 2024</div>
+      <div class="tl-title"><a href="posts/2024-08-phd-scholarship/">Awarded the Minciencias national PhD scholarship</a></div>
+      <p class="tl-desc">Selected for Colombia's national PhD scholarship (Call 933) to pursue a PhD in Mechanical Engineering at Universidad del Norte.</p>
+    </div>
+  </div>
+
+  <div class="tl-close"><span class="tl-close-label">2023</span></div>
+
+</div>
+```

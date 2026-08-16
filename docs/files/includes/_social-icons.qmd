@@ -1,0 +1,11 @@
+```{=html}
+<div class="c-social">
+<a href="https://scholar.google.com/citations?user=RTRoJm0AAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+<a href="https://orcid.org/0000-0001-8192-8254" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+<a href="https://www.researchgate.net/profile/Andres-Camargo-Bertel" target="_blank" rel="noopener" title="ResearchGate" aria-label="ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=59319653100" target="_blank" rel="noopener" title="Scopus" aria-label="Scopus"><i class="ai ai-scopus" aria-hidden="true"></i></a>
+<a href="https://www.webofscience.com/wos/author/record/GQB-3417-2022" target="_blank" rel="noopener" title="Web of Science" aria-label="Web of Science"><i class="ai ai-clarivate" aria-hidden="true"></i></a>
+<a href="https://github.com/camargo-aa" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+</div>
+```

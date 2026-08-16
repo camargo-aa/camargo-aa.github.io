@@ -19,33 +19,6 @@ format:
           .quarto-title-block { display: none; }
           </style>
 
-listing:
-  - id: latest-papers
-    contents: posts
-    include:
-      categories: [paper]
-    type: grid
-    grid-columns: 2
-    max-items: 2
-    page-size: 2
-    image-height: "220px"
-    fields: [image, title]
-    sort:
-      - "date desc"
-  - id: recent-posts
-    contents:
-      - posts
-    exclude:
-      categories: [paper]
-    type: grid
-    grid-columns: 3
-    max-items: 3
-    page-size: 3
-    image-height: "180px"
-    fields: [image, date, title]
-    sort:
-      - "date desc"
-      - "title asc"
 ---
 
 ::: {.background-frame .alt-background}
@@ -56,13 +29,15 @@ listing:
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-5 .hero-left}
 
-[![](files/profile/andres-camargo.jpg){width=90% fig-align="center"}](bio.qmd)
+[![](files/profile/andres-camargo.jpg){width=90% fig-align="center" fig-alt="Portrait of Andrés André Camargo Bertel"}](bio.qmd)
 
 :::
 
 ::: {.g-col-12 .g-col-md-7 .hero-right}
 
-<p align="center" style="font-size:2rem; font-weight:bold;">Andrés André Camargo Bertel</p>
+```{=html}
+<h1 class="home-name">Andrés André Camargo Bertel</h1>
+```
 
 <p align="center" style="font-size:1.4rem;">
 PhD Candidate in Mechanical Engineering\
@@ -75,15 +50,7 @@ Email: camargoaa@uninorte.edu.co
 [Full Bio](bio.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
-<p align="center" style="font-size:1.6rem;">
-<a href="https://scholar.google.com/citations?user=RTRoJm0AAAAJ" target="_blank" style="color:#05336B;" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&ensp;
-<a href="https://orcid.org/0000-0001-8192-8254" target="_blank" style="color:#05336B;" title="ORCID"><i class="ai ai-orcid"></i></a>&ensp;
-<a href="https://www.researchgate.net/profile/Andres-Camargo-Bertel" target="_blank" style="color:#05336B;" title="ResearchGate"><i class="ai ai-researchgate"></i></a>&ensp;
-<a href="https://www.scopus.com/authid/detail.uri?authorId=59319653100" target="_blank" style="color:#05336B;" title="Scopus"><i class="ai ai-scopus"></i></a>&ensp;
-<a href="https://www.webofscience.com/wos/author/record/GQB-3417-2022" target="_blank" style="color:#05336B;" title="Web of Science"><i class="ai ai-clarivate"></i></a>&ensp;
-<a href="https://github.com/camargo-aa" target="_blank" style="color:#05336B;" title="GitHub"><i class="fa-brands fa-github"></i></a>&ensp;
-<a href="https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b" target="_blank" style="color:#05336B;" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-</p>
+{{< include /files/includes/_social-icons.qmd >}}
 
 :::
 :::
@@ -94,10 +61,49 @@ Email: camargoaa@uninorte.edu.co
 ::: {.background-frame}
 ::: {.content-block}
 
-<p align="center" style="font-size:2rem; font-weight:bold;">Latest Papers</p>
+## Latest Papers {.home-section}
 
-:::{#latest-papers}
-:::
+```{=html}
+<div class="paper-cards-grid">
+
+<a href="posts/paper-2026-steel-industry-decarbonization/" class="paper-stack-card">
+<div class="paper-stack">
+<img class="p-a" src="files/images/papers/cover-steel.png" alt="Cover of the paper on decarbonizing the iron and steel industry in Latin America" loading="lazy">
+<img class="p-b" src="files/images/papers/pages/steel-1.png" alt="" loading="lazy">
+<img class="p-c" src="files/images/papers/pages/steel-2.png" alt="" loading="lazy">
+<img class="p-d" src="files/images/papers/pages/steel-3.png" alt="" loading="lazy">
+</div>
+<p class="ps-journal">Energy Research &amp; Social Science</p>
+<p class="ps-title">Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America</p>
+<p class="ps-year">2026</p>
+</a>
+
+<a href="posts/paper-2025-cement-decarbonization/" class="paper-stack-card">
+<div class="paper-stack">
+<img class="p-a" src="files/images/papers/cover-cement.png" alt="Cover of the paper on decarbonizing the cement industry in Latin America and the Caribbean" loading="lazy">
+<img class="p-b" src="files/images/papers/pages/cement-1.png" alt="" loading="lazy">
+<img class="p-c" src="files/images/papers/pages/cement-2.png" alt="" loading="lazy">
+<img class="p-d" src="files/images/papers/pages/cement-3.png" alt="" loading="lazy">
+</div>
+<p class="ps-journal">Energy Conversion and Management: X</p>
+<p class="ps-title">Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies</p>
+<p class="ps-year">2025</p>
+</a>
+
+<a href="posts/paper-2025-transport-electrification-colombia/" class="paper-stack-card">
+<div class="paper-stack">
+<img class="p-a" src="files/images/papers/cover-electrification.png" alt="Cover of the paper on electrification of passenger road transport in Colombia" loading="lazy">
+<img class="p-b" src="files/images/papers/pages/elec-1.png" alt="" loading="lazy">
+<img class="p-c" src="files/images/papers/pages/elec-2.png" alt="" loading="lazy">
+<img class="p-d" src="files/images/papers/pages/elec-3.png" alt="" loading="lazy">
+</div>
+<p class="ps-journal">Smart Energy</p>
+<p class="ps-title">Electrification of passenger road transport to support renewable energy integration: A case study of Colombia</p>
+<p class="ps-year">2025</p>
+</a>
+
+</div>
+```
 
 ::: {.button}
 [More papers](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
@@ -109,10 +115,33 @@ Email: camargoaa@uninorte.edu.co
 ::: {.background-frame .alt-background}
 ::: {.content-block}
 
-<p align="center" style="font-size:2rem; font-weight:bold;">Recent News</p>
+## Recent News {.home-section}
 
-:::{#recent-posts}
-:::
+```{=html}
+<div class="news-cards-grid">
+<a class="news-card" href="posts/2026-01-joined-upme/">
+<div class="news-card-logo"><img src="files/images/news/upme.png" alt="UPME logo" loading="lazy"></div>
+<div class="news-card-body">
+<p class="news-card-year">2026</p>
+<p class="news-card-title">Joined UPME as Energy Modeler</p>
+</div>
+</a>
+<a class="news-card" href="posts/2024-100k-clima-fellowship/">
+<div class="news-card-logo"><img src="files/images/news/fellowship.png" alt="100k-Clima Fellowship logo" loading="lazy"></div>
+<div class="news-card-body">
+<p class="news-card-year">2024</p>
+<p class="news-card-title">100k-Clima Fellowship at Penn State University</p>
+</div>
+</a>
+<a class="news-card" href="posts/2024-08-phd-scholarship/">
+<div class="news-card-logo"><img src="files/images/news/scholarship.jpg" alt="Minciencias logo" loading="lazy"></div>
+<div class="news-card-body">
+<p class="news-card-year">2024</p>
+<p class="news-card-title">Minciencias National PhD Scholarship</p>
+</div>
+</a>
+</div>
+```
 
 ::: {.button}
 [More news](posts.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}

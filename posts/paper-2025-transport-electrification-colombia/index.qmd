@@ -21,11 +21,15 @@ citation:
   page: 100217
   doi: "10.1016/j.segy.2025.100217"
   url: "https://doi.org/10.1016/j.segy.2025.100217"
+page1: "/files/images/papers/pages/elec-1.png"
+page2: "/files/images/papers/pages/elec-2.png"
+page3: "/files/images/papers/pages/elec-3.png"
 google-scholar: true
 ---
 
 ::: {.paper-meta}
-**Journal:** *Smart Energy* 20 (2025): 100217 &nbsp;•&nbsp; **DOI:** [10.1016/j.segy.2025.100217](https://doi.org/10.1016/j.segy.2025.100217){target="_blank"}
+**Journal:** *Smart Energy* 20 (2025): 100217\
+**DOI:** [10.1016/j.segy.2025.100217](https://doi.org/10.1016/j.segy.2025.100217){target="_blank"}
 :::
 
 <img src="/files/images/papers/transport.png" class="paper-figure" alt="Graphical reference for the paper">

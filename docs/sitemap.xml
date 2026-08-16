@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://camargo-aa.github.io/theses.html</loc>
-    <lastmod>2026-08-08T02:27:00.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://camargo-aa.github.io/research-group.html</loc>
-    <lastmod>2026-07-22T20:54:30.955Z</lastmod>
-  </url>
-  <url>
     <loc>https://camargo-aa.github.io/recognition.html</loc>
-    <lastmod>2026-07-22T14:35:08.133Z</lastmod>
+    <lastmod>2026-08-16T18:09:54.617Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/presentations.html</loc>
-    <lastmod>2026-07-22T20:54:30.953Z</lastmod>
+    <loc>https://camargo-aa.github.io/projects.html</loc>
+    <lastmod>2026-08-16T18:10:59.392Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/paper-2026-steel-industry-decarbonization/index.html</loc>
-    <lastmod>2026-08-10T05:07:56.078Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts.html</loc>
+    <lastmod>2026-08-16T18:09:29.160Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/paper-2025-cement-decarbonization/index.html</loc>
-    <lastmod>2026-08-10T05:07:53.854Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/paper-2025-transport-electrification-colombia/index.html</loc>
+    <lastmod>2026-08-16T18:17:14.721Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/2026-08-pen-2025-2055/index.html</loc>
-    <lastmod>2026-08-08T14:01:14.991Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/paper-2024-energy-modeling-tools/index.html</loc>
+    <lastmod>2026-08-16T18:17:02.886Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/2026-01-joined-upme/index.html</loc>
-    <lastmod>2026-07-22T20:54:30.960Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/2026-08-icr-cement/index.html</loc>
+    <lastmod>2026-08-16T13:29:04.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://camargo-aa.github.io/posts/2025-08-upme-data-analyst/index.html</loc>
+    <lastmod>2026-08-16T14:28:29.927Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/posts/2024-08-phd-scholarship/index.html</loc>
@@ -38,31 +34,23 @@
   </url>
   <url>
     <loc>https://camargo-aa.github.io/now.html</loc>
-    <lastmod>2026-07-22T20:54:30.953Z</lastmod>
+    <lastmod>2026-08-16T17:24:13.982Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/index.html</loc>
-    <lastmod>2026-07-22T20:54:30.951Z</lastmod>
+    <lastmod>2026-08-16T17:40:37.891Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/contact.html</loc>
-    <lastmod>2026-07-22T14:43:53.330Z</lastmod>
+    <lastmod>2026-08-16T18:16:34.119Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/bio.html</loc>
-    <lastmod>2026-07-22T20:54:30.949Z</lastmod>
+    <lastmod>2026-08-16T18:16:12.720Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/coming-soon.html</loc>
-    <lastmod>2026-07-22T14:44:20.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://camargo-aa.github.io/events.html</loc>
-    <lastmod>2026-07-22T20:54:30.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://camargo-aa.github.io/notes.html</loc>
-    <lastmod>2026-07-22T20:54:30.951Z</lastmod>
+    <lastmod>2026-08-16T19:46:05.725Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/other-publications.html</loc>
@@ -73,31 +61,35 @@
     <lastmod>2026-07-22T17:08:58.049Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/2026-08-icr-cement/index.html</loc>
-    <lastmod>2026-08-08T14:01:21.195Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/2026-01-joined-upme/index.html</loc>
+    <lastmod>2026-07-22T20:54:30.960Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/paper-2024-energy-modeling-tools/index.html</loc>
-    <lastmod>2026-08-10T05:07:51.779Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/2026-08-pen-2025-2055/index.html</loc>
+    <lastmod>2026-08-16T13:29:07.534Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts/paper-2025-transport-electrification-colombia/index.html</loc>
-    <lastmod>2026-08-10T05:07:54.911Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/paper-2025-cement-decarbonization/index.html</loc>
+    <lastmod>2026-08-16T18:17:09.014Z</lastmod>
   </url>
   <url>
-    <loc>https://camargo-aa.github.io/posts.html</loc>
-    <lastmod>2026-07-22T14:45:35.163Z</lastmod>
+    <loc>https://camargo-aa.github.io/posts/paper-2026-steel-industry-decarbonization/index.html</loc>
+    <lastmod>2026-08-16T18:17:28.054Z</lastmod>
+  </url>
+  <url>
+    <loc>https://camargo-aa.github.io/presentations.html</loc>
+    <lastmod>2026-08-16T18:11:09.307Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/publications.html</loc>
-    <lastmod>2026-07-22T20:09:06.109Z</lastmod>
+    <lastmod>2026-08-16T17:24:13.988Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/reports.html</loc>
-    <lastmod>2026-08-08T03:19:11.350Z</lastmod>
+    <lastmod>2026-08-16T17:57:58.290Z</lastmod>
   </url>
   <url>
     <loc>https://camargo-aa.github.io/teaching.html</loc>
-    <lastmod>2026-08-01T16:13:15.769Z</lastmod>
+    <lastmod>2026-08-16T17:24:13.990Z</lastmod>
   </url>
 </urlset>

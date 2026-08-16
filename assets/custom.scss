@@ -1,0 +1,976 @@
+/*-----------------------------------------------------------------------------
+  Design system for camargo-aa.github.io
+
+  This file is the single source of truth for color, type, spacing, shape and
+  elevation. It is built up in stages; see the section index below.
+
+    1. Color tokens          <- edit here to restyle the whole site
+    2. Type tokens
+    3. Bootstrap wiring      (not connected yet)
+    4. Tokens as CSS custom properties
+    5. Base / layout / components  (not migrated yet)
+
+  Rule: no raw hex value may appear outside section 1.
+-----------------------------------------------------------------------------*/
+
+/*-- scss:defaults --*/
+
+/* =========================================================================
+   1. COLOR  --  the only place raw colors are declared
+   ========================================================================= */
+
+// Palette: the site's original navy, a cool grey surface family, and a mint
+// accent from the reference kit. Every contrast figure below is measured.
+//
+// Surfaces are all one temperature on purpose. Two neutral temperatures on the
+// same screen -- a warm card on a cool band, or the reverse -- is what makes a
+// layout look muddy, so page, band, tint and card are all cool here.
+
+// Brand. The navy is the site's original blue, kept deliberately: it is
+// already on the CV and in the slides, so changing it would start a new
+// identity rather than tidy the existing one.
+$brand-primary:     #05336B;  // navbar, links, headings
+                              // 12.41 on white / 9.55 on card / 11.11 on band
+$brand-primary-lit: #0A4A96;  // link hover  8.63 on white, 6.65 on the card
+$brand-accent:      #48DDA7;  // mint: decoration only, never text.
+                              // Keep it under ~5% of the surface or the site
+                              // starts reading as a product, not a profile.
+$accent-soft:       #D9F5E8;  // icon badges, soft highlights
+
+// Semantic badge fills. The two light ones take the primary as their ink.
+$accent-invited:    #48DDA7;  // primary on this:  7.20:1
+$accent-thesis:     #E3EAF2;  // light navy tint
+
+// Surfaces -- one temperature throughout, cool, to sit with the navy.
+// Card and band are separated by 1.15, matching the separation the warm pair
+// had, so the cards still read as raised blocks rather than flat panels.
+$surface-page:      #FFFFFF;
+$surface-sunken:    #F7F8FA;  // homepage bands
+$surface-tint:      #E3EAF2;  // chips, meta boxes -- a light tint of the navy
+$card-fill:         #E5E9ED;  // filled content cards
+
+// Ink -- three steps. Each clears 4.5:1 on white, on the card and on the band.
+$ink-strong:        #282F37;  // 13.53 white / 11.09 card
+$ink-body:          #3B4650;  //  9.64 white
+$ink-muted:         #4E5A64;  //  7.07 white
+
+// Lines -- not text, so they only need to be visible
+$line-default:      #C2CAD2;  // timeline rail, logo boxes
+$line-subtle:       #DDE3E8;  // listing separators
+
+
+/* =========================================================================
+   2. TYPE
+   ========================================================================= */
+
+/* The site uses the theme's own typeface. Both tokens point at it, so any
+   component asking for --ff-serif or --ff-sans gets the same familiar face.
+   To try a display typeface later, change these two lines and nothing else. */
+
+
+/* =========================================================================
+   3. BOOTSTRAP WIRING  --  all derived from sections 1 and 2
+
+   Note: $primary drives body link color. It was cosmo's #2780e3 and is now
+   the brand navy, so in-text links match the navbar. Revert by setting
+   $primary back to #2780e3 on its own.
+   ========================================================================= */
+
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+$line-height-base:     1.6;
+
+$primary:          $brand-primary;
+$body-color:       $ink-body;
+$body-bg:          $surface-page;
+$border-color:     $line-default;
+$link-color:       $brand-primary;
+$link-hover-color: $brand-primary-lit;   // the accent is unreadable as text
+
+$border-radius:    8px;
+$border-radius-sm: 4px;
+$border-radius-lg: 8px;
+
+
+/*-- scss:rules --*/
+
+/* =========================================================================
+   4. TOKENS EXPOSED AS CSS CUSTOM PROPERTIES
+
+   Components read these, never the raw values. Declaring them costs nothing
+   visually: a custom property has no effect until something consumes it.
+   ========================================================================= */
+
+:root {
+  /* -- color ------------------------------------------------------------ */
+  --c-primary:        #{$brand-primary};
+  --c-primary-lit:    #{$brand-primary-lit};
+  --c-accent:         #{$brand-accent};
+  --c-accent-soft:    #{$accent-soft};
+  --c-invited:        #{$accent-invited};
+  --c-thesis:         #{$accent-thesis};
+
+  --c-surface:        #{$surface-page};
+  --c-surface-sunken: #{$surface-sunken};
+  --c-surface-tint:   #{$surface-tint};
+  --c-card-fill:      #{$card-fill};
+
+  --c-ink-strong:     #{$ink-strong};
+  --c-ink-body:       #{$ink-body};
+  --c-ink-muted:      #{$ink-muted};
+
+  /* Kept as aliases so components need no edits. The scale collapsed from
+     five steps to three because the two lightest failed contrast on sand. */
+  --c-ink-soft:       #{$ink-muted};
+  --c-ink-faint:      #{$ink-muted};
+
+  --c-line-subtle:    #{$line-subtle};
+  --c-line:           #{$line-default};
+
+  /* -- type: 6 steps, ratio 1.25 ---------------------------------------- */
+  --ff-serif:   var(--bs-body-font-family);
+  --ff-sans:    var(--bs-body-font-family);
+
+  --fs-display: 2rem;       /* hero name                              */
+  --fs-h1:      2rem;       /* page title                             */
+  --fs-h2:      1.5rem;     /* section title                          */
+  --fs-h3:      1.125rem;   /* subsection                             */
+  --fs-body:    1rem;       /* body copy                              */
+  --fs-meta:    0.875rem;   /* authors, journal, dates                */
+  --fs-micro:   0.75rem;    /* badges and labels: uppercase + tracking */
+
+  --tracking-caps: 0.06em;
+
+  /* -- spacing ----------------------------------------------------------- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --sp-9: 6rem;
+
+  /* -- shape: four radii, no more ---------------------------------------- */
+  --r-sheet:   3px;    /* stacked paper sheets only        */
+  --r-control: 6px;    /* buttons, badges, chips           */
+  --r-card:   16px;    /* content cards                    */
+  --r-round:   50%;    /* timeline dots, avatars           */
+
+  /* -- elevation: two levels, plus one for the paper effect -------------- */
+  --sh-rest:   0 2px 12px rgba(0, 0, 0, 0.07);
+  --sh-raised: 0 12px 32px rgba(0, 0, 0, 0.13);
+  --sh-sheet:  2px 3px 10px rgba(0, 0, 0, 0.22);
+
+  /* -- measure ----------------------------------------------------------- */
+  --w-site:  1120px;
+  --w-prose: 68ch;
+
+  /* -- paper stack sizes (see .c-stack, stage 3) ------------------------- */
+  --stack-lg: 148px;
+  --stack-md: 115px;
+  --stack-sm: 76px;
+
+  --ease: 0.18s ease;
+}
+
+
+/* =========================================================================
+   5. BASE
+   ========================================================================= */
+
+body {
+  color: var(--c-ink-body);
+  font-size: var(--fs-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--c-ink-strong);
+  letter-spacing: -0.01em;
+}
+
+/* Six steps replace the fifteen ad-hoc sizes the old stylesheets used */
+h1, h1.title { font-size: var(--fs-h1); }
+h2           { font-size: var(--fs-h2); }
+h3           { font-size: var(--fs-h3); }
+
+/* Years, counts and figures should line up in columns */
+.tl-year, .rec-year, .ps-year, .paper-doi, time {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* =========================================================================
+   6. LAYOUT
+
+   Navbar, content and footer share one width and are actually centered.
+   The previous rule used `margin-left: 0 auto`, which is invalid CSS: the
+   browser dropped both declarations, so these blocks were never centered.
+   ========================================================================= */
+
+.navbar .nav-container,
+.navbar .container-fluid,
+.page-footer {
+  max-width: var(--w-site);
+  margin: 0 auto;
+  float: none;
+}
+
+.navbar { width: 100%; }
+
+/* Homepage section bands. Content width matches the navbar exactly; it used
+   to be 1100px against the navbar's 1160px, so the brand never lined up with
+   the content below it. */
+.background-frame { padding-block: var(--sp-7); }
+
+.alt-background {
+  background-color: var(--c-surface-sunken);
+  border-top: 1px solid var(--c-line);
+  border-bottom: 1px solid var(--c-line);
+}
+
+.content-block {
+  padding-block: var(--sp-2);
+  margin-inline: var(--sp-5);
+}
+
+@media (min-width: 900px) {
+  .background-frame { padding-block: var(--sp-8); }
+  .content-block    { margin-inline: var(--sp-7); }
+}
+
+@media (min-width: 1200px) {
+  .content-block {
+    max-width: var(--w-site);
+    margin-inline: auto;
+  }
+}
+
+
+/* =========================================================================
+   7. COMPONENTS
+   ========================================================================= */
+
+/* -- 7.1 Paper stack --------------------------------------------------------
+   The site's visual signature, expressed once instead of three times.
+   Every measurement derives from --stack-w, so resizing is one variable:
+
+     sheet      w x (w * 1.4142)       ISO 216 proportion
+     offset     0.236w right, 0.19w up  per sheet
+     container  1.708w x 1.984w        exactly bounds four sheets
+
+   Set --stack-w on the container to pick a size.
+   ------------------------------------------------------------------------ */
+
+.c-stack,
+.paper-stack,
+.pub-stack,
+.rep-stack {
+  --stack-w: var(--stack-md);
+  position: relative;
+  flex-shrink: 0;
+  width:  calc(var(--stack-w) * 1.708);
+  height: calc(var(--stack-w) * 1.984);
+}
+
+.paper-stack {
+  --stack-w: var(--stack-lg);
+  margin: 0 auto var(--sp-5);
+}
+
+.c-stack img,
+.paper-stack img,
+.pub-stack img,
+.rep-stack img {
+  position: absolute;
+  width:  var(--stack-w);
+  height: calc(var(--stack-w) * 1.4142);
+  object-fit: cover;
+  object-position: top center;
+  border-radius: var(--r-sheet);
+  box-shadow: var(--sh-sheet);
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+/* Cover sits in front at lower-left; pages cascade to the upper-right */
+.c-stack img:nth-child(1), .paper-stack .p-a, .pub-stack .pub-a, .rep-stack .rep-a {
+  left: 0;
+  top: calc(var(--stack-w) * 0.57);
+  z-index: 4;
+}
+
+.c-stack img:nth-child(2), .paper-stack .p-b, .pub-stack .pub-b, .rep-stack .rep-b {
+  left: calc(var(--stack-w) * 0.236);
+  top:  calc(var(--stack-w) * 0.38);
+  z-index: 3;
+}
+
+.c-stack img:nth-child(3), .paper-stack .p-c, .pub-stack .pub-c, .rep-stack .rep-c {
+  left: calc(var(--stack-w) * 0.472);
+  top:  calc(var(--stack-w) * 0.19);
+  z-index: 2;
+}
+
+.c-stack img:nth-child(4), .paper-stack .p-d, .pub-stack .pub-d, .rep-stack .rep-d {
+  left: calc(var(--stack-w) * 0.708);
+  top:  0;
+  z-index: 1;
+}
+
+.paper-thumb:hover .pub-stack img,
+.report-cover a:hover .rep-stack img {
+  transform: scale(1.03);
+  filter: brightness(1.04);
+}
+
+@media (max-width: 620px) {
+  .pub-stack,
+  .rep-stack { --stack-w: 92px; }
+}
+
+
+/* -- 7.2 Card ---------------------------------------------------------------
+   One card shape for the whole site, taken from the homepage: a filled block
+   with generous rounding and a soft shadow. No outline, no accent rule -- the
+   filled shape is what makes it read as a card, and the extra trim only made
+   it busier. The fill is a token, so the colour phase changes one line.
+   ------------------------------------------------------------------------ */
+
+.c-card,
+.now-card,
+.contact-card,
+.course-card,
+.paper-stack-card,
+.news-card {
+  background: var(--c-card-fill);
+  border: none;
+  border-radius: var(--r-card);
+  box-shadow: var(--sh-rest);
+}
+
+/* Clickable cards lift 2px, not 6 */
+.paper-stack-card,
+.news-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: inherit;
+  transition: transform var(--ease), box-shadow var(--ease);
+}
+
+.paper-stack-card:hover,
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sh-raised);
+  color: inherit;
+}
+
+.paper-stack-card {
+  padding: var(--sp-6) var(--sp-4) var(--sp-5);
+  text-align: center;
+  align-items: center;
+}
+
+
+/* -- 7.3 Coming soon --------------------------------------------------------
+   Quiet placeholder: a section that does not exist yet should read as a
+   deliberate gap, not as a broken page shouting for attention.
+   ------------------------------------------------------------------------ */
+
+.c-soon {
+  text-align: center;
+  padding: var(--sp-9) var(--sp-4);
+  max-width: 38rem;
+  margin-inline: auto;
+}
+
+.c-soon-icon {
+  font-size: 2.25rem;
+  color: var(--c-primary);
+  opacity: 0.3;
+  margin-bottom: var(--sp-5);
+}
+
+.c-soon-label {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--c-ink-soft);
+  margin-bottom: var(--sp-3);
+}
+
+.c-soon-text {
+  font-size: var(--fs-body);
+  color: var(--c-ink-muted);
+  line-height: 1.6;
+  margin-bottom: var(--sp-6);
+}
+
+
+/* -- 7.4 Buttons ------------------------------------------------------------
+   Squared, not pill: the 30px radius was the last trace of the source
+   template and clashed with the editorial card language.
+   ------------------------------------------------------------------------ */
+
+.btn-action {
+  min-width: 165px;
+  border-radius: var(--r-control);
+  border: none;
+}
+
+.btn-action-primary,
+.btn-action-primary:hover {
+  color: #fff;
+  background-color: var(--c-primary) !important;
+}
+
+.button { text-align: center; padding-bottom: var(--sp-3); }
+
+/* Outline button. Contact, Now and Teaching each had their own copy of this. */
+.c-btn-outline,
+.now-cta,
+.contact-email,
+.course-btn {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--c-primary);
+  border-radius: var(--r-control);
+  font-family: var(--ff-sans);
+  font-size: var(--fs-meta);
+  font-weight: 600;
+  color: var(--c-primary) !important;
+  background: transparent;
+  text-decoration: none !important;
+  transition: background var(--ease), color var(--ease);
+}
+
+.c-btn-outline:hover,
+.now-cta:hover,
+.contact-email:hover,
+.course-btn:hover {
+  background: var(--c-primary);
+  color: #fff !important;
+}
+
+.contact-email { display: inline-flex; align-items: center; gap: var(--sp-2); }
+
+/* Subsection heading. No accent rule: the label carries itself, and the trim
+   only competed with the card it sat inside. */
+.c-rule-heading,
+.hero-right h3,
+.now-card h3 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--c-ink-strong);
+  margin-top: var(--sp-6);
+  margin-bottom: var(--sp-3);
+}
+
+.now-card h3 { margin-top: 0; color: var(--c-primary); }
+
+/* Bio: Education and Experience sit in cards, so the right-hand column reads
+   as prose followed by two structured blocks rather than one flat run. */
+.bio-block {
+  padding: var(--sp-5) var(--sp-6);
+  margin-bottom: var(--sp-5);
+}
+
+.bio-block h3  { margin-top: 0; }
+.bio-block ul  { padding-left: var(--sp-5); margin-bottom: 0; }
+.bio-block li  { font-size: var(--fs-meta); line-height: 1.55; margin-bottom: var(--sp-3); }
+.bio-block li:last-child { margin-bottom: 0; }
+
+
+/* -- 7.4c Hero (homepage and bio share this) -------------------------------- */
+
+.hero-section { margin-bottom: var(--sp-6); align-items: stretch; }
+
+.hero-left img { border-radius: var(--r-control); }
+
+.hero-name {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-display);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--c-ink-strong);
+  margin-bottom: var(--sp-2);
+}
+
+.hero-affil {
+  font-size: var(--fs-body);
+  color: var(--c-ink-soft);
+  line-height: 1.5;
+  margin-bottom: var(--sp-5);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-5);
+}
+
+.c-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-4);
+  font-size: 1.35rem;
+  margin: 0;
+}
+
+.c-social a {
+  color: var(--c-primary);
+  text-decoration: none;
+  transition: opacity var(--ease);
+}
+
+.c-social a:hover { opacity: 0.65; }
+
+
+/* -- 7.5 Homepage grids ---------------------------------------------------- */
+
+.paper-cards-grid,
+.news-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-5);
+  margin: var(--sp-5) 0 var(--sp-6);
+}
+
+.ps-journal { font-size: var(--fs-meta);  font-weight: 700; color: var(--c-primary);    margin: 0 0 var(--sp-2); line-height: 1.3;  }
+.ps-title   { font-size: var(--fs-meta);  color: var(--c-ink-muted); margin: 0 0 var(--sp-2); line-height: 1.45; }
+.ps-year    { font-size: var(--fs-meta);  color: var(--c-ink-faint); margin: 0; }
+
+.news-card-logo {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-4);
+  background: var(--c-surface);
+  border-bottom: 1px solid var(--c-line-subtle);
+}
+
+.news-card-logo img { max-width: 100%; max-height: 80px; object-fit: contain; }
+.news-card-body     { padding: var(--sp-3) var(--sp-4) var(--sp-4); flex: 1; }
+.news-card-year     { font-size: var(--fs-micro); font-weight: 700; color: var(--c-primary); letter-spacing: 0.04em; margin-bottom: var(--sp-1); }
+.news-card-title    { font-size: var(--fs-meta);  font-weight: 500; color: var(--c-ink-body); line-height: 1.45; }
+
+@media (max-width: 768px) {
+  .paper-cards-grid { grid-template-columns: 1fr; max-width: 320px; margin-inline: auto; }
+}
+
+@media (max-width: 700px) {
+  .news-cards-grid { grid-template-columns: 1fr; }
+}
+
+
+/* -- 7.6 Timeline -----------------------------------------------------------
+   News and Awards were two near-identical implementations with dot sizes that
+   drifted apart (10px vs 12px vs 36px). One implementation, one scale.
+   ------------------------------------------------------------------------ */
+
+/* Geometry note: every dot is centered on the rail by construction.
+   A dot's ::before sits inside a box that starts at --rail-pad, so offsetting
+   it by (--rail-x - --rail-pad - half the dot) puts its center exactly on
+   --rail-x, which is also where the line is drawn. Change the dot sizes or
+   the indent and the alignment still holds. */
+.tl-wrap,
+.rec-wrap {
+  --rail-x:   0.6rem;   /* horizontal center of the vertical line */
+  --rail-pad: 2.5rem;   /* text indent from the left edge         */
+  --dot-year: 10px;
+  --dot-item: 12px;
+  --rec-icon: 40px;
+
+  position: relative;
+  margin-top: var(--sp-6);
+  padding-left: var(--rail-pad);
+}
+
+.tl-wrap::before,
+.rec-wrap::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--rail-x) - 1px);
+  top: 0.4rem;
+  bottom: 0;
+  width: 2px;
+  background: var(--c-line);
+}
+
+.tl-year,
+.rec-year {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--c-primary);
+  margin-bottom: var(--sp-5);
+  position: relative;
+}
+
+.tl-year::before,
+.rec-year::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--rail-x) - var(--rail-pad) - var(--dot-year) / 2);
+  top: 50%;
+  transform: translateY(-50%);
+  width:  var(--dot-year);
+  height: var(--dot-year);
+  border-radius: var(--r-round);
+  background: var(--c-primary);
+}
+
+.tl-item,
+.rec-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-6);
+  position: relative;
+}
+
+.tl-item::before,
+.rec-item::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--rail-x) - var(--rail-pad) - var(--dot-item) / 2);
+  width:  var(--dot-item);
+  height: var(--dot-item);
+  border-radius: var(--r-round);
+  background: var(--c-surface);
+  border: 2.5px solid var(--c-primary);
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+/* Each dot also centers vertically on the thing beside it: the 160px logo
+   box on News, the 40px icon badge on Awards. */
+.tl-item::before  { top: 80px; }
+.rec-item::before { top: calc(var(--rec-icon) / 2); }
+
+/* Closing marker: the rail ends on a dot instead of trailing off as a bare
+   line. The line runs to bottom: 0 of the wrap, so the wrap has to end at the
+   dot. Height is 1px rather than 0 on purpose: a zero-height block with no
+   padding or in-flow content lets the previous item's bottom margin collapse
+   straight through it and out of the wrap, which left the line stopping short
+   of the dot. One pixel of height keeps that margin inside. */
+.tl-close {
+  position: relative;
+  height: 1px;
+}
+
+.tl-close::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--rail-x) - var(--rail-pad) - var(--dot-year) / 2);
+  top: 0;
+  transform: translateY(-50%);
+  width:  var(--dot-year);
+  height: var(--dot-year);
+  border-radius: var(--r-round);
+  background: var(--c-primary);
+}
+
+/* Muted, because this year is a boundary rather than a section with content */
+.tl-close-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+  font-family: var(--ff-sans);
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--c-ink-faint);
+  white-space: nowrap;
+}
+
+.tl-logo {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-control);
+  background: var(--c-surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.tl-logo img { width: 100%; height: 100%; object-fit: contain; }
+
+.tl-date    { font-size: var(--fs-meta); color: var(--c-ink-soft); margin-bottom: var(--sp-1); }
+.tl-title   { font-size: var(--fs-body); font-weight: 500; margin-bottom: var(--sp-1); line-height: 1.35; }
+.tl-title a { color: inherit; text-decoration: none; }
+.tl-title a:hover { color: var(--c-primary); }
+.tl-desc    { font-size: var(--fs-meta); color: var(--c-ink-muted); line-height: 1.5; margin: 0; }
+
+.rec-icon {
+  flex-shrink: 0;
+  width:  var(--rec-icon);
+  height: var(--rec-icon);
+  border-radius: var(--r-round);
+  background: var(--c-accent-soft);
+  border: 1px solid var(--c-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-primary);
+  font-size: var(--fs-meta);
+}
+
+.rec-body        { padding-top: 0.05rem; }
+.rec-title       { font-size: var(--fs-body); font-weight: 600; line-height: 1.35; margin-bottom: var(--sp-1); }
+.rec-institution { font-size: var(--fs-meta); color: var(--c-ink-soft); margin: 0; }
+
+@media (max-width: 576px) {
+  /* Narrowing the indent is enough; the dots re-center off --rail-pad. */
+  .tl-wrap, .rec-wrap { --rail-pad: 2rem; }
+  .tl-logo { width: 100px; height: 100px; }
+  .tl-item::before { top: 50px; }   /* half of the 100px logo */
+}
+
+
+/* -- 7.7 Listings: publications, reports, theses ---------------------------- */
+
+.paper-listing,
+.report-listing {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+  margin-top: var(--sp-4);
+}
+
+.paper-card,
+.report-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--sp-5);
+  align-items: start;
+  padding-bottom: var(--sp-5);
+  border-bottom: 1px solid var(--c-line-subtle);
+}
+
+.paper-thumb,
+.report-cover   { width: 220px; flex-shrink: 0; display: block; }
+.report-cover a { display: block; text-decoration: none; }
+
+.paper-title,
+.report-title {
+  display: block;
+  font-family: var(--ff-serif);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--c-primary);
+  text-decoration: none;
+  margin: 0 0 var(--sp-2);
+}
+
+a.paper-title:hover,
+a.report-title:hover { text-decoration: underline; }
+
+.paper-authors,
+.paper-journal,
+.report-institution { font-size: var(--fs-meta); color: var(--c-ink-muted); margin: var(--sp-1) 0; }
+
+.report-role        { font-size: var(--fs-meta); color: var(--c-ink-soft);  margin: var(--sp-1) 0 0; }
+.report-description { font-size: var(--fs-meta); color: var(--c-ink-body);  margin: var(--sp-3) 0 0; line-height: 1.55; }
+.report-status      { font-size: var(--fs-meta); color: var(--c-ink-faint); margin: var(--sp-2) 0 0; font-style: italic; }
+
+.paper-doi { margin: var(--sp-2) 0 0; font-size: var(--fs-meta); }
+
+.paper-doi-label {
+  display: inline-block;
+  background: var(--c-surface-tint);
+  color: var(--c-primary);
+  font-weight: 700;
+  padding: 0.05rem 0.4rem;
+  border-radius: var(--r-control);
+  margin-right: var(--sp-1);
+}
+
+/* Badges */
+.paper-badge,
+.report-badge {
+  display: inline-block;
+  font-family: var(--ff-sans);
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--r-control);
+  margin-bottom: var(--sp-2);
+  background: var(--c-primary);
+  color: #fff;
+}
+
+/* White text only survives on the dark primary. The two light badge fills
+   take the primary as their ink instead. */
+.badge-institutional { background: var(--c-primary); color: #fff; }
+.badge-invited       { background: var(--c-invited); color: var(--c-primary); }
+.badge-thesis        { background: var(--c-thesis);  color: var(--c-primary); }
+
+/* Pandoc wraps bare <img>/<a> in <p>; zero their default margin */
+.report-cover p,
+.report-links p { margin: 0; }
+
+.report-links { margin-top: var(--sp-3); display: flex; gap: var(--sp-2); flex-wrap: wrap; }
+
+.report-link {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--c-surface-tint);
+  color: var(--c-primary) !important;
+  padding: 0.2rem 0.75rem;
+  border-radius: var(--r-control);
+  text-decoration: none !important;
+  transition: background var(--ease), color var(--ease);
+}
+
+.report-link:hover { background: var(--c-primary); color: #fff !important; }
+
+/* Placeholder used when a real cover image does not exist yet */
+.cover-placeholder {
+  width: 160px;
+  aspect-ratio: 210 / 297;
+  border-radius: var(--r-control);
+  box-shadow: var(--sh-rest);
+  border: 1px solid var(--c-line);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+}
+
+.cover-placeholder-logo  { font-size: var(--fs-h3); font-weight: 900; letter-spacing: 0.04em; text-align: center; }
+.cover-placeholder-label { font-size: 0.60rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; text-align: center; padding: 0 var(--sp-3); opacity: 0.65; }
+
+/* Backgrounds come from the palette; the ink is always the primary, since the
+   palette's own tones are too light to read as text. */
+.cover-placeholder.upme   { background: var(--c-surface-tint); }
+.cover-placeholder.icr    { background: var(--c-card-fill); }
+.cover-placeholder.thesis { background: var(--c-accent-soft); }
+
+.cover-placeholder-logo,
+.cover-placeholder-label { color: var(--c-primary); }
+
+@media (max-width: 620px) {
+  .paper-card, .report-card { grid-template-columns: 1fr; }
+  .report-cover, .cover-placeholder { width: 120px; }
+}
+
+
+/* -- 7.8 Now / Contact / Teaching ------------------------------------------ */
+
+.now-cards   { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-5); margin-top: var(--sp-5); }
+.now-card    { padding: var(--sp-5) var(--sp-6); }
+.now-card ul { padding-left: var(--sp-5); margin-bottom: var(--sp-4); }
+.now-card li { font-size: var(--fs-meta); line-height: 1.55; margin-bottom: var(--sp-2); }
+
+.contact-wrap  { display: flex; justify-content: center; margin-top: var(--sp-6); }
+.contact-card  { width: 100%; max-width: 480px; padding: var(--sp-6); text-align: center; }
+.contact-name  { font-family: var(--ff-serif); font-size: var(--fs-h3); font-weight: 600; margin-bottom: var(--sp-1); }
+.contact-role  { font-size: var(--fs-meta); color: var(--c-ink-muted); margin-bottom: var(--sp-1); }
+.contact-inst  { font-size: var(--fs-meta); color: var(--c-ink-soft);  margin-bottom: var(--sp-5); }
+.contact-icons { display: flex; justify-content: center; gap: var(--sp-4); font-size: 1.4rem; margin-top: var(--sp-5); }
+.contact-icons a { color: var(--c-primary); text-decoration: none; transition: opacity var(--ease); }
+.contact-icons a:hover { opacity: 0.65; }
+
+.course-card  { display: flex; align-items: stretch; overflow: hidden; margin-bottom: var(--sp-5); }
+.course-img   { flex-shrink: 0; width: 220px; object-fit: cover; }
+.course-body  { padding: var(--sp-5) var(--sp-6); display: flex; flex-direction: column; justify-content: space-between; }
+.course-label { font-family: var(--ff-sans); font-size: var(--fs-micro); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--c-primary); margin-bottom: var(--sp-2); }
+.course-title { font-family: var(--ff-serif); font-size: var(--fs-h3); font-weight: 600; margin-bottom: var(--sp-2); line-height: 1.3; }
+.course-desc  { font-size: var(--fs-meta); color: var(--c-ink-muted); line-height: 1.55; margin-bottom: var(--sp-4); }
+.course-btn   { align-self: flex-start; }
+
+@media (max-width: 768px) { .now-cards  { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .course-card { flex-direction: column; }
+  .course-img  { width: 100%; height: 180px; }
+}
+
+
+/* -- 7.9 Paper detail page -------------------------------------------------- */
+
+.paper-meta {
+  background: var(--c-surface-tint);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--r-control);
+  margin-bottom: var(--sp-5);
+  font-size: var(--fs-meta);
+}
+
+.paper-figure {
+  border-radius: var(--r-control);
+  margin: var(--sp-2) auto var(--sp-5);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+
+/* Listing thumbnails and logos: show the whole figure, never crop */
+.thumbnail-image,
+.card-img-top,
+.quarto-grid-item .card-img-top {
+  object-fit: contain !important;
+  background: var(--c-surface);
+}
+
+#quarto-appendix { display: none; }
+
+
+/* =========================================================================
+   8. EMBEDS
+
+   `.container` used to be redefined for a 4:3 iframe wrapper, which collides
+   with the Bootstrap layout class Quarto's own templates rely on. Renamed.
+   ========================================================================= */
+
+.c-embed-4x3,
+.pdf-wrapper-16x9,
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.c-embed-4x3     { padding-top: 75%; }
+.pdf-wrapper-16x9,
+.video-container { padding-top: 56.25%; }
+
+.c-embed-4x3 iframe,
+.pdf-wrapper-16x9 iframe,
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+span.__dimensions_badge_embed__,
+div.altmetric-embed { display: inline-flex; vertical-align: middle; }

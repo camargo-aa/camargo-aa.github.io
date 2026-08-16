@@ -1,17 +1,69 @@
 ---
-title: "Recognition"
+title: "Awards"
 subtitle: "Awards, scholarships, and honors"
 description-meta: "Awards, scholarships, and honors received by Andrés André Camargo Bertel"
 title-block-banner: false
+toc: false
 ---
 
-| Year | Recognition | Awarded by |
-|:----:|:------------|:-----------|
-| 2024 | Best Adjunct Professor Award | Universidad del Norte |
-| 2024 | 100k-Clima Fellowship | Penn State University |
-| 2024 | National PhD Scholarship (Call 933) | Minciencias |
-| 2022 | Julio Muvdi Master's Scholarship | Universidad del Norte |
-| 2022 | Academic Excellence Recognition | Universidad del Norte |
-| 2016 | "Ser Pilo Paga" National Scholarship | Ministry of National Education (Mineducación) |
+```{=html}
+<div class="rec-wrap">
 
-: {.striped .hover tbl-colwidths="[12,58,30]"}
+  <div class="rec-year">2024</div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">Best adjunct professor award</div>
+      <p class="rec-institution">Universidad del Norte</p>
+    </div>
+  </div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-earth-americas"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">100k-Clima fellowship</div>
+      <p class="rec-institution">Penn State University</p>
+    </div>
+  </div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">National PhD scholarship (Call 933)</div>
+      <p class="rec-institution">Minciencias</p>
+    </div>
+  </div>
+
+  <div class="rec-year">2022</div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">Julio Muvdi master's scholarship</div>
+      <p class="rec-institution">Universidad del Norte</p>
+    </div>
+  </div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-star"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">Academic excellence recognition</div>
+      <p class="rec-institution">Universidad del Norte</p>
+    </div>
+  </div>
+
+  <div class="rec-year">2016</div>
+
+  <div class="rec-item">
+    <div class="rec-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div class="rec-body">
+      <div class="rec-title">"Ser Pilo Paga" national scholarship</div>
+      <p class="rec-institution">Ministry of National Education (Mineducación)</p>
+    </div>
+  </div>
+
+  <div class="tl-close"><span class="tl-close-label">2015</span></div>
+
+</div>
+```

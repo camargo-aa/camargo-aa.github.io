@@ -1,47 +1,13 @@
-/* css styles */
+/* Site-wide styles now live in assets/custom.scss, compiled by Quarto as a
+   theme layer (see `theme:` in _quarto.yml).
 
-/* Make navbar, content, and footer have the same max-width and center them */
-.navbar .nav-container, 
-.navbar .container-fluid,
-.page-footer {
-    max-width: 1160px; /* Match body width */
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    float: none;
-  }
+   Everything that used to be here moved there and is expressed in design
+   tokens instead of hardcoded values:
 
-/* Ensure the background color covers the whole screen */
-.navbar {
-  width: 100%;
-}
+     navbar / footer width and centering  -> custom.scss section 6
+     listing thumbnails (.thumbnail-image) -> custom.scss section 7.9
+     .paper-meta, .paper-figure            -> custom.scss section 7.9
+     #quarto-appendix                      -> custom.scss section 7.9
 
-/* Listing/card images (home grids + news list): show full figure/logo, no crop */
-.thumbnail-image,
-.card-img-top,
-.quarto-grid-item .card-img-top {
-  object-fit: contain !important;
-  background: #ffffff;
-}
-
-/* Paper detail page: DOI meta box + reference figure (loaded site-wide) */
-.paper-meta {
-  background: #eef2f7;
-  border-left: 4px solid #05336B;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  margin-bottom: 1.25rem;
-  font-size: 0.95rem;
-}
-
-.paper-figure {
-  border-radius: 8px;
-  margin: 0.5rem auto 1.5rem;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  display: block;
-}
-
-#quarto-appendix {
-  display: none;
-}
+   This file is kept as a hook for one-off overrides that should apply to
+   every page without going through the theme. It is intentionally empty. */

@@ -4,11 +4,14 @@ subtitle: "Conferences, seminars, and webinars"
 description-meta: "Events, coming soon."
 title-block-banner: false
 toc: false
+# Removed from the navbar: an empty section should not occupy a nav slot.
+# Delete this line to bring it back.
+draft: true
 ---
 
 ::: {style="text-align:center; padding: 3rem 1rem;"}
 
-<i class="fa-regular fa-calendar-check" style="font-size:3rem; color:#05336B;"></i>
+<i class="fa-regular fa-calendar-check" style="font-size:3rem; color:var(--c-primary);"></i>
 
 ## Coming soon
 

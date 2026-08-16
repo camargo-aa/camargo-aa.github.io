@@ -3,11 +3,14 @@ title: "Research Group"
 description-meta: "Research group, coming soon."
 title-block-banner: false
 toc: false
+# Removed from the navbar; UREMA is referenced from the Bio instead.
+# Delete this line to bring it back.
+draft: true
 ---
 
 ::: {style="text-align:center; padding: 3rem 1rem;"}
 
-<i class="fa-solid fa-people-group" style="font-size:3rem; color:#05336B;"></i>
+<i class="fa-solid fa-people-group" style="font-size:3rem; color:var(--c-primary);"></i>
 
 ## Coming soon
 

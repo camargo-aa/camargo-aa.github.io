@@ -1,0 +1,9 @@
+---
+title: "Joined UPME as an energy data analyst"
+description: "Started building energy sector indicators for Colombia's national planning at the National Mining and Energy Planning Unit."
+date: "2025-08-01"
+categories: [news]
+image: "/files/images/news/upme.png"
+---
+
+I joined the National Mining and Energy Planning Unit (**UPME**) as an energy data analyst, contributing to the construction of key indicators for Colombia's energy sector to support national planning and policy decision-making.

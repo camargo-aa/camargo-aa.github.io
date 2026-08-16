@@ -1,101 +1,80 @@
 [
   {
-    "objectID": "theses.html",
-    "href": "theses.html",
-    "title": "Theses",
-    "section": "",
-    "text": "Master’s Thesis The role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis\n\nCamargo-Bertel, A. A. Universidad del Norte, Barranquilla, Colombia, 2024.\n\n\nAdvisors: Prof. Dr. Ing. Oscar Pupo Roncallo and Prof. Dr. Ing. Arturo González Quiroga.\n\n\nThis study evaluates the impact of passenger road transport electrification on the integration of non-conventional renewable energy sources and greenhouse gas (GHG) mitigation in Colombia’s energy system toward 2030 and 2050, modeled using EnergyPLAN. Results show that increased EV adoption reduces GHG emissions by 4.2% by 2030 and 15% by 2050 under projected national scenarios, with a fully electrified fleet achieving reductions of up to 35% by 2050.\n\n\nRepository"
-  },
-  {
-    "objectID": "research-group.html",
-    "href": "research-group.html",
-    "title": "Research Group",
-    "section": "",
-    "text": "I am building a research group focused on energy systems modeling and the low-carbon transition in Latin America. Details will be shared here soon.\nIn the meantime, I am a member of the UREMA Research Unit at Universidad del Norte.\n← Back to home"
-  },
-  {
-    "objectID": "research-group.html#coming-soon",
-    "href": "research-group.html#coming-soon",
-    "title": "Research Group",
-    "section": "",
-    "text": "I am building a research group focused on energy systems modeling and the low-carbon transition in Latin America. Details will be shared here soon.\nIn the meantime, I am a member of the UREMA Research Unit at Universidad del Norte.\n← Back to home"
-  },
-  {
     "objectID": "recognition.html",
     "href": "recognition.html",
-    "title": "Recognition",
+    "title": "Awards",
     "section": "",
-    "text": "Year\nRecognition\nAwarded by\n\n\n\n\n2024\nBest Adjunct Professor Award\nUniversidad del Norte\n\n\n2024\n100k-Clima Fellowship\nPenn State University\n\n\n2024\nNational PhD Scholarship (Call 933)\nMinciencias\n\n\n2022\nJulio Muvdi Master’s Scholarship\nUniversidad del Norte\n\n\n2022\nAcademic Excellence Recognition\nUniversidad del Norte\n\n\n2016\n“Ser Pilo Paga” National Scholarship\nMinistry of National Education (Mineducación)"
+    "text": "2024\n\n  \n    \n    \n      Best adjunct professor award\n      Universidad del Norte\n    \n  \n\n  \n    \n    \n      100k-Clima fellowship\n      Penn State University\n    \n  \n\n  \n    \n    \n      National PhD scholarship (Call 933)\n      Minciencias\n    \n  \n\n  2022\n\n  \n    \n    \n      Julio Muvdi master's scholarship\n      Universidad del Norte\n    \n  \n\n  \n    \n    \n      Academic excellence recognition\n      Universidad del Norte\n    \n  \n\n  2016\n\n  \n    \n    \n      \"Ser Pilo Paga\" national scholarship\n      Ministry of National Education (Mineducación)\n    \n  \n\n  2015"
   },
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "My talks, conference presentations, and posters will be listed here soon.\n← Back to home"
+    "text": "Coming soon\n\n\nHere I will share the energy models, scripts, and analysis tools behind my research. This includes EnergyPLAN and OSeMOSYS setups, scenario builders, and the Python and R code I use to process and visualize energy system data. I am currently organizing them into documented repositories.\n\n← Back to home"
   },
   {
-    "objectID": "presentations.html#coming-soon",
-    "href": "presentations.html#coming-soon",
-    "title": "Presentations",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "News",
     "section": "",
-    "text": "My talks, conference presentations, and posters will be listed here soon.\n← Back to home"
+    "text": "2026\n\n  \n    \n      \n    \n    \n      January 2026\n      Joined UPME as an energy modeler\n      Contributing to Colombia's National Energy Plan 2025–2055 as the transport-sector modeler at the National Mining and Energy Planning Unit.\n    \n  \n\n  2025\n\n  \n    \n      \n    \n    \n      August 2025\n      Joined UPME as an energy data analyst\n      Started working at Colombia's National Mining and Energy Planning Unit, supporting energy data analysis for national planning.\n    \n  \n\n  2024\n\n  \n    \n      \n    \n    \n      September 2024\n      Selected for the 100k-Clima fellowship at Penn State University\n      A program supporting research collaboration and academic exchange on climate and energy topics.\n    \n  \n\n  \n    \n      \n    \n    \n      August 2024\n      Awarded the Minciencias national PhD scholarship\n      Selected for Colombia's national PhD scholarship (Call 933) to pursue a PhD in Mechanical Engineering at Universidad del Norte.\n    \n  \n\n  2023"
   },
   {
-    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html",
-    "href": "posts/paper-2026-steel-industry-decarbonization/index.html",
-    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
+    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html",
+    "href": "posts/paper-2025-transport-electrification-colombia/index.html",
+    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
     "section": "",
-    "text": "Journal: Energy Research & Social Science (2026)  •  DOI: 10.1016/j.erss.2026.104711"
+    "text": "Journal: Smart Energy 20 (2025): 100217\nDOI: 10.1016/j.segy.2025.100217"
   },
   {
-    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html#abstract",
-    "href": "posts/paper-2026-steel-industry-decarbonization/index.html#abstract",
-    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
+    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html#abstract",
+    "href": "posts/paper-2025-transport-electrification-colombia/index.html#abstract",
+    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
     "section": "Abstract",
-    "text": "Abstract\nDecarbonizing iron and steel production in emerging industrial regions depends not only on the availability of low-carbon technologies but also on institutional, market, and governance conditions that enable their deployment. Despite increasing global attention to industrial decarbonization, Latin America remains underexamined, even as its steel sector faces mounting pressures from trade exposure, infrastructure constraints, and uneven policy capacity. This article develops a comparative sociotechnical assessment of decarbonization strategies, implementation barriers, and policy instruments shaping the transition to low-carbon steel production across the region’s major producers. The study combines a benchmarking analysis of production structures, emissions performance, and energy configurations with a systematic review of scientific and gray literature. This approach situates technological pathways within the political economy contexts that condition their feasibility. The findings indicate that while a diverse portfolio of mitigation options exists (including electrification, expansion of scrap-based production, alternative reducing agents, and carbon management technologies), deployment is constrained by fragmented regulatory environments, limited Monitoring, Reporting and Verification capacity, weak policy credibility, and territorial asymmetries that affect investment incentives and workforce transitions. The study further shows that the effectiveness of policy instruments depends less on formal adoption than on the institutional conditions under which they operate. By demonstrating how sociotechnical factors mediate the translation of global decarbonization roadmaps into regionally viable transition pathways, this comparative case study contributes key evidence on the challenges of decarbonizing steel production in emerging industrial economies."
+    "text": "Abstract\nTransport electrification powered by renewable energy (RE) is a key strategy for reducing greenhouse gas (GHG) emissions and decarbonizing energy systems. However, integrating large numbers of electric vehicles (EVs) presents technical and planning challenges, particularly in hydropower-dependent countries exposed to climate variability. This study assesses the environmental, technical, and economic implications of passenger transport electrification combined with variable RE integration in Colombia, using an hourly EnergyPLAN model for 2030 and 2050. The analysis examines alternative EV penetration pathways, renewable expansion targets, and hydroclimatic conditions associated with La Niña and El Niño-Southern Oscillation (ENSO). Full electrification by 2050 is projected to reduce total system emissions by about 35% and costs by 40%, while a 2030 scenario aligned with national targets (600,000 EVs) achieves reductions of 8.7% and 3.5%, respectively. ENSO variability strongly influences these outcomes: El Niño could increase emissions by up to 38% due to reduced hydropower availability, whereas La Niña could reduce them by 14%. Rising electricity demand from transport enhances flexibility when coupled with renewable expansion, though reliability depends on the generation mix and infrastructure. Although focused on Colombia, the framework and findings provide insights for other hydro-dependent emerging economies pursuing lower emissions, reduced costs, and greater resilience under climate uncertainty."
   },
   {
-    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html#acknowledgements",
-    "href": "posts/paper-2026-steel-industry-decarbonization/index.html#acknowledgements",
-    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
+    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html#acknowledgements",
+    "href": "posts/paper-2025-transport-electrification-colombia/index.html#acknowledgements",
+    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023."
   },
   {
-    "objectID": "posts/paper-2025-cement-decarbonization/index.html",
-    "href": "posts/paper-2025-cement-decarbonization/index.html",
-    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
+    "objectID": "posts/paper-2024-energy-modeling-tools/index.html",
+    "href": "posts/paper-2024-energy-modeling-tools/index.html",
+    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
     "section": "",
-    "text": "Journal: Energy Conversion and Management: X (2025): 100956  •  DOI: 10.1016/j.ecmx.2025.100956"
+    "text": "Journal: Energy Reports (2024)\nDOI: 10.1016/j.egyr.2024.08.080"
   },
   {
-    "objectID": "posts/paper-2025-cement-decarbonization/index.html#abstract",
-    "href": "posts/paper-2025-cement-decarbonization/index.html#abstract",
-    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
+    "objectID": "posts/paper-2024-energy-modeling-tools/index.html#abstract",
+    "href": "posts/paper-2024-energy-modeling-tools/index.html#abstract",
+    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
     "section": "Abstract",
-    "text": "Abstract\nDecarbonizing the cement industry is key to reducing greenhouse gas emissions in the industrial sector and achieving sustainable development goals in Latin America and the Caribbean. The region faces economic, regulatory, and technical challenges that must be addressed to facilitate this transition. This article analyzes strategies, barriers, and policies to drive decarbonization of the cement sector, assessing their applicability and impact. The study employed a two-stage methodology: first, a data analysis phase involving the collection of greenhouse gas emissions data and performance indicators; second, a comprehensive review of scientific literature, sectoral roadmaps, and national commitments to identify decarbonization strategies, along with their associated costs and policies. Four main strategies were identified: material efficiency, energy efficiency, fuel switching, and renewable energy integration, with CO2 abatement costs ranging from 10 to 45 USD/t CO2, depending on the strategy. Additionally, electrification, industrial symbiosis, and carbon capture involve higher costs, ranging from 60 to 100 USD/t CO2. The study also evidences research and policy-development gaps, highlighting the need to establish consistent regulatory frameworks, foster collaboration among countries, and design financial incentives tailored to local conditions. The results show the importance of a collaborative approach that integrates governments, industries, and the academic sector to overcome existing barriers and promote the adoption of clean technologies. These efforts entail updating sectoral roadmaps, boosting intersectoral cooperation, and developing public policies that respond to regional realities."
+    "text": "Abstract\nEnergy system models have become valuable tools for developing and implementing sustainable energy policies. In Latin America, there has been continuous growth in the use of these models, exploring and defining strategies for a transition toward decarbonized, more sustainable systems. These models are essential for quantifying impacts and defining potential pathways, due to the complexity of interactions between different energy sectors. However, reviewing the increasing pool of available modeling tools is necessary, empowering regional energy planners and policymakers with a clearer understanding of their classifications, applications, and critical features. This understanding aids in selecting the most suitable tool for a given need. This article aims to contribute to analyzing trends in the use of modeling tools in Latin America, specifically focusing on their application in energy planning and research efforts toward sustainability. We present a systematic literature review of the leading modeling tools used in Latin America, following the PRISMA methodology. Eight specific tools were selected and analyzed, assessing five primary aspects: geographical coverage, sectoral coverage, temporal resolution, time horizon, and renewable energy integration. The analysis revealed the evolution of modeling-tool usage in the region, highlighting trends supporting sustainable energy practices. It also recognizes the necessity for high-temporal-resolution tools to evaluate the availability and utilization of renewable resources, while emphasizing the importance of intersectoral collaboration among stakeholders and policymakers to advance sustainable energy systems."
   },
   {
-    "objectID": "posts/paper-2025-cement-decarbonization/index.html#acknowledgements",
-    "href": "posts/paper-2025-cement-decarbonization/index.html#acknowledgements",
-    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
+    "objectID": "posts/paper-2024-energy-modeling-tools/index.html#acknowledgements",
+    "href": "posts/paper-2024-energy-modeling-tools/index.html#acknowledgements",
+    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023."
   },
   {
-    "objectID": "posts/2026-08-pen-2025-2055/index.html",
-    "href": "posts/2026-08-pen-2025-2055/index.html",
-    "title": "Contributed to Colombia’s National Energy Plan 2025–2055",
+    "objectID": "posts/2026-08-icr-cement/index.html",
+    "href": "posts/2026-08-icr-cement/index.html",
+    "title": "Invited article in International Cement Review",
     "section": "",
-    "text": "Colombia’s National Energy Plan 2025–2055 was published by the National Mining and Energy Planning Unit (UPME). I served as lead modeler for the transport sector and contributed to the full energy system model across the plan’s three long-term scenarios: Declared Policies, Announced Policies, and Carbon Neutrality.\nThe plan is Colombia’s main long-term energy planning instrument, covering demand, supply, and emissions through 2055. The full document is available on the UPME website."
+    "text": "My article “Decarbonizing the cement industry in Latin America and the Caribbean”, co-authored with A. González-Quiroga and O. Pupo-Roncallo, was published in the August 2026 issue of International Cement Review.\nThe article reviews near-term decarbonization options for the region and what it would take to move next-generation projects forward, covering alternative fuels, plant modernization, electrification, and CO₂ infrastructure. A sample of the issue is available online."
   },
   {
-    "objectID": "posts/2026-01-joined-upme/index.html",
-    "href": "posts/2026-01-joined-upme/index.html",
-    "title": "Joined UPME as an Energy Modeler",
+    "objectID": "posts/2025-08-upme-data-analyst/index.html",
+    "href": "posts/2025-08-upme-data-analyst/index.html",
+    "title": "Joined UPME as an energy data analyst",
     "section": "",
-    "text": "I have joined the National Mining and Energy Planning Unit (UPME) as an Energy Modeler, after working there as an Energy Data Analyst since August 2025. In this role I develop energy-system models and electricity-demand profiles for Colombia and contribute to the National Energy Plan (2025-2055) as the transport-sector modeler, supporting data-driven policy decisions for the country’s energy transition."
+    "text": "I joined the National Mining and Energy Planning Unit (UPME) as an energy data analyst, contributing to the construction of key indicators for Colombia’s energy sector to support national planning and policy decision-making."
   },
   {
     "objectID": "posts/2024-08-phd-scholarship/index.html",
@@ -109,35 +88,35 @@
     "href": "now.html",
     "title": "Now",
     "section": "",
-    "text": "A few things keeping me busy these days:"
+    "text": "Working on energy systems modeling and decarbonization research across national and regional scales in Latin America.\n\n\nCurrent Work\n\nModeling land transport decarbonization under different EV charging strategies, looking at environmental and techno-economic impacts across the region.\nBuilding a national roadmap for green ammonia production in Colombia, covering technical, economic, and environmental dimensions.\nDeveloping hourly cooling load curves for the residential sector to better characterize energy demand.\n\n\n\nOpen to Collaboration\n\nEnergy systems modeling (EnergyPLAN, OSeMOSYS)\nRenewable energy integration and power system planning\nTransport electrification and decarbonization\nIndustrial decarbonization (steel, cement, hydrogen, ammonia)\nEnergy modeling to support public policy\n\nGet in touch"
   },
   {
-    "objectID": "now.html#research-modeling",
-    "href": "now.html#research-modeling",
-    "title": "Now",
-    "section": "Research & Modeling",
-    "text": "Research & Modeling\n\n\n\n\n\n\nTipBig-picture question\n\n\n\nHow can Colombia and Latin America build cost-effective, low-carbon energy systems, and how can energy modeling inform the policies that get us there?\n\n\n\nBuilding energy-system models and electricity-demand profiles for Colombia as an Energy Modeler at the National Mining and Energy Planning Unit (UPME), contributing to the National Energy Plan (2025-2055) as the transport-sector modeler.\nWorking on a technical, economic, and environmental assessment of green ammonia production in Colombia, toward a national roadmap.\nContinuing research with the UREMA Research Unit at Universidad del Norte on transport electrification and industrial decarbonization across Latin America."
+    "objectID": "index.html#latest-papers",
+    "href": "index.html#latest-papers",
+    "title": "Andrés André",
+    "section": "Latest Papers",
+    "text": "Latest Papers\n\n\n\n\n\n\n\n\n\nEnergy Research & Social Science\nStrategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America\n2026\n\n\n\n\n\n\n\n\n\nEnergy Conversion and Management: X\nDecarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies\n2025\n\n\n\n\n\n\n\n\n\nSmart Energy\nElectrification of passenger road transport to support renewable energy integration: A case study of Colombia\n2025\n\n\n\n\nMore papers"
   },
   {
-    "objectID": "now.html#open-to-collaboration-on",
-    "href": "now.html#open-to-collaboration-on",
-    "title": "Now",
-    "section": "Open to collaboration on",
-    "text": "Open to collaboration on\n\nEnergy systems modeling (EnergyPLAN, OSeMOSYS)\nRenewable energy integration and power system planning\nTransport electrification and decarbonization\nIndustrial decarbonization (steel, cement, hydrogen, ammonia)\nEnergy modeling to support public policy\n\nInterested in collaborating? Get in touch."
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Andrés André",
+    "section": "Recent News",
+    "text": "Recent News\n\n\n\n\n2026\nJoined UPME as Energy Modeler\n\n\n\n\n\n2024\n100k-Clima Fellowship at Penn State University\n\n\n\n\n\n2024\nMinciencias National PhD Scholarship\n\n\n\n\nMore news"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Andrés André Camargo Bertel\nPhD Candidate in Mechanical Engineering\nUniversidad del Norte\nBarranquilla, Colombia\nEmail: camargoaa at uninorte dot edu dot co"
+    "text": "Andrés André Camargo Bertel\n    PhD Candidate in Mechanical Engineering\n    Universidad del NorteBarranquilla, Colombia\n    \n       camargoaa@uninorte.edu.co"
   },
   {
     "objectID": "bio.html",
     "href": "bio.html",
     "title": "Andrés André Camargo Bertel",
     "section": "",
-    "text": "Andrés André Camargo Bertel\n\n\nPhD Candidate in Mechanical Engineering\nUniversidad del Norte\nBarranquilla, Colombia\nEmail: camargoaa@uninorte.edu.co\n\n\n Google Scholar\n ORCID\n ResearchGate\n Scopus\n Web of Science\n GitHub\n LinkedIn\n\n\n\nAndrés André Camargo Bertel is a Mechanical Engineer, M.Sc. in Mechanical Engineering, and PhD Candidate at Universidad del Norte in Barranquilla, Colombia. His work specializes in energy systems modeling, transport decarbonization, and industrial decarbonization.\nHe combines short-, medium-, and long-term energy modeling with renewable energy integration analysis and systems optimization to support data-driven decision-making. He has strong experience in energy systems simulation using EnergyPLAN and OSeMOSYS, together with data analysis in Python and R, bridging technical and policy perspectives to design low-carbon development pathways across Latin America.\nHe currently works as an Energy Modeler at the National Mining and Energy Planning Unit (UPME), supporting Colombia’s national energy planning, and is a member of the UREMA Research Unit at Universidad del Norte.\nDriven by a passion for research and innovation, he aims to connect energy modeling with policymaking to support a just and sustainable energy transition.\n\nEducation\n\nPhD Candidate in Mechanical Engineering, Universidad del Norte, Colombia (2024-2028, expected)\nM.Sc. in Mechanical Engineering, Universidad del Norte, Colombia (2022-2024)\nB.Sc. in Mechanical Engineering, Universidad del Norte, Colombia (2017-2021)\n\n\n\nExperience\n\nEnergy Modeler / Energy Data Analyst, National Mining and Energy Planning Unit (UPME), Colombia (2025-present). Energy system modeling for Colombia’s national government to support informed policy decision-making.\nTeaching Assistant, Universidad del Norte (2022-2025). Thermodynamics I & II, Fluid Mechanics Laboratory, Process Instrumentation and Control Laboratory, Manufacturing Processes Laboratory, and Dynamic Systems Modeling.\nConsulting Engineer-Researcher, Universidad del Norte (2022-2026). Applied engineering projects including a national green-ammonia roadmap, transport electrification scenarios, carbon-monoxide dispersion modeling, and a Gecelca hydrogen pilot.\n\n\n Full CV (PDF)"
+    "text": "Andrés André Camargo Bertel\n\nPhD Candidate in Mechanical Engineering\nUniversidad del Norte\nBarranquilla, Colombia\ncamargoaa at uninorte dot edu dot co\n\n\n\n\n\n\n\n\n\n\n\n\nAndrés André Camargo Bertel is a Mechanical Engineer, M.Sc. in Mechanical Engineering, and PhD Candidate at Universidad del Norte in Barranquilla, Colombia. His work specializes in energy systems modeling, transport decarbonization, and industrial decarbonization.\nHe combines short-, medium-, and long-term energy modeling with renewable energy integration analysis and systems optimization to support data-driven decision-making. He has strong experience in energy systems simulation using EnergyPLAN and OSeMOSYS, together with data analysis in Python and R, bridging technical and policy perspectives to design low-carbon development pathways across Latin America.\nHe currently works as an Energy Modeler at the National Mining and Energy Planning Unit (UPME), supporting Colombia’s national energy planning, and is a member of the UREMA Research Unit at Universidad del Norte.\nDriven by a passion for research and innovation, he aims to connect energy modeling with policymaking to support a just and sustainable energy transition.\n\nEducation\n\nPhD Candidate in Mechanical Engineering, Universidad del Norte, Colombia (2024-2028, expected)\nM.Sc. in Mechanical Engineering, Universidad del Norte, Colombia (2022-2024)\nB.Sc. in Mechanical Engineering, Universidad del Norte, Colombia (2017-2021)\n\n\n\nExperience\n\nEnergy Modeler / Energy Data Analyst, National Mining and Energy Planning Unit (UPME), Colombia (2025-present). Energy system modeling for Colombia’s national government to support informed policy decision-making.\nTeaching Assistant, Universidad del Norte (2022-2025). Thermodynamics I & II, Fluid Mechanics Laboratory, Process Instrumentation and Control Laboratory, Manufacturing Processes Laboratory, and Dynamic Systems Modeling.\nConsulting Engineer-Researcher, Universidad del Norte (2022-2026). Applied engineering projects including a national green-ammonia roadmap, transport electrification scenarios, carbon-monoxide dispersion modeling, and a Gecelca hydrogen pilot.\n\n\n\n Full CV (PDF)"
   },
   {
     "objectID": "coming-soon.html",
@@ -152,34 +131,6 @@
     "title": "Coming soon",
     "section": "",
     "text": "This section is under construction and will be available shortly.\n← Back to home"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "Upcoming and past events, conferences, seminars, and webinars, will be listed here soon.\n← Back to home"
-  },
-  {
-    "objectID": "events.html#coming-soon",
-    "href": "events.html#coming-soon",
-    "title": "Events",
-    "section": "",
-    "text": "Upcoming and past events, conferences, seminars, and webinars, will be listed here soon.\n← Back to home"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Notes",
-    "section": "",
-    "text": "A space for miscellaneous notes, ideas, and step-by-step how-tos. Content is on the way.\n← Back to home"
-  },
-  {
-    "objectID": "notes.html#coming-soon",
-    "href": "notes.html#coming-soon",
-    "title": "Notes",
-    "section": "",
-    "text": "A space for miscellaneous notes, ideas, and step-by-step how-tos. Content is on the way.\n← Back to home"
   },
   {
     "objectID": "other-publications.html",
@@ -217,74 +168,81 @@
     "text": "I was selected for the 100k-Clima Fellowship at Penn State University, a program supporting research collaboration and academic exchange on climate and energy topics."
   },
   {
-    "objectID": "posts/2026-08-icr-cement/index.html",
-    "href": "posts/2026-08-icr-cement/index.html",
-    "title": "Invited article in International Cement Review",
+    "objectID": "posts/2026-01-joined-upme/index.html",
+    "href": "posts/2026-01-joined-upme/index.html",
+    "title": "Joined UPME as an Energy Modeler",
     "section": "",
-    "text": "My article “Decarbonizing the cement industry in Latin America and the Caribbean”, co-authored with A. González-Quiroga and O. Pupo-Roncallo, was published in the August 2026 issue of International Cement Review.\nThe article reviews near-term decarbonization options for the region and what it would take to move next-generation projects forward, covering alternative fuels, plant modernization, electrification, and CO₂ infrastructure. A sample of the issue is available online."
+    "text": "I have joined the National Mining and Energy Planning Unit (UPME) as an Energy Modeler, after working there as an Energy Data Analyst since August 2025. In this role I develop energy-system models and electricity-demand profiles for Colombia and contribute to the National Energy Plan (2025-2055) as the transport-sector modeler, supporting data-driven policy decisions for the country’s energy transition."
   },
   {
-    "objectID": "posts/paper-2024-energy-modeling-tools/index.html",
-    "href": "posts/paper-2024-energy-modeling-tools/index.html",
-    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
+    "objectID": "posts/2026-08-pen-2025-2055/index.html",
+    "href": "posts/2026-08-pen-2025-2055/index.html",
+    "title": "Contributed to Colombia’s National Energy Plan 2025–2055",
     "section": "",
-    "text": "Journal: Energy Reports (2024)  •  DOI: 10.1016/j.egyr.2024.08.080"
+    "text": "Colombia’s National Energy Plan 2025–2055 was published by the National Mining and Energy Planning Unit (UPME). I served as lead modeler for the transport sector and contributed to the full energy system model across the plan’s three long-term scenarios: Declared Policies, Announced Policies, and Carbon Neutrality.\nThe plan is Colombia’s main long-term energy planning instrument, covering demand, supply, and emissions through 2055. The full document is available on the UPME website."
   },
   {
-    "objectID": "posts/paper-2024-energy-modeling-tools/index.html#abstract",
-    "href": "posts/paper-2024-energy-modeling-tools/index.html#abstract",
-    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
+    "objectID": "posts/paper-2025-cement-decarbonization/index.html",
+    "href": "posts/paper-2025-cement-decarbonization/index.html",
+    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
+    "section": "",
+    "text": "Journal: Energy Conversion and Management: X (2025): 100956\nDOI: 10.1016/j.ecmx.2025.100956"
+  },
+  {
+    "objectID": "posts/paper-2025-cement-decarbonization/index.html#abstract",
+    "href": "posts/paper-2025-cement-decarbonization/index.html#abstract",
+    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
     "section": "Abstract",
-    "text": "Abstract\nEnergy system models have become valuable tools for developing and implementing sustainable energy policies. In Latin America, there has been continuous growth in the use of these models, exploring and defining strategies for a transition toward decarbonized, more sustainable systems. These models are essential for quantifying impacts and defining potential pathways, due to the complexity of interactions between different energy sectors. However, reviewing the increasing pool of available modeling tools is necessary, empowering regional energy planners and policymakers with a clearer understanding of their classifications, applications, and critical features. This understanding aids in selecting the most suitable tool for a given need. This article aims to contribute to analyzing trends in the use of modeling tools in Latin America, specifically focusing on their application in energy planning and research efforts toward sustainability. We present a systematic literature review of the leading modeling tools used in Latin America, following the PRISMA methodology. Eight specific tools were selected and analyzed, assessing five primary aspects: geographical coverage, sectoral coverage, temporal resolution, time horizon, and renewable energy integration. The analysis revealed the evolution of modeling-tool usage in the region, highlighting trends supporting sustainable energy practices. It also recognizes the necessity for high-temporal-resolution tools to evaluate the availability and utilization of renewable resources, while emphasizing the importance of intersectoral collaboration among stakeholders and policymakers to advance sustainable energy systems."
+    "text": "Abstract\nDecarbonizing the cement industry is key to reducing greenhouse gas emissions in the industrial sector and achieving sustainable development goals in Latin America and the Caribbean. The region faces economic, regulatory, and technical challenges that must be addressed to facilitate this transition. This article analyzes strategies, barriers, and policies to drive decarbonization of the cement sector, assessing their applicability and impact. The study employed a two-stage methodology: first, a data analysis phase involving the collection of greenhouse gas emissions data and performance indicators; second, a comprehensive review of scientific literature, sectoral roadmaps, and national commitments to identify decarbonization strategies, along with their associated costs and policies. Four main strategies were identified: material efficiency, energy efficiency, fuel switching, and renewable energy integration, with CO2 abatement costs ranging from 10 to 45 USD/t CO2, depending on the strategy. Additionally, electrification, industrial symbiosis, and carbon capture involve higher costs, ranging from 60 to 100 USD/t CO2. The study also evidences research and policy-development gaps, highlighting the need to establish consistent regulatory frameworks, foster collaboration among countries, and design financial incentives tailored to local conditions. The results show the importance of a collaborative approach that integrates governments, industries, and the academic sector to overcome existing barriers and promote the adoption of clean technologies. These efforts entail updating sectoral roadmaps, boosting intersectoral cooperation, and developing public policies that respond to regional realities."
   },
   {
-    "objectID": "posts/paper-2024-energy-modeling-tools/index.html#acknowledgements",
-    "href": "posts/paper-2024-energy-modeling-tools/index.html#acknowledgements",
-    "title": "Analyzing trends in energy modeling tools in Latin America: A comprehensive review",
+    "objectID": "posts/paper-2025-cement-decarbonization/index.html#acknowledgements",
+    "href": "posts/paper-2025-cement-decarbonization/index.html#acknowledgements",
+    "title": "Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023."
   },
   {
-    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html",
-    "href": "posts/paper-2025-transport-electrification-colombia/index.html",
-    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
+    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html",
+    "href": "posts/paper-2026-steel-industry-decarbonization/index.html",
+    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
     "section": "",
-    "text": "Journal: Smart Energy 20 (2025): 100217  •  DOI: 10.1016/j.segy.2025.100217"
+    "text": "Journal: Energy Research & Social Science (2026)\nDOI: 10.1016/j.erss.2026.104711"
   },
   {
-    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html#abstract",
-    "href": "posts/paper-2025-transport-electrification-colombia/index.html#abstract",
-    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
+    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html#abstract",
+    "href": "posts/paper-2026-steel-industry-decarbonization/index.html#abstract",
+    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
     "section": "Abstract",
-    "text": "Abstract\nTransport electrification powered by renewable energy (RE) is a key strategy for reducing greenhouse gas (GHG) emissions and decarbonizing energy systems. However, integrating large numbers of electric vehicles (EVs) presents technical and planning challenges, particularly in hydropower-dependent countries exposed to climate variability. This study assesses the environmental, technical, and economic implications of passenger transport electrification combined with variable RE integration in Colombia, using an hourly EnergyPLAN model for 2030 and 2050. The analysis examines alternative EV penetration pathways, renewable expansion targets, and hydroclimatic conditions associated with La Niña and El Niño-Southern Oscillation (ENSO). Full electrification by 2050 is projected to reduce total system emissions by about 35% and costs by 40%, while a 2030 scenario aligned with national targets (600,000 EVs) achieves reductions of 8.7% and 3.5%, respectively. ENSO variability strongly influences these outcomes: El Niño could increase emissions by up to 38% due to reduced hydropower availability, whereas La Niña could reduce them by 14%. Rising electricity demand from transport enhances flexibility when coupled with renewable expansion, though reliability depends on the generation mix and infrastructure. Although focused on Colombia, the framework and findings provide insights for other hydro-dependent emerging economies pursuing lower emissions, reduced costs, and greater resilience under climate uncertainty."
+    "text": "Abstract\nDecarbonizing iron and steel production in emerging industrial regions depends not only on the availability of low-carbon technologies but also on institutional, market, and governance conditions that enable their deployment. Despite increasing global attention to industrial decarbonization, Latin America remains underexamined, even as its steel sector faces mounting pressures from trade exposure, infrastructure constraints, and uneven policy capacity. This article develops a comparative sociotechnical assessment of decarbonization strategies, implementation barriers, and policy instruments shaping the transition to low-carbon steel production across the region’s major producers. The study combines a benchmarking analysis of production structures, emissions performance, and energy configurations with a systematic review of scientific and gray literature. This approach situates technological pathways within the political economy contexts that condition their feasibility. The findings indicate that while a diverse portfolio of mitigation options exists (including electrification, expansion of scrap-based production, alternative reducing agents, and carbon management technologies), deployment is constrained by fragmented regulatory environments, limited Monitoring, Reporting and Verification capacity, weak policy credibility, and territorial asymmetries that affect investment incentives and workforce transitions. The study further shows that the effectiveness of policy instruments depends less on formal adoption than on the institutional conditions under which they operate. By demonstrating how sociotechnical factors mediate the translation of global decarbonization roadmaps into regionally viable transition pathways, this comparative case study contributes key evidence on the challenges of decarbonizing steel production in emerging industrial economies."
   },
   {
-    "objectID": "posts/paper-2025-transport-electrification-colombia/index.html#acknowledgements",
-    "href": "posts/paper-2025-transport-electrification-colombia/index.html#acknowledgements",
-    "title": "Electrification of passenger road transport to support renewable energy integration: A case study of Colombia",
+    "objectID": "posts/paper-2026-steel-industry-decarbonization/index.html#acknowledgements",
+    "href": "posts/paper-2026-steel-industry-decarbonization/index.html#acknowledgements",
+    "title": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis research was supported by the Colombian Ministry of Sciences, Technology, and Innovation through the National Doctoral Program 933-2023."
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "News",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nInvited article in International Cement Review\n\n\n\n\n\n\nnews\n\n\n\nCo-authored an invited article on decarbonizing the cement industry in Latin America and the Caribbean, published in the August 2026 issue of International Cement Review.\n\n\n\n\n\nAug 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nContributed to Colombia’s National Energy Plan 2025–2055\n\n\n\n\n\n\nnews\n\n\n\nServed as lead transport sector modeler and contributed to the full energy system model for UPME’s National Energy Plan 2025–2055.\n\n\n\n\n\nAug 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nStrategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America\n\n\nEnergy Research & Social Science\n\n\n\npaper\n\n\n\nA review of strategies, barriers, and policies to decarbonize the iron and steel industry across Latin America.\n\n\n\n\n\nApr 23, 2026\n\n\nA. A. Camargo-Bertel, J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, O. Pupo-Roncallo\n\n\n\n\n\n\n\n\n\n\n\n\nJoined UPME as an Energy Modeler\n\n\n\n\n\n\nnews\n\n\n\nI joined Colombia’s National Mining and Energy Planning Unit (UPME) as an Energy Modeler, contributing to the National Energy Plan 2025-2055 as the transport-sector modeler.\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nElectrification of passenger road transport to support renewable energy integration: A case study of Colombia\n\n\nSmart Energy\n\n\n\npaper\n\n\n\nFuture-scenario analysis of how passenger road transport electrification can support renewable energy integration in Colombia.\n\n\n\n\n\nNov 7, 2025\n\n\nA. A. Camargo-Bertel, A. González-Quiroga, M. Yuan, O. Pupo-Roncallo\n\n\n\n\n\n\n\n\n\n\n\n\nDecarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies\n\n\nEnergy Conversion and Management: X\n\n\n\npaper\n\n\n\nA comprehensive review of strategies, barriers, and policies to decarbonize the cement industry in Latin America and the Caribbean.\n\n\n\n\n\nMar 6, 2025\n\n\nA. A. Camargo-Bertel, D. Hincapié, V. Pugliese, A. González-Quiroga, O. Pupo-Roncallo\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzing trends in energy modeling tools in Latin America: A comprehensive review\n\n\nEnergy Reports\n\n\n\npaper\n\n\n\nA comprehensive review of trends in energy modeling tools used across Latin America.\n\n\n\n\n\nSep 9, 2024\n\n\nA. A. Camargo-Bertel, C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, O. Pupo-Roncallo\n\n\n\n\n\n\n\n\n\n\n\n\nSelected for the 100k-Clima Fellowship at Penn State University\n\n\n\n\n\n\nnews\n\n\n\nSelected for the 100k-Clima Fellowship at Penn State University, supporting research and exchange on climate and energy.\n\n\n\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAwarded the Minciencias National PhD Scholarship\n\n\n\n\n\n\nnews\n\n\n\nSelected for Colombia’s National PhD Scholarship (Call 933) from Minciencias to pursue a PhD in Mechanical Engineering at Universidad del Norte.\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\nNo matching items"
+    "text": "Coming soon\n\n\nSlides and posters from conference talks, seminars, and invited presentations will be collected here.\n\n← Back to home"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Peer-reviewed journal articles. See also my profiles on Google Scholar, Scopus, and ORCID."
+    "text": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America Apr 23, 2026\n\n\n\n\n\n\n\nPaper Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America\n\nCamargo-Bertel, A. A., J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Research & Social Science, 2026\n\n\nDOI 10.1016/j.erss.2026.104711\n\n\n\n\n\nElectrification of passenger road transport to support renewable energy integration: A case study of Colombia Nov 7, 2025\n\n\n\n\n\n\n\nPaper Electrification of passenger road transport to support renewable energy integration: A case study of Colombia\n\nCamargo-Bertel, A. A., A. González-Quiroga, M. Yuan, and O. Pupo-Roncallo\n\n\nSmart Energy, 2025\n\n\nDOI 10.1016/j.segy.2025.100217\n\n\n\n\n\nDecarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies Mar 6, 2025\n\n\n\n\n\n\n\nPaper Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies\n\nCamargo-Bertel, A. A., D. Hincapié, V. Pugliese, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Conversion and Management: X, 2025\n\n\nDOI 10.1016/j.ecmx.2025.100956\n\n\n\n\n\nAnalyzing trends in energy modeling tools in Latin America: A comprehensive review Sep 9, 2024\n\n\n\n\n\n\n\nPaper Analyzing trends in energy modeling tools in Latin America: A comprehensive review\n\nCamargo-Bertel, A. A., C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Reports, 2024\n\n\nDOI 10.1016/j.egyr.2024.08.080\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html#journal-articles",
     "href": "publications.html#journal-articles",
     "title": "Publications",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\n\n\nStrategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America Apr 23, 2026\n\n\n\nPaper Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America\n\nCamargo-Bertel, A. A., J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Research & Social Science, 2026\n\n\nDOI 10.1016/j.erss.2026.104711\n\n\n\n\n\nElectrification of passenger road transport to support renewable energy integration: A case study of Colombia Nov 7, 2025\n\n\n\nPaper Electrification of passenger road transport to support renewable energy integration: A case study of Colombia\n\nCamargo-Bertel, A. A., A. González-Quiroga, M. Yuan, and O. Pupo-Roncallo\n\n\nSmart Energy, 2025\n\n\nDOI 10.1016/j.segy.2025.100217\n\n\n\n\n\nDecarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies Mar 6, 2025\n\n\n\nPaper Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies\n\nCamargo-Bertel, A. A., D. Hincapié, V. Pugliese, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Conversion and Management: X, 2025\n\n\nDOI 10.1016/j.ecmx.2025.100956\n\n\n\n\n\nAnalyzing trends in energy modeling tools in Latin America: A comprehensive review Sep 9, 2024\n\n\n\nPaper Analyzing trends in energy modeling tools in Latin America: A comprehensive review\n\nCamargo-Bertel, A. A., C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Reports, 2024\n\n\nDOI 10.1016/j.egyr.2024.08.080\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America Apr 23, 2026\n\n\n\n\n\n\n\nPaper Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America\n\nCamargo-Bertel, A. A., J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Research & Social Science, 2026\n\n\nDOI 10.1016/j.erss.2026.104711\n\n\n\n\n\nElectrification of passenger road transport to support renewable energy integration: A case study of Colombia Nov 7, 2025\n\n\n\n\n\n\n\nPaper Electrification of passenger road transport to support renewable energy integration: A case study of Colombia\n\nCamargo-Bertel, A. A., A. González-Quiroga, M. Yuan, and O. Pupo-Roncallo\n\n\nSmart Energy, 2025\n\n\nDOI 10.1016/j.segy.2025.100217\n\n\n\n\n\nDecarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies Mar 6, 2025\n\n\n\n\n\n\n\nPaper Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies\n\nCamargo-Bertel, A. A., D. Hincapié, V. Pugliese, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Conversion and Management: X, 2025\n\n\nDOI 10.1016/j.ecmx.2025.100956\n\n\n\n\n\nAnalyzing trends in energy modeling tools in Latin America: A comprehensive review Sep 9, 2024\n\n\n\n\n\n\n\nPaper Analyzing trends in energy modeling tools in Latin America: A comprehensive review\n\nCamargo-Bertel, A. A., C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, and O. Pupo-Roncallo\n\n\nEnergy Reports, 2024\n\n\nDOI 10.1016/j.egyr.2024.08.080\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html#manuscripts-under-review",
@@ -298,20 +256,20 @@
     "href": "reports.html",
     "title": "Reports",
     "section": "",
-    "text": "Institutional Report National Energy Plan 2025–2055, Volume II: Results\n\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.\n\n\nContributing author; energy modeler.\n\n\nColombia’s National Energy Plan 2025–2055, Volume II, presents the quantitative results of three long-term energy scenarios: Declared Policies, Announced Policies, and Carbon Neutrality, covering demand, supply, and emissions trajectories through 2055. The plan is structured within the Just Energy Transition framework and serves as the country’s primary long-term energy planning instrument, integrating equity, reindustrialization, and a gradual reduction in fossil fuel dependence.\n\n\nPDF\n\n\n\n\n\n\n\n\nInstitutional Report Projections of Electricity Demand and Maximum Power — July 2026 Revision\n\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.\n\n\nContributing author; transport electrification modeling.\n\n\nThis report presents updated electricity demand and maximum power projections for Colombia’s National Interconnected System (SIN) through 2040. The July 2026 revision incorporates territorial analysis of residential consumption, updated sectoral data, and the expected impact of El Niño conditions on second-semester demand patterns.\n\n\nPDF\n\n\n\n\n\n\n\n\nInstitutional Report Methodological Framework for the Regionalization of the National Energy Plan\n\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.\n\n\nContributing author; energy modeler.\n\n\nThis document establishes the methodology for breaking down Colombia’s National Energy Plan 2025–2055 projections to the subnational level across seven planning regions, using LEAP and OSeMOSYS. The approach supports identification of regional energy access gaps, renewable potential, and differentiated transition pathways within the Just Energy Transition framework.\n\n\nPDF\n\n\n\n\n\n\n\n\nInstitutional Report Parameterization Strategy for Scenario Development of the National Energy Plan 2025–2055\n\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.\n\n\nContributing author; energy modeler.\n\n\nThis document describes the parameterization strategy used to build the energy scenarios of Colombia’s National Energy Plan 2025–2055, structured around the OSeMOSYS optimization platform and the SAND data management tool. It details how the technical, economic, and regulatory characteristics of the Colombian energy system were encoded to produce the plan’s scenario results.\n\n\nPDF\n\n\n\n\n\n\n\n\nInvited Contribution Decarbonizing the cement industry in Latin America and the Caribbean\n\nCamargo-Bertel, A. A., A. González-Quiroga, and O. Pupo-Roncallo. International Cement Review, August 2026.\n\n\nLatin America and the Caribbean produced approximately 183 Mt of cement in 2024. This article reviews available near-term measures and the enabling conditions required to make next-generation decarbonization projects bankable in the region, covering standards reform, alternative fuels, plant modernization, electrification, and CO₂ transport and storage infrastructure.\n\n\nSample Issue"
+    "text": "Institutional Report\nNational Energy Plan 2025–2055, Volume II: Results\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.\nContributing author; energy modeler.\nVolume II of Colombia's National Energy Plan 2025–2055 presents the quantitative results of the three long-term scenarios explored in the planning process. Demand, supply, and emissions projections extend to 2055 within the Just Energy Transition framework, with emphasis on equity, reindustrialization, and a gradual move away from fossil fuel dependence.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstitutional Report\nProjections of Electricity Demand and Maximum Power, July 2026 Revision\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.\nContributing author; transport electrification modeling.\nUpdated electricity demand and maximum power projections for Colombia's National Interconnected System through 2040. The July 2026 revision integrates territorial disaggregation of residential consumption, refreshed sectoral data, and an assessment of El Niño effects on second-semester demand.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstitutional Report\nMethodological Framework for the Regionalization of the National Energy Plan\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.\nContributing author; energy modeler.\nThis document lays out the methodology for disaggregating Colombia's National Energy Plan projections to the subnational level across seven planning regions, using LEAP and OSeMOSYS as modeling tools. The framework helps identify regional energy access gaps, renewable potential, and differentiated transition pathways.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstitutional Report\nParameterization Strategy for Scenario Development of the National Energy Plan 2025–2055\nNational Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.\nContributing author; energy modeler.\nThis document describes how the energy scenarios of Colombia's National Energy Plan 2025–2055 were built using OSeMOSYS and the SAND data management tool. It explains how the technical, economic, and regulatory features of the Colombian energy system were translated into model inputs to produce the scenario results.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvited Contribution\nDecarbonizing the cement industry in Latin America and the Caribbean\nCamargo-Bertel, A. A., A. González-Quiroga, and O. Pupo-Roncallo. International Cement Review, August 2026.\nLatin America and the Caribbean produced around 183 Mt of cement in 2024. This article looks at the near-term measures available to the sector and the conditions needed to make next-generation decarbonization projects financially viable in the region, from standards reform and alternative fuels to electrification and CO₂ infrastructure."
+  },
+  {
+    "objectID": "reports.html#theses",
+    "href": "reports.html#theses",
+    "title": "Reports",
+    "section": "Theses",
+    "text": "Theses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaster's Thesis\nThe role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis\nCamargo-Bertel, A. A. Universidad del Norte, Barranquilla, Colombia, 2024.\nAdvisors: Prof. Dr. Ing. Oscar Pupo Roncallo and Prof. Dr. Ing. Arturo González Quiroga.\nThis study evaluates the impact of passenger road transport electrification on the integration of non-conventional renewable energy sources and greenhouse gas (GHG) mitigation in Colombia's energy system toward 2030 and 2050, modeled using EnergyPLAN. Results show that increased EV adoption reduces GHG emissions by 4.2% by 2030 and 15% by 2050 under projected national scenarios, with a fully electrified fleet achieving reductions of up to 35% by 2050.\n\nRepository"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "As a Teaching Assistant, I have taught and mentored undergraduate engineering students. Open-source course materials are linked below."
-  },
-  {
-    "objectID": "teaching.html#thermodynamics-i",
-    "href": "teaching.html#thermodynamics-i",
-    "title": "Teaching",
-    "section": "Thermodynamics I",
-    "text": "Thermodynamics I\n\n\nFundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles.\n\n\nCourse site"
+    "text": "As a teaching assistant, I have taught and mentored undergraduate engineering students at Universidad del Norte. Open-source course materials are linked below.\n\n  \n  \n    \n      Universidad del Norte\n      Thermodynamics I\n      Fundamentals of energy, the laws of thermodynamics, properties of pure substances, and thermodynamic cycles. Open-source course materials developed for undergraduate mechanical engineering students.\n    \n    Course site"
   }
 ]

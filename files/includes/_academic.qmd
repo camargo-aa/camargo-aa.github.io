@@ -1,5 +1,5 @@
 
-<!-- 
+<!--
 Load Academicons v1: https://jpswalsh.github.io/academicons/
 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">

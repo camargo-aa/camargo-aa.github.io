@@ -1,0 +1,28 @@
+---
+title: "Projects"
+subtitle: "Energy models, code, and tools"
+description-meta: "Open energy models, code, and analysis tools by Andrés André Camargo Bertel."
+title-block-banner: false
+toc: false
+---
+
+::: {.c-soon}
+
+::: {.c-soon-icon}
+<i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+:::
+
+::: {.c-soon-label}
+Coming soon
+:::
+
+::: {.c-soon-text}
+Here I will share the energy models, scripts, and analysis tools behind my
+research. This includes EnergyPLAN and OSeMOSYS setups, scenario builders, and
+the Python and R code I use to process and visualize energy system data. I am
+currently organizing them into documented repositories.
+:::
+
+[← Back to home](index.qmd){.c-btn-outline}
+
+:::

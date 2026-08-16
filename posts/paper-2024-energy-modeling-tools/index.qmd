@@ -21,11 +21,15 @@ citation:
   container-title: "Energy Reports"
   doi: "10.1016/j.egyr.2024.08.080"
   url: "https://doi.org/10.1016/j.egyr.2024.08.080"
+page1: "/files/images/papers/pages/ana-1.png"
+page2: "/files/images/papers/pages/ana-2.png"
+page3: "/files/images/papers/pages/ana-3.png"
 google-scholar: true
 ---
 
 ::: {.paper-meta}
-**Journal:** *Energy Reports* (2024) &nbsp;•&nbsp; **DOI:** [10.1016/j.egyr.2024.08.080](https://doi.org/10.1016/j.egyr.2024.08.080){target="_blank"}
+**Journal:** *Energy Reports* (2024)\
+**DOI:** [10.1016/j.egyr.2024.08.080](https://doi.org/10.1016/j.egyr.2024.08.080){target="_blank"}
 :::
 
 <img src="/files/images/papers/energy-models.png" class="paper-figure" alt="Graphical reference for the paper">

@@ -9,7 +9,7 @@
 <meta name="author" content="Andrés André Camargo Bertel">
 <meta name="description" content="News and updates from Andrés André Camargo Bertel">
 
-<title>News – Andrés André</title>
+<title>News – Andrés Camargo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//files/images/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -49,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8110845fa02d933dc16e9cef70d1151d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8110845fa02d933dc16e9cef70d1151d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-8110845fa02d933dc16e9cef70d1151d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5022f7cbd1116694513ae4cf63837de5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5022f7cbd1116694513ae4cf63837de5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5022f7cbd1116694513ae4cf63837de5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,38 +76,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 
-<!-- 
+<!--
 
 Load Academicons v1: https://jpswalsh.github.io/academicons/
 
@@ -147,46 +116,18 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Andrés André" href="posts.xml" data-external="1"><meta property="og:title" content="News – Andrés André">
+<meta property="og:title" content="News – Andrés Camargo">
 <meta property="og:description" content="Updates, announcements, and activities">
-<meta property="og:image" content="https://camargo-aa.github.io/files/images/papers/cover-steel.png">
-<meta property="og:site_name" content="Andrés André">
-<meta property="og:image:height" content="827">
-<meta property="og:image:width" content="620">
+<meta property="og:image" content="https://camargo-aa.github.io/files/images/news/upme.png">
+<meta property="og:site_name" content="Andrés Camargo">
+<meta property="og:image:alt" content="UPME">
+<meta property="og:image:height" content="327">
+<meta property="og:image:width" content="800">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -194,7 +135,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Andrés André</span>
+    <span class="navbar-title">Andrés Camargo</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -203,6 +144,37 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./reports.html">
+ <span class="dropdown-text">Reports</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./recognition.html">
+ <span class="dropdown-text">Awards</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -226,56 +198,6 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">Publications</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./reports.html">
- <span class="dropdown-text">Reports</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./theses.html">
- <span class="dropdown-text">Theses</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./recognition.html">
- <span class="dropdown-text">Recognition</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./research-group.html">
- <span class="dropdown-text">Research Group</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Activities</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
-        <li>
-    <a class="dropdown-item" href="./events.html">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./presentations.html">
- <span class="dropdown-text">Presentations</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./notes.html"> 
-<span class="menu-text">Notes</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -297,11 +219,6 @@ window.Quarto = {
 </i> 
 <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -313,9 +230,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(4)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -339,322 +254,65 @@ window.Quarto = {
 </header>
 
 
+<div class="tl-wrap">
 
+  <div class="tl-year">2026</div>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/upme.png" alt="UPME">
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1785646800000" data-listing-file-modified-sort="1786197681195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<div class="thumbnail"><a href="./posts/2026-08-icr-cement/index.html" class="no-external">
+    <div class="tl-body">
+      <div class="tl-date">January 2026</div>
+      <div class="tl-title"><a href="posts/2026-01-joined-upme/">Joined UPME as an energy modeler</a></div>
+      <p class="tl-desc">Contributing to Colombia's National Energy Plan 2025–2055 as the transport-sector modeler at the National Mining and Energy Planning Unit.</p>
+    </div>
+  </div>
 
-<img loading="lazy" src="./files/images/reports/icr-aug-2026.jpg" class="thumbnail-image">
+  <div class="tl-year">2025</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-08-icr-cement/index.html" class="no-external">Invited article in International Cement Review</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-08-icr-cement/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/upme.png" alt="UPME">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">August 2025</div>
+      <div class="tl-title"><a href="posts/2025-08-upme-data-analyst/">Joined UPME as an energy data analyst</a></div>
+      <p class="tl-desc">Started working at Colombia's National Mining and Energy Planning Unit, supporting energy data analysis for national planning.</p>
+    </div>
+  </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+  <div class="tl-year">2024</div>
 
-</div>
-<div class="delink listing-description"><a href="./posts/2026-08-icr-cement/index.html" class="no-external">
-<p>Co-authored an invited article on decarbonizing the cement industry in Latin America and the Caribbean, published in the August 2026 issue of International Cement Review.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-08-icr-cement/index.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1785560400000" data-listing-file-modified-sort="1786197674991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/2026-08-pen-2025-2055/index.html" class="no-external">
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/fellowship.png" alt="100k-Clima Fellowship">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">September 2024</div>
+      <div class="tl-title"><a href="posts/2024-100k-clima-fellowship/">Selected for the 100k-Clima fellowship at Penn State University</a></div>
+      <p class="tl-desc">A program supporting research collaboration and academic exchange on climate and energy topics.</p>
+    </div>
+  </div>
 
-<img loading="lazy" src="./files/images/reports/pen-tomo-ii.png" class="thumbnail-image">
+  <div class="tl-item">
+    <div class="tl-logo">
+      <img src="files/images/news/scholarship.jpg" alt="Minciencias Scholarship">
+    </div>
+    <div class="tl-body">
+      <div class="tl-date">August 2024</div>
+      <div class="tl-title"><a href="posts/2024-08-phd-scholarship/">Awarded the Minciencias national PhD scholarship</a></div>
+      <p class="tl-desc">Selected for Colombia's national PhD scholarship (Call 933) to pursue a PhD in Mechanical Engineering at Universidad del Norte.</p>
+    </div>
+  </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-08-pen-2025-2055/index.html" class="no-external">Contributed to Colombia’s National Energy Plan 2025–2055</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-08-pen-2025-2055/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+  <div class="tl-close"><span class="tl-close-label">2023</span></div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-08-pen-2025-2055/index.html" class="no-external">
-<p>Served as lead transport sector modeler and contributed to the full energy system model for UPME’s National Energy Plan 2025–2055.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-08-pen-2025-2055/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cGFwZXI=" data-listing-date-sort="1776920400000" data-listing-file-modified-sort="1786338476078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<div class="thumbnail"><a href="./posts/paper-2026-steel-industry-decarbonization/index.html" class="no-external">
 
-<img loading="lazy" src="./files/images/papers/cover-steel.png" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-2026-steel-industry-decarbonization/index.html" class="no-external">Strategies, barriers, and policies for the decarbonization of the iron and steel industry in Latin America</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-2026-steel-industry-decarbonization/index.html" class="no-external"><em>Energy Research &amp; Social Science</em></a>
-</div>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-2026-steel-industry-decarbonization/index.html" class="no-external">
-<p>A review of strategies, barriers, and policies to decarbonize the iron and steel industry across Latin America.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-2026-steel-industry-decarbonization/index.html" class="no-external">
-<div class="listing-date">
-Apr 23, 2026
-</div>
-<div class="listing-author">
-A. A. Camargo-Bertel, J. Alvarez-Navas, J. Mercado-Barrera, B. Fronk, A. González-Quiroga, O. Pupo-Roncallo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV3cw==" data-listing-date-sort="1768453200000" data-listing-file-modified-sort="1784753670960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail"><a href="./posts/2026-01-joined-upme/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/news/upme.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-01-joined-upme/index.html" class="no-external">Joined UPME as an Energy Modeler</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-01-joined-upme/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-01-joined-upme/index.html" class="no-external">
-<p>I joined Colombia’s National Mining and Energy Planning Unit (UPME) as an Energy Modeler, contributing to the National Energy Plan 2025-2055 as the transport-sector modeler.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-01-joined-upme/index.html" class="no-external">
-<div class="listing-date">
-Jan 15, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="cGFwZXI=" data-listing-date-sort="1762491600000" data-listing-file-modified-sort="1786338474911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
-<div class="thumbnail"><a href="./posts/paper-2025-transport-electrification-colombia/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/papers/cover-electrification.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-2025-transport-electrification-colombia/index.html" class="no-external">Electrification of passenger road transport to support renewable energy integration: A case study of Colombia</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-2025-transport-electrification-colombia/index.html" class="no-external"><em>Smart Energy</em></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-2025-transport-electrification-colombia/index.html" class="no-external">
-<p>Future-scenario analysis of how passenger road transport electrification can support renewable energy integration in Colombia.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-2025-transport-electrification-colombia/index.html" class="no-external">
-<div class="listing-date">
-Nov 7, 2025
-</div>
-<div class="listing-author">
-A. A. Camargo-Bertel, A. González-Quiroga, M. Yuan, O. Pupo-Roncallo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="cGFwZXI=" data-listing-date-sort="1741237200000" data-listing-file-modified-sort="1786338473854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
-<div class="thumbnail"><a href="./posts/paper-2025-cement-decarbonization/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/papers/cover-cement.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-2025-cement-decarbonization/index.html" class="no-external">Decarbonizing the cement industry in Latin America and the Caribbean: A comprehensive review of strategies, barriers, and policies</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-2025-cement-decarbonization/index.html" class="no-external"><em>Energy Conversion and Management: X</em></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-2025-cement-decarbonization/index.html" class="no-external">
-<p>A comprehensive review of strategies, barriers, and policies to decarbonize the cement industry in Latin America and the Caribbean.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-2025-cement-decarbonization/index.html" class="no-external">
-<div class="listing-date">
-Mar 6, 2025
-</div>
-<div class="listing-author">
-A. A. Camargo-Bertel, D. Hincapié, V. Pugliese, A. González-Quiroga, O. Pupo-Roncallo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="cGFwZXI=" data-listing-date-sort="1725858000000" data-listing-file-modified-sort="1786338471779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
-<div class="thumbnail"><a href="./posts/paper-2024-energy-modeling-tools/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/papers/cover-tools.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-2024-energy-modeling-tools/index.html" class="no-external">Analyzing trends in energy modeling tools in Latin America: A comprehensive review</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-2024-energy-modeling-tools/index.html" class="no-external"><em>Energy Reports</em></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-2024-energy-modeling-tools/index.html" class="no-external">
-<p>A comprehensive review of trends in energy modeling tools used across Latin America.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-2024-energy-modeling-tools/index.html" class="no-external">
-<div class="listing-date">
-Sep 9, 2024
-</div>
-<div class="listing-author">
-A. A. Camargo-Bertel, C. Lizarazo, L. Corredor, J. Campillo, A. González-Quiroga, O. Pupo-Roncallo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="bmV3cw==" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1784740138049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/2024-100k-clima-fellowship/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/news/fellowship.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-100k-clima-fellowship/index.html" class="no-external">Selected for the 100k-Clima Fellowship at Penn State University</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-100k-clima-fellowship/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2024-100k-clima-fellowship/index.html" class="no-external">
-<p>Selected for the 100k-Clima Fellowship at Penn State University, supporting research and exchange on climate and energy.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-100k-clima-fellowship/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="bmV3cw==" data-listing-date-sort="1722488400000" data-listing-file-modified-sort="1784734854748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="thumbnail"><a href="./posts/2024-08-phd-scholarship/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/news/scholarship.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-08-phd-scholarship/index.html" class="no-external">Awarded the Minciencias National PhD Scholarship</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-08-phd-scholarship/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2024-08-phd-scholarship/index.html" class="no-external">
-<p>Selected for Colombia’s National PhD Scholarship (Call 933) from Minciencias to pursue a PhD in Mechanical Engineering at Universidad del Norte.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-08-phd-scholarship/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1064,14 +722,59 @@ Aug 1, 2024
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
 <a href="https://camargo-aa.github.io">Andrés André Camargo Bertel</a> ©
 <script>document.write(new Date().getFullYear())</script>
-</div>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./publications.html">
+<p>Publications</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./reports.html">
+<p>Reports</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./teaching.html">
+<p>Teaching</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./bio.html">
+<p>Bio</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+</ul>
+    </div>
     <div class="nav-footer-right">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=RTRoJm0AAAAJ" target="_blank">
+      <i class="bi bi-google" role="img" aria-label="Google Scholar">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/camargo-aa" target="_blank">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b" target="_blank">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>

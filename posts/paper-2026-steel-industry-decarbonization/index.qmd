@@ -22,11 +22,15 @@ citation:
   page: 104711
   doi: "10.1016/j.erss.2026.104711"
   url: "https://doi.org/10.1016/j.erss.2026.104711"
+page1: "/files/images/papers/pages/steel-1.png"
+page2: "/files/images/papers/pages/steel-2.png"
+page3: "/files/images/papers/pages/steel-3.png"
 google-scholar: true
 ---
 
 ::: {.paper-meta}
-**Journal:** *Energy Research & Social Science* (2026) &nbsp;•&nbsp; **DOI:** [10.1016/j.erss.2026.104711](https://doi.org/10.1016/j.erss.2026.104711){target="_blank"}
+**Journal:** *Energy Research & Social Science* (2026)\
+**DOI:** [10.1016/j.erss.2026.104711](https://doi.org/10.1016/j.erss.2026.104711){target="_blank"}
 :::
 
 <img src="/files/images/papers/steel.png" class="paper-figure" alt="Graphical reference for the paper">

@@ -2,14 +2,23 @@
 title: "Theses"
 description-meta: "Academic theses by Andrés André Camargo Bertel"
 title-block-banner: false
-css: assets/report-listing.css
+# Merged into reports.qmd ("Reports & Theses"). Kept as an unlinked draft so
+# nothing is lost; delete this line to bring the standalone page back.
+draft: true
 ---
 
 <div class="report-listing">
 
 <div class="report-card">
 <div class="report-cover">
-<img src="files/images/reports/thesis.png" alt="Master's thesis cover — Andrés André Camargo Bertel">
+<a href="http://hdl.handle.net/10584/12884" target="_blank">
+<div class="rep-stack">
+<img class="rep-a" src="files/images/reports/thesis.png" alt="Master's thesis cover">
+<img class="rep-b" src="files/images/reports/pages/the-1.png" alt="">
+<img class="rep-c" src="files/images/reports/pages/the-2.png" alt="">
+<img class="rep-d" src="files/images/reports/pages/the-3.png" alt="">
+</div>
+</a>
 </div>
 <div class="report-body">
 <span class="report-badge badge-thesis">Master's Thesis</span>

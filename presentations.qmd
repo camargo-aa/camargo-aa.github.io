@@ -1,19 +1,26 @@
 ---
 title: "Presentations"
 subtitle: "Talks, conference presentations, and posters"
-description-meta: "Presentations, coming soon."
+description-meta: "Talks, conference presentations, and posters by Andrés André Camargo Bertel."
 title-block-banner: false
 toc: false
 ---
 
-::: {style="text-align:center; padding: 3rem 1rem;"}
+::: {.c-soon}
 
-<i class="fa-solid fa-person-chalkboard" style="font-size:3rem; color:#05336B;"></i>
+::: {.c-soon-icon}
+<i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+:::
 
-## Coming soon
+::: {.c-soon-label}
+Coming soon
+:::
 
-My talks, conference presentations, and posters will be listed here soon.
+::: {.c-soon-text}
+Slides and posters from conference talks, seminars, and invited presentations
+will be collected here.
+:::
 
-[← Back to home](index.qmd){.btn .btn-outline-primary role="button"}
+[← Back to home](index.qmd){.c-btn-outline}
 
 :::

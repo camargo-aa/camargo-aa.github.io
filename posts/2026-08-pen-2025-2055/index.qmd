@@ -2,7 +2,7 @@
 title: "Contributed to Colombia's National Energy Plan 2025–2055"
 description: "Served as lead transport sector modeler and contributed to the full energy system model for UPME's National Energy Plan 2025–2055."
 date: "2026-08-01"
-categories: [news]
+categories: [report]
 image: "/files/images/reports/pen-tomo-ii.png"
 ---
 

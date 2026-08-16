@@ -1,5 +1,5 @@
 <%
-/* paper-card.ejs — image-left, info-right card for paper posts.
+/* paper-card.ejs: image-left, info-right card for paper posts.
    HTML must start at column 0 (indented lines become code blocks in Pandoc).
    Links go to the paper's own page, never straight to the DOI. */
 function href(p){
@@ -15,7 +15,7 @@ function href(p){
 <span class="listing-title d-none"><%- item.title %></span>
 <span class="listing-date d-none"><%= item.date ? item.date : "" %></span>
 <div class="paper-card">
-<a class="paper-thumb" href="<%= h %>"><% if (item.image) { %><img src="<%= item.image %>" alt="<%= item.title %>"><% } %></a>
+<a class="paper-thumb" href="<%= h %>"><% if (item.page1 && item.page2 && item.page3) { %><div class="pub-stack"><img class="pub-a" src="<%= item.image %>" alt="<%= item.title %>"><img class="pub-b" src="<%= item.page1 %>" alt=""><img class="pub-c" src="<%= item.page2 %>" alt=""><img class="pub-d" src="<%= item.page3 %>" alt=""></div><% } else if (item.image) { %><img src="<%= item.image %>" alt="<%= item.title %>"><% } %></a>
 <div class="paper-body">
 <span class="paper-badge">Paper</span>
 <a class="paper-title" href="<%= h %>"><%= item.title %></a>

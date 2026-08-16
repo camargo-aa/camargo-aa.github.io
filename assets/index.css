@@ -1,60 +1,23 @@
+/* Homepage styles.
 
-/*https://github.com/quarto-dev/quarto-web/blob/main/index.css*/
-/*#447099*/
+   The homepage keeps its original look on purpose: warm cards, generous
+   rounding, the pill buttons and the centered headings. These rules load
+   after the theme and override it for this page only, so the rest of the
+   site can use the shared card language without changing the homepage.
 
-/* Remove space below navbar */
+   Only two things here differ from the original: the section headings are
+   real <h1>/<h2> elements styled to look exactly like the centered bold
+   paragraphs they replaced, and the images carry loading="lazy". */
+
+/* The homepage uses page-layout: custom and sits flush against the navbar. */
 body {
   padding-top: 0 !important;
 }
 
-.hero-left img {
-  border-radius: 8px;  /* adjust to your liking */
-}
-
-.hero-header {
-  margin-top: 0px; /* Remove top margin completely */
-}
-
 .background-frame {
   padding-bottom: 1rem;
+  padding-top: 0;
 }
-
-.button {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.hero-banner {
-  position: relative;
-  background-color: rgb(240,245,249);
-  display: flex;
-  justify-content: center;
-}
-
-
-.alt-background {
-  background-color: rgb(247,249,251);
-  border-top: 1px solid #dee2e6;
-  border-bottom: 1px solid #dee2e6;
-}
-
-
-.btn-action-primary {
-  color: white;
-  background-color: #05336B !important;
-}
-
-.btn-action-primary:hover {
-  color: white;
-}
-
-.btn-action {
-  min-width: 165px;
-  border-radius: 30px;
-  border: none;
-}
-
-
 
 .content-block {
   padding-top: 20px;
@@ -63,110 +26,203 @@ body {
   margin-right: 30px;
 }
 
-
-@media(min-width: 900px) {
-.content-block {
-  margin-left: 50px;
-  margin-right: 50px;
-}
+@media (min-width: 900px) {
+  .content-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 @media (min-width: 1200px) {
-.content-block {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-
-
-.pdf-wrapper-16x9 {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 = 9/16 = 0.5625 */
+  .content-block {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.pdf-wrapper-16x9 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.alt-background {
+  background-color: var(--c-surface-sunken);
+  border-top: 1px solid var(--c-line-subtle);
+  border-bottom: 1px solid var(--c-line-subtle);
 }
 
-
-/* Shift news card images down 12px so they don't clash with the top card border */
-#listing-recent-posts .card-img-top img.thumbnail-image {
-  object-position: center 12px !important;
+.hero-left img {
+  border-radius: 8px;
 }
 
-/*ChatGPT*/
-span.__dimensions_badge_embed__, div.altmetric-embed {
-  display: inline-flex;
-  vertical-align: middle;
+/* Real headings, styled as the centered bold text they replaced. */
+.home-name,
+h2.home-section {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 1.3;
+  margin: 0 0 1rem;
+  border: none;
+  padding: 0;
 }
 
-/*https://stackoverflow.com/questions/35814653/automatic-height-when-embedding-a-youtube-video*/
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+.home-name::after,
+h2.home-section::after {
+  content: none;
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* Social icon row, centered as it was on this page */
+.c-social {
+  justify-content: center;
+  font-size: 1.6rem;
+  gap: 0.9rem;
+  margin: 0 0 0.5rem;
 }
 
-
-/*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
-
-.container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 75%; /* 56.25% if 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-  
-/* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+/* Buttons keep their pill shape here */
+.button {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-/* css styles */
-
-
-.reveal h1 {
-font-size: 64px;
+.btn-action {
+  min-width: 165px;
+  border-radius: 30px;
+  border: none;
 }
 
-/* source: https://github.com/hakimel/reveal.js/issues/1897 */
-.reveal h2 {
-text-align: center;
+.btn-action-primary {
+  color: white;
+  background-color: var(--c-primary) !important;
 }
 
-.reveal .centeralign {
-text-align: center;
+.btn-action-primary:hover {
+  color: white;
 }
 
-.reveal .slide div.aside {
-font-size: 12px;
+/* ── Latest Papers ── */
+.paper-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
 }
 
-.reveal .scrollable {
-    height: 700px;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
+.paper-stack-card {
+  background: var(--c-card-fill);
+  border: none;
+  border-radius: 16px;
+  padding: 2rem 1.2rem 1.6rem;
+  text-align: center;
+  text-decoration: none !important;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.paper-stack-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.13);
+  color: inherit;
+}
+
+.ps-journal {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--c-primary);
+  margin: 0 0 0.45rem;
+  line-height: 1.3;
+}
+
+.ps-title {
+  font-size: 0.8rem;
+  color: var(--c-ink-body);
+  margin: 0 0 0.45rem;
+  line-height: 1.45;
+}
+
+.ps-year {
+  font-size: 0.82rem;
+  color: var(--c-ink-muted);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .paper-cards-grid {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ── Recent News ── */
+.news-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.news-card {
+  background: var(--c-card-fill);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.13);
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-card-logo {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: #fff;
+  border-bottom: none;
+}
+
+.news-card-logo img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.news-card-body {
+  padding: 0.85rem 1rem 1rem;
+  flex: 1;
+}
+
+.news-card-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--c-primary);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3rem;
+}
+
+.news-card-title {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--c-ink-body);
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .news-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

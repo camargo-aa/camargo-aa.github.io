@@ -1,5 +1,10 @@
+# Brand colours, mirroring section 1 of assets/custom.scss, which is the
+# authority. Kept in sync by hand; the site reads the SCSS, not this file.
 color:
   palette:
-    primary-blue: "#05336B"
-    accent-blue: "#1D3A83"
-    accent-gold: "#FFA400"
+    primary:      "#05336B"   # navy: navbar, links, headings
+    primary-lit:  "#0A4A96"   # link hover
+    accent:       "#48DDA7"   # mint, decoration only
+    card-fill:    "#E5E9ED"   # filled content cards
+    surface-band: "#F7F8FA"   # homepage bands
+    ink:          "#282F37"   # headings and body text

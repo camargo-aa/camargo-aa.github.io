@@ -2,7 +2,7 @@
 title: "Invited article in International Cement Review"
 description: "Co-authored an invited article on decarbonizing the cement industry in Latin America and the Caribbean, published in the August 2026 issue of International Cement Review."
 date: "2026-08-02"
-categories: [news]
+categories: [report]
 image: "/files/images/reports/icr-aug-2026.jpg"
 ---
 

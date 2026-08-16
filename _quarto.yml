@@ -20,16 +20,36 @@ description-meta: "Andrés André Camargo Bertel is a PhD Candidate in Mechanica
 author-meta: "Andrés André Camargo Bertel"
 
 website:
-  title: "Andrés André"
+  # Short brand name matches the citable identity (Camargo-Bertel), the GitHub
+  # handle and the domain. The full name appears in the hero and the Bio.
+  title: "Andrés Camargo"
   image: "/files/profile/andres-camargo.jpg"
   description: "PhD Candidate in Mechanical Engineering, energy systems modeling, renewable energy, transport and industrial decarbonization."
   favicon: "/files/images/favicon.png"
 
   navbar:
+    # Must match $brand-primary in assets/custom.scss (section 1).
     background: "#05336B"
     foreground: "#FFFFFF"
 
+    # Four top-level items, nine destinations. Sections without content yet
+    # (Presentations, Projects) are kept to a minimum so the navbar does not
+    # promise rooms that are empty.
     left:
+      - text: Research
+        menu:
+          - text: Publications
+            href: publications.qmd
+          - text: Reports
+            href: reports.qmd
+          - text: Presentations
+            href: presentations.qmd
+          - text: Awards
+            href: recognition.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Projects
+        href: projects.qmd
       - text: About
         menu:
           - text: Bio
@@ -40,28 +60,6 @@ website:
             href: posts.qmd
           - text: Contact
             href: contact.qmd
-      - text: Research
-        menu:
-          - text: Publications
-            href: publications.qmd
-          - text: Reports
-            href: reports.qmd
-          - text: Theses
-            href: theses.qmd
-          - text: Recognition
-            href: recognition.qmd
-          - text: Research Group
-            href: research-group.qmd
-      - text: Teaching
-        href: teaching.qmd
-      - text: Activities
-        menu:
-          - text: Events
-            href: events.qmd
-          - text: Presentations
-            href: presentations.qmd
-      - text: Notes
-        href: notes.qmd
 
     right:
       - text: "**CV**"
@@ -75,14 +73,40 @@ website:
         target: _blank
       - icon: envelope
         href: contact.qmd
-      - icon: rss
-        href: posts.xml
-        target: _blank
 
   page-navigation: true
 
   page-footer:
-    center: "[Andrés André Camargo Bertel](https://camargo-aa.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
+    left: |
+      [Andrés André Camargo Bertel](https://camargo-aa.github.io) &copy; <script>document.write(new Date().getFullYear())</script>
+    center:
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Reports"
+        href: reports.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Bio"
+        href: bio.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: google
+        href: https://scholar.google.com/citations?user=RTRoJm0AAAAJ
+        target: _blank
+        aria-label: "Google Scholar"
+      - icon: github
+        href: https://github.com/camargo-aa
+        target: _blank
+        aria-label: "GitHub"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andrés-andré-camargo-bertel-91916319b
+        target: _blank
+        aria-label: "LinkedIn"
+      # No RSS link: posts.qmd is a hand-written timeline with no `listing:`,
+      # so Quarto generates no feed. The old navbar RSS icon pointed at a
+      # posts.xml left over from an earlier build. To bring a feed back, add a
+      # listing with `feed: true` over the posts/ directory.
 
   search:
     location: navbar
@@ -99,7 +123,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - assets/custom.scss
     css: assets/styles.css
     toc: true
     footnotes-hover: true
