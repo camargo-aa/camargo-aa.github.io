@@ -101,8 +101,8 @@ toc: false
 </a>
 </div>
 <div class="report-body">
-<span class="report-badge badge-invited">Invited Contribution</span>
-<span class="report-title">Decarbonizing the cement industry in Latin America and the Caribbean</span>
+<span class="report-badge badge-regional">Regional Report</span>
+<span class="report-title">Decarbonising the Latin America cement industry</span>
 <p class="report-institution"><strong>Camargo-Bertel, A. A.</strong>, A. González-Quiroga, and O. Pupo-Roncallo. <em>International Cement Review</em>, August 2026.</p>
 <p class="report-description">Latin America and the Caribbean produced around 183 Mt of cement in 2024. This article looks at the near-term measures available to the sector and the conditions needed to make next-generation decarbonization projects financially viable in the region, from standards reform and alternative fuels to electrification and CO₂ infrastructure.</p>
 </div>

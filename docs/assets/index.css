@@ -136,7 +136,7 @@ h2.home-section::after {
 }
 
 .ps-title {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--c-ink-body);
   margin: 0 0 0.45rem;
   line-height: 1.45;
@@ -207,7 +207,7 @@ h2.home-section::after {
 }
 
 .news-card-year {
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--c-primary);
   letter-spacing: 0.04em;

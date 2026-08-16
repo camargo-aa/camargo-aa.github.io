@@ -19,12 +19,17 @@
    1. COLOR  --  the only place raw colors are declared
    ========================================================================= */
 
-// Palette: the site's original navy, a cool grey surface family, and a mint
-// accent from the reference kit. Every contrast figure below is measured.
+// Palette: the site's original navy over a cool grey surface family.
+// Every contrast figure below is measured, not estimated.
 //
 // Surfaces are all one temperature on purpose. Two neutral temperatures on the
 // same screen -- a warm card on a cool band, or the reverse -- is what makes a
 // layout look muddy, so page, band, tint and card are all cool here.
+//
+// There is no chromatic accent, on purpose. A mint (#48DDA7, with #D9F5E8 as
+// its tint) was tried on the regional report badge and the award icons, and
+// dropped: both read better in navy on white, and an accent that appears in
+// two small places is not an accent, it is an oddity.
 
 // Brand. The navy is the site's original blue, kept deliberately: it is
 // already on the CV and in the slides, so changing it would start a new
@@ -32,13 +37,8 @@
 $brand-primary:     #05336B;  // navbar, links, headings
                               // 12.41 on white / 9.55 on card / 11.11 on band
 $brand-primary-lit: #0A4A96;  // link hover  8.63 on white, 6.65 on the card
-$brand-accent:      #48DDA7;  // mint: decoration only, never text.
-                              // Keep it under ~5% of the surface or the site
-                              // starts reading as a product, not a profile.
-$accent-soft:       #D9F5E8;  // icon badges, soft highlights
 
-// Semantic badge fills. The two light ones take the primary as their ink.
-$accent-invited:    #48DDA7;  // primary on this:  7.20:1
+// Semantic badge fill. Light, so it takes the primary as its ink.
 $accent-thesis:     #E3EAF2;  // light navy tint
 
 // Surfaces -- one temperature throughout, cool, to sit with the navy.
@@ -105,9 +105,6 @@ $border-radius-lg: 8px;
   /* -- color ------------------------------------------------------------ */
   --c-primary:        #{$brand-primary};
   --c-primary-lit:    #{$brand-primary-lit};
-  --c-accent:         #{$brand-accent};
-  --c-accent-soft:    #{$accent-soft};
-  --c-invited:        #{$accent-invited};
   --c-thesis:         #{$accent-thesis};
 
   --c-surface:        #{$surface-page};
@@ -137,7 +134,12 @@ $border-radius-lg: 8px;
   --fs-h3:      1.125rem;   /* subsection                             */
   --fs-body:    1rem;       /* body copy                              */
   --fs-meta:    0.875rem;   /* authors, journal, dates                */
-  --fs-micro:   0.75rem;    /* badges and labels: uppercase + tracking */
+  --fs-micro:   0.82rem;    /* badges and labels: uppercase + tracking.
+                               13.9px is the floor for the whole site: no
+                               text anywhere is allowed below it. This step
+                               also sets the timeline year markers, which
+                               were the smallest type on the page despite
+                               being what the eye uses to navigate. */
 
   --tracking-caps: 0.06em;
 
@@ -728,7 +730,7 @@ h3           { font-size: var(--fs-h3); }
   width:  var(--rec-icon);
   height: var(--rec-icon);
   border-radius: var(--r-round);
-  background: var(--c-accent-soft);
+  background: var(--c-surface);
   border: 1px solid var(--c-line);
   display: flex;
   align-items: center;
@@ -824,10 +826,12 @@ a.report-title:hover { text-decoration: underline; }
   color: #fff;
 }
 
-/* White text only survives on the dark primary. The two light badge fills
-   take the primary as their ink instead. */
-.badge-institutional { background: var(--c-primary); color: #fff; }
-.badge-invited       { background: var(--c-invited); color: var(--c-primary); }
+/* Institutional and regional reports share the navy: both are official
+   documents, and separating them by colour implied a distinction that does
+   not exist. The thesis badge stays a light fill, so it takes the navy as
+   its ink -- white would not survive on it. */
+.badge-institutional,
+.badge-regional      { background: var(--c-primary); color: #fff; }
 .badge-thesis        { background: var(--c-thesis);  color: var(--c-primary); }
 
 /* Pandoc wraps bare <img>/<a> in <p>; zero their default margin */
@@ -865,13 +869,14 @@ a.report-title:hover { text-decoration: underline; }
 }
 
 .cover-placeholder-logo  { font-size: var(--fs-h3); font-weight: 900; letter-spacing: 0.04em; text-align: center; }
-.cover-placeholder-label { font-size: 0.60rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; text-align: center; padding: 0 var(--sp-3); opacity: 0.65; }
+.cover-placeholder-label { font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; text-align: center; padding: 0 var(--sp-3); opacity: 0.65; }
 
 /* Backgrounds come from the palette; the ink is always the primary, since the
    palette's own tones are too light to read as text. */
-.cover-placeholder.upme   { background: var(--c-surface-tint); }
-.cover-placeholder.icr    { background: var(--c-card-fill); }
-.cover-placeholder.thesis { background: var(--c-accent-soft); }
+/* Fallback for a report with no cover image yet. One neutral fill: three
+   colour variants meant three colours to maintain for a case that has not
+   come up. */
+.cover-placeholder { background: var(--c-surface-tint); }
 
 .cover-placeholder-logo,
 .cover-placeholder-label { color: var(--c-primary); }
