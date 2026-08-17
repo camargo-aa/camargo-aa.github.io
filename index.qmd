@@ -12,6 +12,7 @@ page-layout: custom
 css: assets/index.css
 format:
   html:
+    title-prefix: ""
     link-external-icon: false
     include-in-header:
       - text: |
