@@ -138,3 +138,4 @@ format:
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/\/camargo-aa\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
+    include-after-body: "files/includes/_megamenu.html"

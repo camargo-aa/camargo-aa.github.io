@@ -7,6 +7,15 @@ toc: false
 ---
 
 ```{=html}
+<div class="page-banner">
+  <div class="page-banner-bg" style="background-image:url('/files/images/menu/reports.png')"></div>
+  <div class="page-banner-overlay"></div>
+  <div class="page-banner-fade"></div>
+  <div class="page-banner-title">Reports</div>
+</div>
+```
+
+```{=html}
 <div class="report-listing">
 
 <div class="report-card">
@@ -42,7 +51,7 @@ toc: false
 </div>
 <div class="report-body">
 <span class="report-badge badge-institutional">Institutional Report</span>
-<span class="report-title">Projections of Electricity Demand and Maximum Power, July 2026 Revision</span>
+<span class="report-title">Projections of electricity demand and maximum power, July 2026 revision</span>
 <p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2026.</p>
 <p class="report-role"><em>Contributing author; transport electrification modeling.</em></p>
 <p class="report-description">Updated electricity demand and maximum power projections for Colombia's National Interconnected System through 2040. The July 2026 revision integrates territorial disaggregation of residential consumption, refreshed sectoral data, and an assessment of El Niño effects on second-semester demand.</p>
@@ -62,10 +71,10 @@ toc: false
 </div>
 <div class="report-body">
 <span class="report-badge badge-institutional">Institutional Report</span>
-<span class="report-title">Methodological Framework for the Regionalization of the National Energy Plan</span>
+<span class="report-title">Methodological framework for the regionalization of the National Energy Plan</span>
 <p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.</p>
 <p class="report-role"><em>Contributing author; energy modeler.</em></p>
-<p class="report-description">This document lays out the methodology for disaggregating Colombia's National Energy Plan projections to the subnational level across seven planning regions, using LEAP and OSeMOSYS as modeling tools. The framework helps identify regional energy access gaps, renewable potential, and differentiated transition pathways.</p>
+<p class="report-description">Methodology for disaggregating the National Energy Plan projections to the subnational level across seven planning regions, using LEAP and OSeMOSYS. The framework identifies regional energy access gaps, renewable potential, and differentiated transition pathways.</p>
 </div>
 </div>
 
@@ -82,10 +91,10 @@ toc: false
 </div>
 <div class="report-body">
 <span class="report-badge badge-institutional">Institutional Report</span>
-<span class="report-title">Parameterization Strategy for Scenario Development of the National Energy Plan 2025–2055</span>
+<span class="report-title">Parameterization strategy for scenario development of the National Energy Plan 2025–2055</span>
 <p class="report-institution">National Mining and Energy Planning Unit (UPME). Bogotá, Colombia, 2025.</p>
 <p class="report-role"><em>Contributing author; energy modeler.</em></p>
-<p class="report-description">This document describes how the energy scenarios of Colombia's National Energy Plan 2025–2055 were built using OSeMOSYS and the SAND data management tool. It explains how the technical, economic, and regulatory features of the Colombian energy system were translated into model inputs to produce the scenario results.</p>
+<p class="report-description">Documents how the energy scenarios of Colombia's National Energy Plan 2025–2055 were built using OSeMOSYS and the SAND data management tool, detailing how technical, economic, and regulatory features of the Colombian energy system were translated into model inputs.</p>
 </div>
 </div>
 
@@ -101,17 +110,15 @@ toc: false
 </a>
 </div>
 <div class="report-body">
-<span class="report-badge badge-regional">Regional Report</span>
-<span class="report-title">Decarbonising the Latin America cement industry</span>
+<span class="report-badge badge-institutional">Regional Report</span>
+<span class="report-title">Decarbonizing the cement industry in Latin America and the Caribbean</span>
 <p class="report-institution"><strong>Camargo-Bertel, A. A.</strong>, A. González-Quiroga, and O. Pupo-Roncallo. <em>International Cement Review</em>, August 2026.</p>
-<p class="report-description">Latin America and the Caribbean produced around 183 Mt of cement in 2024. This article looks at the near-term measures available to the sector and the conditions needed to make next-generation decarbonization projects financially viable in the region, from standards reform and alternative fuels to electrification and CO₂ infrastructure.</p>
+<p class="report-description">Latin America and the Caribbean produced around 183 Mt of cement in 2024. The article examines near-term measures available to the sector and what it will take to make next-generation decarbonization projects financially viable in the region — from standards reform and alternative fuels to electrification and CO₂ infrastructure.</p>
 </div>
 </div>
 
 </div>
 ```
-
-## Theses
 
 ```{=html}
 <div class="report-listing">
@@ -128,14 +135,11 @@ toc: false
 </a>
 </div>
 <div class="report-body">
-<span class="report-badge badge-thesis">Master's Thesis</span>
-<a class="report-title" href="http://hdl.handle.net/10584/12884" target="_blank">The role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis</a>
+<span class="report-badge badge-institutional">Master's Thesis</span>
+<span class="report-title">The role of passenger road transport electrification in renewable energy integration in Colombia: future scenario analysis</span>
 <p class="report-institution"><strong>Camargo-Bertel, A. A.</strong> Universidad del Norte, Barranquilla, Colombia, 2024.</p>
 <p class="report-role"><em>Advisors: Prof. Dr. Ing. Oscar Pupo Roncallo and Prof. Dr. Ing. Arturo González Quiroga.</em></p>
-<p class="report-description">This study evaluates the impact of passenger road transport electrification on the integration of non-conventional renewable energy sources and greenhouse gas (GHG) mitigation in Colombia's energy system toward 2030 and 2050, modeled using EnergyPLAN. Results show that increased EV adoption reduces GHG emissions by 4.2% by 2030 and 15% by 2050 under projected national scenarios, with a fully electrified fleet achieving reductions of up to 35% by 2050.</p>
-<div class="report-links">
-<a class="report-link" href="http://hdl.handle.net/10584/12884" target="_blank">Repository</a>
-</div>
+<p class="report-description">Evaluates the impact of passenger road transport electrification on non-conventional renewable energy integration and greenhouse gas mitigation in Colombia's energy system toward 2030 and 2050, modeled using EnergyPLAN. Increased EV adoption reduces emissions by 4.2% by 2030 and 15% by 2050 under projected national scenarios; a fully electrified fleet could reach reductions of up to 35% by 2050.</p>
 </div>
 </div>
 

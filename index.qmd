@@ -21,6 +21,14 @@ format:
 
 ---
 
+```{=html}
+<div class="page-banner page-banner-home">
+  <div class="page-banner-bg" style="background-image:url('/files/images/menu/bio-home.png')"></div>
+  <div class="page-banner-overlay"></div>
+  <div class="page-banner-fade page-banner-fade-long"></div>
+</div>
+```
+
 ::: {.background-frame .alt-background}
 ::: {.content-block}
 

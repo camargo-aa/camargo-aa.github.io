@@ -6,6 +6,15 @@ toc: false
 ---
 
 ```{=html}
+<div class="page-banner">
+  <div class="page-banner-bg" style="background-image:url('/files/images/menu/contact.png')"></div>
+  <div class="page-banner-overlay"></div>
+  <div class="page-banner-fade"></div>
+  <div class="page-banner-title">Contact</div>
+</div>
+```
+
+```{=html}
 <div class="contact-wrap">
   <div class="contact-card">
     <p class="contact-name">Andrés André Camargo Bertel</p>

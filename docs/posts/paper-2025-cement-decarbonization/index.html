@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-0f57d33cc174a7e108a9f334cabe8deb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-0f57d33cc174a7e108a9f334cabe8deb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-0f57d33cc174a7e108a9f334cabe8deb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-98f7f10cecd8a6087f2da3447de31576.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-98f7f10cecd8a6087f2da3447de31576.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-98f7f10cecd8a6087f2da3447de31576.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -338,6 +338,89 @@ Latin America and the Caribbean: A Comprehensive Review of Strategies,
 Barriers, and Policies.”</span> <em>Energy Conversion and Management:
 X</em>, March 6, 100956. <a href="https://doi.org/10.1016/j.ecmx.2025.100956">https://doi.org/10.1016/j.ecmx.2025.100956</a>.
 </div></div></section></div></main> <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* Hide Quarto's built-in title block on pages that already show the
+     page title inside the banner image */
+  if (document.querySelector('.page-banner')) {
+    var tb = document.querySelector('.quarto-title-block, #title-block-header');
+    if (tb) tb.style.display = 'none';
+  }
+
+  /* Full-width banner fix.
+     Quarto's page-layout-article uses a CSS grid where <main> is only one
+     column (not full viewport width). calc(-50vw + 50%) doesn't work here
+     because 50% ≠ 50vw when a margin-sidebar column exists on the right.
+     We measure the banner's actual left offset and force it to viewport width. */
+  /* Move every .page-banner out of Quarto's content grid and place it
+     directly before #quarto-content (sibling of <body> children).
+     Outside the grid there are no column constraints, so width:100% is
+     naturally full-viewport and there is no padding-top gap to fight. */
+  function fixBanners() {
+    var quartoContent = document.getElementById('quarto-content');
+    if (!quartoContent) return;
+
+    document.querySelectorAll('.page-banner').forEach(function (banner) {
+      quartoContent.parentNode.insertBefore(banner, quartoContent);
+    });
+  }
+
+  /* Run at DOMContentLoaded so the move happens before first paint */
+  fixBanners();
+
+  window.addEventListener('resize', function () {
+    /* nothing to recalculate – width:100% handles resize automatically */
+  });
+
+
+  var menus = {
+    'Research': [
+      { label: 'Publications',  href: '/publications.html',  img: '/files/images/menu/publications.png' },
+      { label: 'Reports',       href: '/reports.html',       img: '/files/images/menu/reports.png' },
+      { label: 'Presentations', href: '/presentations.html', img: '/files/images/menu/presentations.png' },
+      { label: 'Awards',        href: '/recognition.html',   img: '/files/images/menu/awards.png' }
+    ],
+    'About': [
+      { label: 'Bio',     href: '/bio.html',     img: '/files/images/menu/bio-home.png' },
+      { label: 'Now',     href: '/now.html',     img: '/files/images/menu/now.png' },
+      { label: 'News',    href: '/posts.html',   img: '/files/images/menu/news.png' },
+      { label: 'Contact', href: '/contact.html', img: '/files/images/menu/contact.png' }
+    ]
+  };
+
+  document.querySelectorAll('.navbar-nav .nav-item.dropdown').forEach(function (navItem) {
+    var toggle = navItem.querySelector('.nav-link.dropdown-toggle');
+    if (!toggle) return;
+
+    var name = toggle.textContent.trim();
+    var cards = menus[name];
+    if (!cards) return;
+
+    var dropMenu = navItem.querySelector('.dropdown-menu');
+    if (!dropMenu) return;
+
+    /* Build the card grid */
+    var grid = document.createElement('div');
+    grid.className = 'mega-grid';
+
+    cards.forEach(function (card) {
+      var a = document.createElement('a');
+      a.href = card.href;
+      a.className = 'mega-card';
+      a.innerHTML =
+        '<div class="mega-card-bg" style="background-image:url(\'' + card.img + '\')"></div>' +
+        '<div class="mega-card-overlay"></div>' +
+        '<span class="mega-card-label">' + card.label + '</span>';
+      grid.appendChild(a);
+    });
+
+    dropMenu.innerHTML = '';
+    dropMenu.appendChild(grid);
+    dropMenu.classList.add('mega-dropdown');
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

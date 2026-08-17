@@ -18,6 +18,15 @@ listing:
       - "title asc"
 ---
 
+```{=html}
+<div class="page-banner">
+  <div class="page-banner-bg" style="background-image:url('/files/images/menu/publications.png')"></div>
+  <div class="page-banner-overlay"></div>
+  <div class="page-banner-fade"></div>
+  <div class="page-banner-title">Publications</div>
+</div>
+```
+
 ## Journal Articles
 
 ::: {#papers}

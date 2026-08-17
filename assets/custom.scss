@@ -19,17 +19,12 @@
    1. COLOR  --  the only place raw colors are declared
    ========================================================================= */
 
-// Palette: the site's original navy over a cool grey surface family.
-// Every contrast figure below is measured, not estimated.
+// Palette: the site's original navy, a cool grey surface family, and a mint
+// accent from the reference kit. Every contrast figure below is measured.
 //
 // Surfaces are all one temperature on purpose. Two neutral temperatures on the
 // same screen -- a warm card on a cool band, or the reverse -- is what makes a
 // layout look muddy, so page, band, tint and card are all cool here.
-//
-// There is no chromatic accent, on purpose. A mint (#48DDA7, with #D9F5E8 as
-// its tint) was tried on the regional report badge and the award icons, and
-// dropped: both read better in navy on white, and an accent that appears in
-// two small places is not an accent, it is an oddity.
 
 // Brand. The navy is the site's original blue, kept deliberately: it is
 // already on the CV and in the slides, so changing it would start a new
@@ -37,8 +32,13 @@
 $brand-primary:     #05336B;  // navbar, links, headings
                               // 12.41 on white / 9.55 on card / 11.11 on band
 $brand-primary-lit: #0A4A96;  // link hover  8.63 on white, 6.65 on the card
+$brand-accent:      #48DDA7;  // mint: decoration only, never text.
+                              // Keep it under ~5% of the surface or the site
+                              // starts reading as a product, not a profile.
+$accent-soft:       #D9F5E8;  // icon badges, soft highlights
 
-// Semantic badge fill. Light, so it takes the primary as its ink.
+// Semantic badge fills. The two light ones take the primary as their ink.
+$accent-invited:    #48DDA7;  // primary on this:  7.20:1
 $accent-thesis:     #E3EAF2;  // light navy tint
 
 // Surfaces -- one temperature throughout, cool, to sit with the navy.
@@ -47,7 +47,7 @@ $accent-thesis:     #E3EAF2;  // light navy tint
 $surface-page:      #FFFFFF;
 $surface-sunken:    #F7F8FA;  // homepage bands
 $surface-tint:      #E3EAF2;  // chips, meta boxes -- a light tint of the navy
-$card-fill:         #E5E9ED;  // filled content cards
+$card-fill:         #F2F5F8;  // filled content cards
 
 // Ink -- three steps. Each clears 4.5:1 on white, on the card and on the band.
 $ink-strong:        #282F37;  // 13.53 white / 11.09 card
@@ -105,6 +105,9 @@ $border-radius-lg: 8px;
   /* -- color ------------------------------------------------------------ */
   --c-primary:        #{$brand-primary};
   --c-primary-lit:    #{$brand-primary-lit};
+  --c-accent:         #{$brand-accent};
+  --c-accent-soft:    #{$accent-soft};
+  --c-invited:        #{$accent-invited};
   --c-thesis:         #{$accent-thesis};
 
   --c-surface:        #{$surface-page};
@@ -134,12 +137,7 @@ $border-radius-lg: 8px;
   --fs-h3:      1.125rem;   /* subsection                             */
   --fs-body:    1rem;       /* body copy                              */
   --fs-meta:    0.875rem;   /* authors, journal, dates                */
-  --fs-micro:   0.82rem;    /* badges and labels: uppercase + tracking.
-                               13.9px is the floor for the whole site: no
-                               text anywhere is allowed below it. This step
-                               also sets the timeline year markers, which
-                               were the smallest type on the page despite
-                               being what the eye uses to navigate. */
+  --fs-micro:   0.75rem;    /* badges and labels: uppercase + tracking */
 
   --tracking-caps: 0.06em;
 
@@ -161,8 +159,8 @@ $border-radius-lg: 8px;
   --r-round:   50%;    /* timeline dots, avatars           */
 
   /* -- elevation: two levels, plus one for the paper effect -------------- */
-  --sh-rest:   0 2px 12px rgba(0, 0, 0, 0.07);
-  --sh-raised: 0 12px 32px rgba(0, 0, 0, 0.13);
+  --sh-rest:   0 3px 16px rgba(0, 0, 0, 0.11);
+  --sh-raised: 0 14px 36px rgba(0, 0, 0, 0.17);
   --sh-sheet:  2px 3px 10px rgba(0, 0, 0, 0.22);
 
   /* -- measure ----------------------------------------------------------- */
@@ -826,12 +824,10 @@ a.report-title:hover { text-decoration: underline; }
   color: #fff;
 }
 
-/* Institutional and regional reports share the navy: both are official
-   documents, and separating them by colour implied a distinction that does
-   not exist. The thesis badge stays a light fill, so it takes the navy as
-   its ink -- white would not survive on it. */
-.badge-institutional,
-.badge-regional      { background: var(--c-primary); color: #fff; }
+/* White text only survives on the dark primary. The two light badge fills
+   take the primary as their ink instead. */
+.badge-institutional { background: var(--c-primary); color: #fff; }
+.badge-invited       { background: var(--c-invited); color: var(--c-primary); }
 .badge-thesis        { background: var(--c-thesis);  color: var(--c-primary); }
 
 /* Pandoc wraps bare <img>/<a> in <p>; zero their default margin */
@@ -869,14 +865,13 @@ a.report-title:hover { text-decoration: underline; }
 }
 
 .cover-placeholder-logo  { font-size: var(--fs-h3); font-weight: 900; letter-spacing: 0.04em; text-align: center; }
-.cover-placeholder-label { font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; text-align: center; padding: 0 var(--sp-3); opacity: 0.65; }
+.cover-placeholder-label { font-size: 0.60rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; text-align: center; padding: 0 var(--sp-3); opacity: 0.65; }
 
 /* Backgrounds come from the palette; the ink is always the primary, since the
    palette's own tones are too light to read as text. */
-/* Fallback for a report with no cover image yet. One neutral fill: three
-   colour variants meant three colours to maintain for a case that has not
-   come up. */
-.cover-placeholder { background: var(--c-surface-tint); }
+.cover-placeholder.upme   { background: var(--c-surface-tint); }
+.cover-placeholder.icr    { background: var(--c-card-fill); }
+.cover-placeholder.thesis { background: var(--c-accent-soft); }
 
 .cover-placeholder-logo,
 .cover-placeholder-label { color: var(--c-primary); }
@@ -979,3 +974,180 @@ a.report-title:hover { text-decoration: underline; }
 
 span.__dimensions_badge_embed__,
 div.altmetric-embed { display: inline-flex; vertical-align: middle; }
+
+
+/* =========================================================================
+   9. SCROLL OFFSET  –  compensate for sticky navbar on anchor links
+   ========================================================================= */
+
+/* When the TOC sidebar scrolls to a heading, the sticky navbar (≈56px)
+   would hide it. scroll-margin-top adds invisible clearance above the
+   heading so it lands below the navbar instead of behind it. */
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+  scroll-margin-top: 80px;
+}
+
+
+/* =========================================================================
+   10. MEGA MENU  –  card-grid dropdown for Research and About
+   ========================================================================= */
+
+/* The dropdown-menu panel itself becomes a transparent wrapper */
+.mega-dropdown {
+  padding: 0.75rem !important;
+  width: auto !important;
+  min-width: 0 !important;
+  border: none !important;
+  border-top: 3px solid var(--c-primary) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.mega-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 185px);
+  gap: 10px;
+}
+
+@media (min-width: 820px) {
+  .mega-grid {
+    grid-template-columns: repeat(4, 185px);
+  }
+}
+
+.mega-card {
+  position: relative;
+  width: 185px;
+  height: 125px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none !important;
+  display: block;
+  flex-shrink: 0;
+}
+
+.mega-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.35s ease;
+}
+
+.mega-card:hover .mega-card-bg {
+  transform: scale(1.07);
+}
+
+.mega-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 51, 107, 0.42);
+  transition: background 0.3s ease;
+}
+
+.mega-card:hover .mega-card-overlay {
+  background: rgba(5, 51, 107, 0.25);
+}
+
+.mega-card-label {
+  position: absolute;
+  bottom: 11px;
+  left: 11px;
+  right: 11px;
+  color: #fff;
+  font-family: var(--ff-sans);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.55);
+  line-height: 1.2;
+}
+
+
+/* =========================================================================
+   10. PAGE BANNER  –  full-width cinematic header band per page
+   ========================================================================= */
+
+.page-banner {
+  /* Moved outside #quarto-content by JS (fixBanners), so it lives at body
+     level where width:100% is naturally full-viewport — no calc() hacks. */
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  margin: 0 0 0 0;
+}
+
+.page-banner-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 51, 107, 0.42);
+}
+
+.page-banner-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background: linear-gradient(to bottom, transparent, #ffffff);
+}
+
+.page-banner-title {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+  padding: 0 max(2rem, calc(50vw - 560px));
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
+
+/* Home variant: no title, longer fade into the grey hero section */
+.page-banner-fade-long {
+  height: 140px;
+  background: linear-gradient(to bottom, transparent, #F7F8FA);
+}
+
+
+/* =========================================================================
+   11. FOOTER  –  matching blue band like the navbar
+   ========================================================================= */
+
+.nav-footer {
+  background-color: var(--c-primary) !important;
+  border-top: none !important;
+}
+
+.nav-footer,
+.nav-footer p,
+.nav-footer a,
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-center,
+.nav-footer .nav-footer-center a,
+.nav-footer .nav-footer-right a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.nav-footer a:hover,
+.nav-footer .nav-footer-center a:hover,
+.nav-footer .nav-footer-right a:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.nav-footer .bi {
+  color: rgba(255, 255, 255, 0.85) !important;
+}

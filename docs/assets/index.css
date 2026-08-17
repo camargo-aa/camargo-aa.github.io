@@ -43,8 +43,13 @@ body {
 
 .alt-background {
   background-color: var(--c-surface-sunken);
-  border-top: 1px solid var(--c-line-subtle);
+  border-top: none;
   border-bottom: 1px solid var(--c-line-subtle);
+}
+
+/* Restore border-top only between sections (not at the top where the banner fades in) */
+.background-frame + .background-frame.alt-background {
+  border-top: 1px solid var(--c-line-subtle);
 }
 
 .hero-left img {
@@ -136,7 +141,7 @@ h2.home-section::after {
 }
 
 .ps-title {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--c-ink-body);
   margin: 0 0 0.45rem;
   line-height: 1.45;
@@ -207,7 +212,7 @@ h2.home-section::after {
 }
 
 .news-card-year {
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--c-primary);
   letter-spacing: 0.04em;
